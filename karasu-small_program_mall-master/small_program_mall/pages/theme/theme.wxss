@@ -1,0 +1,14 @@
+/* pages/theme/theme.wxss */
+
+@import '../tpls/products/tpl-products.wxss';
+
+.topic-img{
+  width: 100%;
+  height: 375rpx;
+  margin-bottom: 20rpx;
+}
+
+.topic-img image{
+  width: 100%;
+  height: 100%;
+}

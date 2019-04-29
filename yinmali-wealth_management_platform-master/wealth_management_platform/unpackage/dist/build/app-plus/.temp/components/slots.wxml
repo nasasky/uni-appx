@@ -1,0 +1,14 @@
+<import src="/components/swiper-temp.vue.wxml" />
+<import src="/components/newsList-temp.vue.wxml" />
+<import src="/components/writemark-temp.vue.wxml" />
+<import src="/components/swiper-temp.vue.wxml" />
+<import src="/components/product-list/product-list.vue.wxml" />
+<import src="/components/search-temp.vue.wxml" />
+<import src="/components/left-category/left-category.vue.wxml" />
+<import src="/components/search-temp.vue.wxml" />
+<import src="/components/mpvue-echarts/src/echarts.vue.wxml" />
+<import src="/components/picker/picker.vue.wxml" />
+<import src="/pages/API/image/image.vue.wxml" />
+<import src="/components/uni-status-bar.vue.wxml" />
+<import src="/components/uni-icon.vue.wxml" />
+<import src="/components/slots" />

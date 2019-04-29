@@ -1,0 +1,2 @@
+<import src="/components/search-temp.vue.wxml" />
+<import src="/components/mediaList.vue.wxml" />

@@ -1,0 +1,46 @@
+<template name="d77c8e9c">
+  <view class="_view data-v-4702d06c">
+    <view class="_view data-v-4702d06c topBox">
+      <view class="_view data-v-4702d06c top">
+        <view class="_view data-v-4702d06c go-back iconfont" bindtap="handleProxy" data-eventid="{{'syC-0'}}" data-comkey="{{$k}}">  </view>
+        <view class="_view data-v-4702d06c middle"> 我的持仓 </view>
+        <view class="_view data-v-4702d06c share iconfont"></view>
+      </view>
+      <view class="_view data-v-4702d06c second-box">
+        <view class="_view data-v-4702d06c second-title"> 历史累计收益 </view>
+        <view class="_view data-v-4702d06c persent">160620000</view>
+        <view class="_view data-v-4702d06c level">数据更新日期 2018-12-12</view>
+      </view>
+    </view>
+    <view class="_view data-v-4702d06c shouyi-box">
+      <view class="_view data-v-4702d06c shouyi-item">
+        <view class="_view data-v-4702d06c shouyi-top">
+          <view class="_view data-v-4702d06c product-name">青山盈收33号</view>
+          <view class="_view data-v-4702d06c shouyijine">+78.03</view>
+        </view>
+        <view class="_view data-v-4702d06c shouyi-bottom">到期收益</view>
+      </view>
+      <view class="_view data-v-4702d06c shouyi-item">
+        <view class="_view data-v-4702d06c shouyi-top">
+          <view class="_view data-v-4702d06c product-name">青山盈收33号</view>
+          <view class="_view data-v-4702d06c shouyijine">+78.03</view>
+        </view>
+        <view class="_view data-v-4702d06c shouyi-bottom">到期收益</view>
+      </view>
+      <view class="_view data-v-4702d06c shouyi-item">
+        <view class="_view data-v-4702d06c shouyi-top">
+          <view class="_view data-v-4702d06c product-name">青山盈收33号</view>
+          <view class="_view data-v-4702d06c shouyijine">+78.03</view>
+        </view>
+        <view class="_view data-v-4702d06c shouyi-bottom">到期收益</view>
+      </view>
+      <view class="_view data-v-4702d06c shouyi-item">
+        <view class="_view data-v-4702d06c shouyi-top">
+          <view class="_view data-v-4702d06c product-name">青山盈收33号</view>
+          <view class="_view data-v-4702d06c shouyijine">+78.03</view>
+        </view>
+        <view class="_view data-v-4702d06c shouyi-bottom">到期收益</view>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,22 @@
+<template name="6a1541fe">
+  <view class="_view data-v-5cadb158 page">
+    <view class="_view data-v-5cadb158 product-list">
+      <view class="_view data-v-5cadb158 product" wx:key="index" key="{{index}}" wx:for="{{productList}}" wx:for-index="index" wx:for-item="product">
+        <view class="_view data-v-5cadb158 image-view">
+          <image class="_image data-v-5cadb158 product-image" src="{{product.image}}"></image>
+        </view>
+        <view class="_view data-v-5cadb158 product-title">{{product.title}}</view>
+        <view class="_view data-v-5cadb158 product-bot">
+          <view class="_view data-v-5cadb158 product-price">
+            <text class="_text data-v-5cadb158 product-price-original">{{product.favourPrice}}积分</text>
+            <text class="_text data-v-5cadb158 product-price-favour">{{product.originalPrice}}积分</text>
+            <text class="_text data-v-5cadb158 product-duration">2019.10.10-102.4422</text>
+          </view>
+          <view class="_view data-v-5cadb158 shoucang">
+            <text class="_text data-v-5cadb158 product-tip iconfont"></text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

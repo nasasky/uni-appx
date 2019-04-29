@@ -1,0 +1,1 @@
+<import src="/pages/product/productYemian/productDetail/simuYuyue/jiaokuan/jiaokuan.vue.wxml" /><template is="102ecf44" data="{{ ...$root['0'], $root }}"/>

@@ -1,0 +1,132 @@
+<template name="098d2bcc">
+  <view class="_view data-v-752cbfb9">
+    <view class="_view data-v-752cbfb9 topBox">
+      <view class="_view data-v-752cbfb9 nav">
+        <view class="_view data-v-752cbfb9 go-back iconfont" bindtap="handleProxy" data-eventid="{{'Vha-0'}}" data-comkey="{{$k}}">  </view>
+        <view class="_view data-v-752cbfb9 middle"> 我的 </view>
+        <view class="_view data-v-752cbfb9 iconfont">  </view>
+      </view>
+      <view class="_view data-v-752cbfb9 lcs-message">
+        <view class="_view data-v-752cbfb9 touxiang-left">
+          <image src="http://ai.ylcaifu.com/appimg/images/6.0-%E6%88%91%E7%9A%84%E6%8A%95%E8%B5%84%E4%BA%BA/6.0-%E6%88%91%E7%9A%84%E6%8A%95%E8%B5%84%E4%BA%BA/android/drawable-xhdpi/touxiang.png" mode class="_image data-v-752cbfb9"></image>
+          <view class="_view data-v-752cbfb9 message-right">
+            <view class="_view data-v-752cbfb9 message-right-top"> 理财师 李明 </view>
+            <view class="_view data-v-752cbfb9 message-right-bottom"> 联系方式 14313131313 </view>
+          </view>
+        </view>
+        <view class="_view data-v-752cbfb9 guanzhu">
+          <label class="_label data-v-752cbfb9 iconfont jia"></label> 关注 </view>
+      </view>
+      <view class="_view data-v-752cbfb9 jieshao"> 自我介绍：自我介绍自我介绍自我介绍自我介绍自我介绍自我介绍自我介绍自我介绍 </view>
+      <view class="_view data-v-752cbfb9 lists">
+        <view class="_view data-v-752cbfb9 list-item">
+          <view class="_view data-v-752cbfb9 list-item-top">233</view>
+          <view class="_view data-v-752cbfb9 list-item-bottom">粉丝</view>
+        </view>
+        <view class="_view data-v-752cbfb9 list-item">
+          <view class="_view data-v-752cbfb9 list-item-top">122</view>
+          <view class="_view data-v-752cbfb9 list-item-bottom">关注</view>
+        </view>
+        <view class="_view data-v-752cbfb9 list-item">
+          <view class="_view data-v-752cbfb9 list-item-top">122</view>
+          <view class="_view data-v-752cbfb9 list-item-bottom">产品点评</view>
+        </view>
+        <view class="_view data-v-752cbfb9 list-item">
+          <view class="_view data-v-752cbfb9 list-item-top">3</view>
+          <view class="_view data-v-752cbfb9 list-item-bottom">组合</view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-752cbfb9">
+      <view class="_view data-v-752cbfb9 tiaojian">
+        <view wx:key="item.id" key="{{item.id}}" bindtap="handleProxy" data-eventid="{{'Kv2-1-'+index}}" data-comkey="{{$k}}" wx:for="{{xuanze}}" wx:for-index="index" wx:for-item="item" class="_view data-v-752cbfb9 {{id == item.id ? 'active' : ''}}"> {{item.item}} </view>
+      </view>
+      <view class="_view data-v-752cbfb9 contentMid">
+        <view class="_view data-v-752cbfb9 contentBot">
+          <view class="_view data-v-752cbfb9 mark">
+            <view class="_view data-v-752cbfb9 avator-left">
+              <image src="http://ai.ylcaifu.com/appimg/images/5.0-%E6%88%91%E7%9A%84-%E7%90%86%E8%B4%A2%E5%B8%88/5.3-%E7%90%86%E8%B4%A2%E5%B8%88%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/android/drawable-xhdpi/touxiang.png" class="_image data-v-752cbfb9"></image>
+            </view>
+            <view class="_view data-v-752cbfb9 mark-right">
+              <view class="_view data-v-752cbfb9 mark-top">
+                <view class="_view data-v-752cbfb9 mark-top-left">
+                  <view class="_view data-v-752cbfb9 position">理财师</view>
+                  <view class="_view data-v-752cbfb9 name">李明</view>
+                </view>
+              </view>
+              <view class="_view data-v-752cbfb9 time">9小时前</view>
+              <view class="_view data-v-752cbfb9 mark-bot twoLines"> 秀实东区寄秀实东区寄秀实东区寄秀实东区寄秀实东区寄秀实东区实东区寄秀实东区寄秀实东区寄秀实东区寄秀实东区寄 </view>
+              <view class="_view data-v-752cbfb9 mark-images">
+                <image class="_image data-v-752cbfb9 mark-image" src="http://ai.ylcaifu.com/appimg/images/5.0-%E6%88%91%E7%9A%84-%E7%90%86%E8%B4%A2%E5%B8%88/5.3-%E7%90%86%E8%B4%A2%E5%B8%88%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/android/drawable-xhdpi/tu.png"></image>
+                <image class="_image data-v-752cbfb9 mark-image" src="http://ai.ylcaifu.com/appimg/images/5.0-%E6%88%91%E7%9A%84-%E7%90%86%E8%B4%A2%E5%B8%88/5.3-%E7%90%86%E8%B4%A2%E5%B8%88%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/android/drawable-xhdpi/tu.png"></image>
+                <image class="_image data-v-752cbfb9 mark-image" src="http://ai.ylcaifu.com/appimg/images/5.0-%E6%88%91%E7%9A%84-%E7%90%86%E8%B4%A2%E5%B8%88/5.3-%E7%90%86%E8%B4%A2%E5%B8%88%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/android/drawable-xhdpi/tu.png"></image>
+              </view>
+              <view class="_view data-v-752cbfb9 mark-liuyan">
+                <view class="_view data-v-752cbfb9"> 11:20 </view>
+                <image class="_image data-v-752cbfb9 liuyan" src="http://ai.ylcaifu.com/appimg/images/5.0-%E6%88%91%E7%9A%84-%E7%90%86%E8%B4%A2%E5%B8%88/5.3-%E7%90%86%E8%B4%A2%E5%B8%88%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/android/drawable-xhdpi/huifu.png"
+                  mode></image>
+              </view>
+              <view class="_view data-v-752cbfb9 mark-liuyan-bot">
+                <view class="_view data-v-752cbfb9"> 80浏览 </view>
+                <view class="_view data-v-752cbfb9"> 摆上设计：非常好 </view>
+              </view>
+            </view>
+          </view>
+          <view class="_view data-v-752cbfb9 mark">
+            <view class="_view data-v-752cbfb9 avator-left">
+              <image src="http://ai.ylcaifu.com/appimg/images/5.0-%E6%88%91%E7%9A%84-%E7%90%86%E8%B4%A2%E5%B8%88/5.3-%E7%90%86%E8%B4%A2%E5%B8%88%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5/android/drawable-xhdpi/touxiang.png" class="_image data-v-752cbfb9"></image>
+            </view>
+            <view class="_view data-v-752cbfb9 mark-right">
+              <view class="_view data-v-752cbfb9 mark-top">
+                <view class="_view data-v-752cbfb9 mark-top-left">
+                  <view class="_view data-v-752cbfb9 position">理财师</view>
+                  <view class="_view data-v-752cbfb9 name">李明</view>
+                </view>
+              </view>
+              <view class="_view data-v-752cbfb9 time">9小时前</view>
+              <view class="_view data-v-752cbfb9 mark-bot twoLines"> 秀实东区寄秀实东区寄秀实东区寄秀实东区寄秀实东区寄秀实东区寄秀实东区寄 </view>
+            </view>
+          </view>
+        </view>
+        <view class="_view data-v-752cbfb9 more-mark">
+          <label class="_label data-v-752cbfb9 iconfont"></label>查看更多评论</view>
+      </view>
+      <view class="_view data-v-752cbfb9 product-box">
+        <view class="_view data-v-752cbfb9 product-item" bindtap="handleProxy" data-eventid="{{'vLZ-2'}}" data-comkey="{{$k}}">
+          <view class="_view data-v-752cbfb9 product-title"> 秀实——东雀嘉熠一号收益权转让计划 </view>
+          <view class="_view data-v-752cbfb9 product-detail">
+            <view class="_view data-v-752cbfb9 item">
+              <view class="_view data-v-752cbfb9 large-size color item-top"> 8%-9.5% </view>
+              <view class="_view data-v-752cbfb9 item-bottom"> 业绩比较基准 </view>
+            </view>
+            <view class="_view data-v-752cbfb9 item">
+              <view class="_view data-v-752cbfb9 size item-top"> 产品期限 </view>
+              <view class="_view data-v-752cbfb9 item-bottom"> 12个月 </view>
+            </view>
+            <view class="_view data-v-752cbfb9 item">
+              <view class="_view data-v-752cbfb9 size item-top"> 认购起点 </view>
+              <view class="_view data-v-752cbfb9 item-bottom"> 50万元 </view>
+            </view>
+          </view>
+        </view>
+        <view class="_view data-v-752cbfb9 product-item" bindtap="handleProxy" data-eventid="{{'Txu-3'}}" data-comkey="{{$k}}">
+          <view class="_view data-v-752cbfb9 product-title"> 秀实——东雀嘉熠一号收益权转让计划 </view>
+          <view class="_view data-v-752cbfb9 product-detail">
+            <view class="_view data-v-752cbfb9 item">
+              <view class="_view data-v-752cbfb9 large-size color item-top"> 8%-9.5% </view>
+              <view class="_view data-v-752cbfb9 item-bottom"> 业绩比较基准 </view>
+            </view>
+            <view class="_view data-v-752cbfb9 item">
+              <view class="_view data-v-752cbfb9 size item-top"> 产品期限 </view>
+              <view class="_view data-v-752cbfb9 item-bottom"> 12个月 </view>
+            </view>
+            <view class="_view data-v-752cbfb9 item">
+              <view class="_view data-v-752cbfb9 size item-top"> 认购起点 </view>
+              <view class="_view data-v-752cbfb9 item-bottom"> 50万元 </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

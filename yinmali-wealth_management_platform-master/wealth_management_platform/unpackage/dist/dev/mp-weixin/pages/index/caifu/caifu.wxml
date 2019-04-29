@@ -1,0 +1,1 @@
+<import src="/pages/index/caifu/caifu.vue.wxml" /><template is="74e4f4fe" data="{{ ...$root['0'], $root }}"/>

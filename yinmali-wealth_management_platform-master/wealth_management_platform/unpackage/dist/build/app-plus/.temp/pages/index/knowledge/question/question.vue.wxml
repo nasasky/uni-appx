@@ -1,0 +1,18 @@
+<template name="ca476838">
+  <view class="_view data-v-28932738">
+    <view class="_view data-v-28932738 topBox">
+      <view class="_view data-v-28932738 top">
+        <view class="_view data-v-28932738 go-back iconfont" bindtap="handleProxy" data-eventid="{{'bBr-0'}}" data-comkey="{{$k}}">  </view>
+        <view class="_view data-v-28932738 middle"> 发布问题 </view>
+        <view class="_view data-v-28932738 share iconfont"></view>
+      </view>
+      <view class="_view data-v-28932738 section">
+        <textarea class="_textarea data-v-28932738 textare" value="" placeholder="123" maxlength="200" />
+      </view>
+    </view>
+    <view class="_view data-v-28932738 questionBox">
+      <view class="_view data-v-28932738 question">
+        <label class="_label data-v-28932738 iconfont"></label>提交 </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,1 @@
+<import src="/pages/my/lcs-shezhi/lcs-shezhi.vue.wxml" /><template is="2c18ff2c" data="{{ ...$root['0'], $root }}"/>

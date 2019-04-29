@@ -1,0 +1,83 @@
+<template name="1a8fb7af">
+  <view class="_view data-v-77242069">
+    <view class="_view data-v-77242069 topBox">
+      <view class="_view data-v-77242069 top">
+        <view class="_view data-v-77242069 go-back iconfont" bindtap="handleProxy" data-eventid="{{'p2u-0'}}" data-comkey="{{$k}}">  </view>
+        <view class="_view data-v-77242069 middle"> 秀实—东雀嘉熠一号收益好转 </view>
+        <view class="_view data-v-77242069 share iconfont">  </view>
+      </view>
+      <view class="_view data-v-77242069 second-box">
+        <view class="_view data-v-77242069 second-title"> 契约型私募基金 </view>
+        <view class="_view data-v-77242069 persent">8%~9.5%</view>
+        <view class="_view data-v-77242069 level">业绩比较基准</view>
+      </view>
+      <view class="_view data-v-77242069 class-box">
+        <view class="_view data-v-77242069 class-item">
+          <view class="_view data-v-77242069 class-item-top">产品期限</view>
+          <view class="_view data-v-77242069 class-item-bottom">12个月</view>
+        </view>
+        <view class="_view data-v-77242069 class-item class-item-2">
+          <view class="_view data-v-77242069 class-item-top">产品期限</view>
+          <view class="_view data-v-77242069 class-item-bottom">12个月</view>
+        </view>
+        <view class="_view data-v-77242069 class-item">
+          <view class="_view data-v-77242069 class-item-top">产品期限</view>
+          <view class="_view data-v-77242069 class-item-bottom">12个月</view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-77242069 contentBox">
+      <view class="_view data-v-77242069 content-item">
+        <view class="_view data-v-77242069 content-left">管理人</view>
+        <view class="_view data-v-77242069 content-right">鼎新资产管理有限公司</view>
+      </view>
+      <view class="_view data-v-77242069 content-item">
+        <view class="_view data-v-77242069 content-left">托管人</view>
+        <view class="_view data-v-77242069 content-right">上海银行股份有限公司</view>
+      </view>
+      <view class="_view data-v-77242069 content-item">
+        <view class="_view data-v-77242069 content-left">外包服务商</view>
+        <view class="_view data-v-77242069 content-right">财通基金管理有限公司</view>
+      </view>
+      <view class="_view data-v-77242069 content-item">
+        <view class="_view data-v-77242069 content-left">分红方式</view>
+        <view class="_view data-v-77242069 content-right">按季付息，到期分配本金</view>
+      </view>
+      <view class="_view data-v-77242069 content-item">
+        <view class="_view data-v-77242069 content-left">产品募集信息</view>
+        <view class="_view data-v-77242069 content-right">
+          <view class="_view data-v-77242069 right-item"> 账户名：财富同基金管理有限公司运营服务账户 </view>
+          <view class="_view data-v-77242069 right-item"> 账号：132439483144890183 </view>
+          <view class="_view data-v-77242069 right-item"> 开户行：中国工商银行上海老西门支行 </view>
+        </view>
+      </view>
+      <view class="_view data-v-77242069 content-item">
+        <view class="_view data-v-77242069 content-left">产品投向</view>
+        <view class="_view data-v-77242069 content-right">
+          <view class="_view data-v-77242069 right-item"> 本基金主要投资与基金项目的有限合伙份额，或在基金业协会登记的 私募管理人设立的有限合伙企业的有限合伙份额，在资金限制期间，可投资银行存款，银行理财产品 货币基金，剩余期限先在一年以内的国债 </view>
+        </view>
+      </view>
+      <view class="_view data-v-77242069 content-item">
+        <view class="_view data-v-77242069 content-left">产品投向</view>
+        <view class="_view data-v-77242069 content-right">
+          <view class="_view data-v-77242069 right-item"> 本基金主要投资与基金项目的有限合伙份额，或在基金业协会登记的 私募管理人设立的有限合伙企业的有限合伙份额，在资金限制期间，可投资银行存款，银行理财产品 货币基金，剩余期限先在一年以内的国债 </view>
+        </view>
+      </view>
+      <view class="_view data-v-77242069 content-item">
+        <view class="_view data-v-77242069 content-left">产品投向</view>
+        <view class="_view data-v-77242069 content-right">
+          <view class="_view data-v-77242069 right-item"> 本基金主要投资与基金项目的有限合伙份额，或在基金业协会登记的 私募管理人设立的有限合伙企业的有限合伙份额，在资金限制期间，可投资银行存款，银行理财产品 货币基金，剩余期限先在一年以内的国债 </view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-77242069 file-box">
+      <view class="_view data-v-77242069 file-content">
+        <view class="_view data-v-77242069 icon">
+          <image class="_image data-v-77242069 icon-image" src="http://ai.ylcaifu.com/appimg/images/2.0-%E4%BA%A7%E5%93%81/2.3-%E4%BA%A7%E5%93%81%E8%AF%A6%E6%83%85/android/drawable-xhdpi/fujian.png" mode></image>
+        </view>
+        <view class="_view data-v-77242069 file"> 附件 </view>
+      </view>
+    </view>
+    <view class="_view data-v-77242069 btn" bindtap="handleProxy" data-eventid="{{'rbE-1'}}" data-comkey="{{$k}}">预约</view>
+  </view>
+</template>

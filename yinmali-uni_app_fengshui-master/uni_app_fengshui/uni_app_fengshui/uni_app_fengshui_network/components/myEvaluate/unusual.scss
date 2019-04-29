@@ -1,0 +1,37 @@
+$height:45upx;
+@keyframes star_move{
+	from{
+		width: 40upx;
+		height: 40upx;
+		transform: rotate(180deg)
+	}
+	to{
+		width: 25upx;
+		height: 25upx;
+		transform: rotate(0)
+	}
+}
+.unusual-style{
+	font-size: 24upx!important;
+	height: $height;
+	
+	.issue-head{
+		border-top: none;
+		height: $height;
+		padding: 0;
+		
+		&-title{
+			font-size: 24upx;
+			color: #999;
+			line-height: $height;
+		}
+		&-star-box{
+			float: right;
+			
+			image{
+				width: 25upx;
+				height: 25upx;
+			}
+		}
+	}
+}

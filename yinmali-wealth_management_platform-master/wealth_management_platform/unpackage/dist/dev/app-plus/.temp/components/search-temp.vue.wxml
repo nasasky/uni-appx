@@ -1,0 +1,7 @@
+<template name="0db035fb">
+  <view class="_view data-v-57abd3c2 search-temp">
+    <image src="/static/image/indexImg/search.png" class="_image data-v-57abd3c2 searchImg"></image>
+    <input class="_input data-v-57abd3c2 searchInp" type="text" value="" placeholder="产品/理财师/公司" />
+    <image src="/static/image/indexImg/xx.png" class="_image data-v-57abd3c2 clear"></image>
+  </view>
+</template>

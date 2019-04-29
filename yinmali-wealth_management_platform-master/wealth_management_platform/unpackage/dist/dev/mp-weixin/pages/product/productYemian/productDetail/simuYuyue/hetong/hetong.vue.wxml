@@ -1,0 +1,54 @@
+<import src="/components/picker/picker.vue.wxml" />
+<template name="7dda3284">
+  <view class="_view data-v-5cd1f8d0 hetong-box">
+    <view class="_view data-v-5cd1f8d0 hetong">
+      <view class="_view data-v-5cd1f8d0 title"> 合同申请 </view>
+      <view class="_view data-v-5cd1f8d0 row">
+        <view class="_view data-v-5cd1f8d0 left"> 产品名称 </view>
+        <input type="text" value="" placeholder="秀实-东雀嘉熠1号收益权装让计划" class="_input data-v-5cd1f8d0" />
+      </view>
+      <view class="_view data-v-5cd1f8d0 row">
+        <view class="_view data-v-5cd1f8d0 left"> 收益级别 </view>
+        <input type="text" value="" placeholder="请输入收益级别" class="_input data-v-5cd1f8d0" />
+      </view>
+      <view class="_view data-v-5cd1f8d0 row">
+        <view class="_view data-v-5cd1f8d0 left"> 合同编号 </view>
+        <input type="text" value="" placeholder="请输入合同编号" class="_input data-v-5cd1f8d0" />
+      </view>
+      <view class="_view data-v-5cd1f8d0 row">
+        <view class="_view data-v-5cd1f8d0 left"> 合同金额 </view>
+        <input type="text" value="" placeholder="请填写支行" class="_input data-v-5cd1f8d0" />
+      </view>
+      <view class="_view data-v-5cd1f8d0 row">
+        <view class="_view data-v-5cd1f8d0 left"> 签署日期 </view>
+        <view class="_view data-v-5cd1f8d0 right">
+          <template data="{{...$root['0'], ...$root[$kk+'UpG-0'],$root}}" is="78fd2e84"></template>
+        </view>
+      </view>
+      <view class="_view data-v-5cd1f8d0 row">
+        <view class="_view data-v-5cd1f8d0 left"> 起息日期 </view>
+        <input type="text" value="" placeholder="系统自动生成" class="_input data-v-5cd1f8d0" />
+      </view>
+      <view class="_view data-v-5cd1f8d0 row">
+        <view class="_view data-v-5cd1f8d0 left"> 开户账户 </view>
+        <input type="text" value="" placeholder="请填写账号" class="_input data-v-5cd1f8d0" />
+      </view>
+      <view class="_view data-v-5cd1f8d0 row">
+        <view class="_view data-v-5cd1f8d0 left"> 利益支付开户行 </view>
+        <input type="text" value="" placeholder="请填写开户行" class="_input data-v-5cd1f8d0" />
+      </view>
+      <view class="_view data-v-5cd1f8d0 row">
+        <view class="_view data-v-5cd1f8d0 left"> 开户姓名 </view>
+        <input type="text" value="" placeholder="请填写开户行" class="_input data-v-5cd1f8d0" />
+      </view>
+      <view class="_view data-v-5cd1f8d0">
+        <view class="_view data-v-5cd1f8d0 left" style="padding: 40rpx 0 0;"> 备注 </view>
+        <textarea class="_textarea data-v-5cd1f8d0 shuoming" placeholder="填写备注" />
+      </view>
+      <view class="_view data-v-5cd1f8d0 questionBox">
+        <view class="_view data-v-5cd1f8d0 question">
+          <label class="_label data-v-5cd1f8d0 iconfont"></label>提交 </view>
+      </view>
+    </view>
+  </view>
+</template>

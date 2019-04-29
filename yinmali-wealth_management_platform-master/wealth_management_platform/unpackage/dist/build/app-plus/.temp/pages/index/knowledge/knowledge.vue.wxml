@@ -1,0 +1,111 @@
+<import src="/components/search-temp.vue.wxml" />
+<template name="630f7c46">
+  <view class="_view data-v-30cc3e73">
+    <template data="{{...$root['0'], ...$root[$kk+'0Dk-0'],$root}}" is="0db035fb"></template>
+    <view class="_view data-v-30cc3e73 tiaojian">
+      <view wx:key="item.id" key="{{item.id}}" bindtap="handleProxy" data-eventid="{{'qry-0-'+index}}" data-comkey="{{$k}}" wx:for="{{xuanze}}" wx:for-index="index" wx:for-item="item" class="_view data-v-30cc3e73 {{id == item.id ? 'active' : ''}}"> {{item.item}} </view>
+    </view>
+    <view class="_view data-v-30cc3e73 questions">
+      <view class="_view data-v-30cc3e73 question-item">
+        <view class="_view data-v-30cc3e73 question-item-top">
+          <text class="_text data-v-30cc3e73 ques twoLines">私募应该看的几个指标夏普真的有意义么钱钱钱钱钱钱钱钱钱钱钱？</text>
+          <view class="_view data-v-30cc3e73 req" bindtap="handleProxy" data-eventid="{{'Af4-1'}}" data-comkey="{{$k}}"> 回答 </view>
+        </view>
+        <view class="_view data-v-30cc3e73 question-item-bot">
+          <text class="_text data-v-30cc3e73 time">2018-07-07 12:10</text>
+          <view class="_view data-v-30cc3e73 more-req" bindtap="handleProxy" data-eventid="{{'e9m-2'}}" data-comkey="{{$k}}"> 更多
+            <label type class="_label data-v-30cc3e73 iconfont"></label>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-30cc3e73 question-item">
+        <view class="_view data-v-30cc3e73 question-item-top">
+          <text class="_text data-v-30cc3e73 ques">如何选择固定收益类的理财产品？</text>
+          <view class="_view data-v-30cc3e73 req"> 回答 </view>
+        </view>
+        <view class="_view data-v-30cc3e73 question-item-bot">
+          <text class="_text data-v-30cc3e73 time">2018-07-07 12:10</text>
+          <view class="_view data-v-30cc3e73 more-req"> 更多
+            <label type class="_label data-v-30cc3e73 iconfont"></label>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-30cc3e73 question-item">
+        <view class="_view data-v-30cc3e73 question-item-top">
+          <text class="_text data-v-30cc3e73 ques">如何选择固定收益类的理财产品？</text>
+          <view class="_view data-v-30cc3e73 req"> 回答 </view>
+        </view>
+        <view class="_view data-v-30cc3e73 question-item-bot">
+          <text class="_text data-v-30cc3e73 time">2018-07-07 12:10</text>
+          <view class="_view data-v-30cc3e73 more-req"> 更多
+            <label type class="_label data-v-30cc3e73 iconfont"></label>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-30cc3e73 question-item">
+        <view class="_view data-v-30cc3e73 question-item-top">
+          <text class="_text data-v-30cc3e73 ques">如何选择固定收益类的理财产品？</text>
+          <view class="_view data-v-30cc3e73 req"> 回答 </view>
+        </view>
+        <view class="_view data-v-30cc3e73 question-item-bot">
+          <text class="_text data-v-30cc3e73 time">2018-07-07 12:10</text>
+          <view class="_view data-v-30cc3e73 more-req"> 更多
+            <label type class="_label data-v-30cc3e73 iconfont"></label>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-30cc3e73 question-item">
+        <view class="_view data-v-30cc3e73 question-item-top">
+          <text class="_text data-v-30cc3e73 ques">如何选择固定收益类的理财产品？</text>
+          <view class="_view data-v-30cc3e73 req"> 回答 </view>
+        </view>
+        <view class="_view data-v-30cc3e73 question-item-bot">
+          <text class="_text data-v-30cc3e73 time">2018-07-07 12:10</text>
+          <view class="_view data-v-30cc3e73 more-req"> 更多
+            <label type class="_label data-v-30cc3e73 iconfont"></label>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-30cc3e73 question-item">
+        <view class="_view data-v-30cc3e73 question-item-top">
+          <text class="_text data-v-30cc3e73 ques">如何选择固定收益类的理财产品？</text>
+          <view class="_view data-v-30cc3e73 req"> 回答 </view>
+        </view>
+        <view class="_view data-v-30cc3e73 question-item-bot">
+          <text class="_text data-v-30cc3e73 time">2018-07-07 12:10</text>
+          <view class="_view data-v-30cc3e73 more-req"> 更多
+            <label type class="_label data-v-30cc3e73 iconfont"></label>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-30cc3e73 question-item">
+        <view class="_view data-v-30cc3e73 question-item-top">
+          <text class="_text data-v-30cc3e73 ques">如何选择固定收益类的理财产品？</text>
+          <view class="_view data-v-30cc3e73 req"> 回答 </view>
+        </view>
+        <view class="_view data-v-30cc3e73 question-item-bot">
+          <text class="_text data-v-30cc3e73 time">2018-07-07 12:10</text>
+          <view class="_view data-v-30cc3e73 more-req"> 更多
+            <label type class="_label data-v-30cc3e73 iconfont"></label>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-30cc3e73 question-item">
+        <view class="_view data-v-30cc3e73 question-item-top">
+          <text class="_text data-v-30cc3e73 ques">如何选择固定收益类的理财产品？</text>
+          <view class="_view data-v-30cc3e73 req"> 回答 </view>
+        </view>
+        <view class="_view data-v-30cc3e73 question-item-bot">
+          <text class="_text data-v-30cc3e73 time">2018-07-07 12:10</text>
+          <view class="_view data-v-30cc3e73 more-req"> 更多
+            <label type class="_label data-v-30cc3e73 iconfont"></label>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-30cc3e73 questionBox">
+      <view class="_view data-v-30cc3e73 question" bindtap="handleProxy" data-eventid="{{'APG-3'}}" data-comkey="{{$k}}">
+        <label class="_label data-v-30cc3e73 iconfont"></label>我要提问 </view>
+    </view>
+  </view>
+</template>

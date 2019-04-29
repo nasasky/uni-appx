@@ -1,0 +1,38 @@
+<import src="/pages/API/image/image.vue.wxml" />
+<template name="073c823e">
+  <view class="_view data-v-ce388c50 renzheng-box">
+    <view class="_view data-v-ce388c50 title"> 请确认您是否同时符合下列专业投资者条件 </view>
+    <view class="_view data-v-ce388c50 ceshi-box">
+      <view class="_view data-v-ce388c50 ceshi-item"> 1、金融资产不低于500万元或近三年本人年均收入不低于50万元的个人 </view>
+      <view class="_view data-v-ce388c50 ceshi-item"> 2、具有2年以上证券、基金、期货、黄金、外汇等投资经历，或者具有2年以上金融产品设计、投资、风险管理及相关工作经历，或者属于本条第(一) 项规定的专业投资者的高级管理人员、获得职业资格认证的从事金融相关业务的注册会计师和律师。 </view>
+      <view class="_view data-v-ce388c50 ceshi-item"> （金融资产包括银行存款、股票、债券、基金份额、资产管理计划、银行理财产品、信托计划、保险产品、期货权益等。） </view>
+    </view>
+    <view class="_view data-v-ce388c50 row1">
+      <label class="_label data-v-ce388c50 radio">
+        <image src="{{checked?'http://ai.ylcaifu.com/appimg/images/7.0-%E7%99%BB%E5%BD%95%E8%AE%A4%E8%AF%81%E7%AD%89%E9%A1%B5%E9%9D%A2/7.1.2-%E6%B3%A8%E5%86%8C/android/drawable-xhdpi/Checked.png':'http://ai.ylcaifu.com/appimg/images/7.0-%E7%99%BB%E5%BD%95%E8%AE%A4%E8%AF%81%E7%AD%89%E9%A1%B5%E9%9D%A2/7.1.2-%E6%B3%A8%E5%86%8C/android/drawable-xhdpi/Unchecked.png' }}"
+          class="_image data-v-ce388c50"></image> 是 </label>
+      <label class="_label data-v-ce388c50 radio">
+        <image src="{{checked?'http://ai.ylcaifu.com/appimg/images/7.0-%E7%99%BB%E5%BD%95%E8%AE%A4%E8%AF%81%E7%AD%89%E9%A1%B5%E9%9D%A2/7.1.2-%E6%B3%A8%E5%86%8C/android/drawable-xhdpi/Unchecked.png':'http://ai.ylcaifu.com/appimg/images/7.0-%E7%99%BB%E5%BD%95%E8%AE%A4%E8%AF%81%E7%AD%89%E9%A1%B5%E9%9D%A2/7.1.2-%E6%B3%A8%E5%86%8C/android/drawable-xhdpi/Checked.png' }}"
+          class="_image data-v-ce388c50"></image> 否 </label>
+    </view>
+    <view class="_view data-v-ce388c50 paste-box">
+      <textarea class="_textarea data-v-ce388c50 paste-content" ref="con" id="con" value="{{content}}" bindinput="handleProxy" disabled data-eventid="{{'X8S-0'}}" data-comkey="{{$k}}" />
+      <view class="_view data-v-ce388c50 paste" bindtap="handleProxy" data-eventid="{{'RnJ-1'}}" data-comkey="{{$k}}"> 复制并粘贴 </view>
+    </view>
+    <view class="_view data-v-ce388c50 blank"> {{pasteContent}} </view>
+    <view class="_view data-v-ce388c50 row">
+      <view class="_view data-v-ce388c50 left"> 证明类型 </view>
+    </view>
+    <view class="_view data-v-ce388c50 row">
+      <view class="_view data-v-ce388c50 left"> 证明金额 </view>
+      <input type="text" value="" placeholder="请输入金额" class="_input data-v-ce388c50" />
+    </view>
+    <view class="_view data-v-ce388c50">
+      <view class="_view data-v-ce388c50 left" style="padding: 40rpx 0 0;"> 证明金额 </view>
+      <template data="{{...$root['0'], ...$root[$kk+'MuY-0'],$root}}" is="05d41168"></template>
+    </view>
+    <view class="_view data-v-ce388c50 btn-box">
+      <view class="_view data-v-ce388c50 btn"> 我已阅读，确认无误并同意签字 </view>
+    </view>
+  </view>
+</template>

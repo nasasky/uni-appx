@@ -1,0 +1,49 @@
+<template name="6ad4d7d8">
+  <view class="_view data-v-08db5324">
+    <view class="_view data-v-08db5324 login-box" style=" {{('height:' + (height + 'px') + ';')}}">
+      <view class="_view data-v-08db5324 container">
+        <view class="_view data-v-08db5324 logo">
+          <image src="http://ai.ylcaifu.com/appimg/images/7.0-%E7%99%BB%E5%BD%95%E8%AE%A4%E8%AF%81%E7%AD%89%E9%A1%B5%E9%9D%A2/7.1.2-%E6%B3%A8%E5%86%8C/android/drawable-xhdpi/logo.png" mode="widthFix" class="_image data-v-08db5324"></image>
+        </view>
+        <view class="_view data-v-08db5324 bottom">
+          <view class="_view data-v-08db5324 bottom-top">
+            <view class="_view data-v-08db5324 login-class">
+              <view bindtap="handleProxy" data-id="0" data-eventid="{{'RBF-0'}}" data-comkey="{{$k}}" class="_view data-v-08db5324 {{[flag == 0 ? 'active' : '']}}"> 短信验证登陆 </view>
+              <view bindtap="handleProxy" data-id="1" data-eventid="{{'967-1'}}" data-comkey="{{$k}}" class="_view data-v-08db5324 {{[flag == 1 ? 'active' : '']}}"> 账号密码登录 </view>
+            </view>
+            <view class="_view data-v-08db5324 inp-group" hidden="{{!(flag==0)}}">
+              <view class="_view data-v-08db5324 inp-box">
+                <image src="../../static/image/my/shoujihao.png" mode="aspectFit" class="_image data-v-08db5324 icon"></image>
+                <input type="text" value="" placeholder="请输入手机号" class="_input data-v-08db5324 input" />
+              </view>
+              <view class="_view data-v-08db5324 inp-box">
+                <image src="../../static/image/my/yanzhengma.png" mode="aspectFit" class="_image data-v-08db5324 icon"></image>
+                <view class="_view data-v-08db5324 inp-box-right">
+                  <input type="text" value="" placeholder="请输入手机号" class="_input data-v-08db5324 input" />
+                  <view class="_view data-v-08db5324 get-number">
+                    <view class="_view data-v-08db5324">获取验证码</view>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="_view data-v-08db5324 inp-group" wx:if="{{flag==1}}">
+              <view class="_view data-v-08db5324 inp-box">
+                <image src="../../static/image/my/shoujihao.png" mode="aspectFit" class="_image data-v-08db5324 icon"></image>
+                <input type="text" value="" placeholder="请输入账号" class="_input data-v-08db5324 input" />
+              </view>
+              <view class="_view data-v-08db5324 inp-box">
+                <image src="../../static/image/my/yanzhengma.png" mode="aspectFit" class="_image data-v-08db5324 icon"></image>
+                <input type="text" value="" placeholder="请输入密码" class="_input data-v-08db5324 input" />
+              </view>
+            </view>
+            <view class="_view data-v-08db5324 button-box">
+              <view class="_view data-v-08db5324  btn" bindtap="handleProxy" data-eventid="{{'hII-2'}}" data-comkey="{{$k}}">登录</view>
+            </view>
+            <view class="_view data-v-08db5324 forget" bindtap="handleProxy" data-eventid="{{'KHl-3'}}" data-comkey="{{$k}}">忘记密码？</view>
+          </view>
+          <view class="_view data-v-08db5324 zhuce" bindtap="handleProxy" data-eventid="{{'7YA-4'}}" data-comkey="{{$k}}">没有账号，立即注册</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,1 @@
+<import src="/pages/product/productYemian/productDetail/productDetail.vue.wxml" /><template is="1a8fb7af" data="{{ ...$root['0'], $root }}"/>

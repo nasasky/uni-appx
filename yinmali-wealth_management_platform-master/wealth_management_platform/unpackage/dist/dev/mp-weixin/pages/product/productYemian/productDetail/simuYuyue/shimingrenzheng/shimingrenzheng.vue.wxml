@@ -1,0 +1,28 @@
+<template name="98e9f2bc">
+  <view class="_view data-v-7c6fdcf6 shiming-box">
+    <view class="_view data-v-7c6fdcf6 shiming"> 为保护账户安全，请进行实名认证 </view>
+    <view class="_view data-v-7c6fdcf6 box">
+      <view class="_view data-v-7c6fdcf6 row">
+        <view class="_view data-v-7c6fdcf6 left"> 姓名 </view>
+        <input type="text" value="" placeholder="黎鸣先生" class="_input data-v-7c6fdcf6" />
+      </view>
+      <view class="_view data-v-7c6fdcf6 row">
+        <view class="_view data-v-7c6fdcf6 left"> 证件类型 </view>
+        <input type="text" value="" placeholder="2010-101" class="_input data-v-7c6fdcf6" />
+      </view>
+      <view class="_view data-v-7c6fdcf6 row">
+        <view class="_view data-v-7c6fdcf6 left"> 证件号码 </view>
+        <input type="text" value="" placeholder="2010-101" class="_input data-v-7c6fdcf6" />
+      </view>
+      <view class="_view data-v-7c6fdcf6 radio-box">
+        <label class="_label data-v-7c6fdcf6 radio">
+          <image bindtap="handleProxy" src="{{checked?'http://ai.ylcaifu.com/appimg/images/7.0-%E7%99%BB%E5%BD%95%E8%AE%A4%E8%AF%81%E7%AD%89%E9%A1%B5%E9%9D%A2/7.1.2-%E6%B3%A8%E5%86%8C/android/drawable-xhdpi/Checked.png':'http://ai.ylcaifu.com/appimg/images/7.0-%E7%99%BB%E5%BD%95%E8%AE%A4%E8%AF%81%E7%AD%89%E9%A1%B5%E9%9D%A2/7.1.2-%E6%B3%A8%E5%86%8C/android/drawable-xhdpi/Unchecked.png' }}"
+            data-eventid="{{'o1A-0'}}" data-comkey="{{$k}}" class="_image data-v-7c6fdcf6"></image>我声明为中国税收居民 </label>
+      </view>
+    </view>
+    <view class="_view data-v-7c6fdcf6 questionBox">
+      <view class="_view data-v-7c6fdcf6 question">
+        <label class="_label data-v-7c6fdcf6 iconfont"></label>提交 </view>
+    </view>
+  </view>
+</template>

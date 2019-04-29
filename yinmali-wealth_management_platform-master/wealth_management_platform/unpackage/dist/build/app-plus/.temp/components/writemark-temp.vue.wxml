@@ -1,0 +1,9 @@
+<template name="407d46a3">
+  <view class="_view data-v-8f4a0108 search-temp">
+    <view class="_view data-v-8f4a0108 search-box">
+      <view class="_view data-v-8f4a0108 searchImg iconfont">  </view>
+      <input class="_input data-v-8f4a0108 searchInp" type="text" value="" placeholder="写评论" />
+      <view class="_view data-v-8f4a0108 clear iconfont" style="display: none;">  </view>
+    </view>
+  </view>
+</template>

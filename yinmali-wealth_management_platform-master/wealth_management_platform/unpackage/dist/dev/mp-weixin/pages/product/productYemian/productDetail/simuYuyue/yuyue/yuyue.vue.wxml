@@ -1,0 +1,21 @@
+<template name="34d421c0">
+  <view class="_view data-v-a6a76458 shiming-box">
+    <view class="_view data-v-a6a76458 shiming"></view>
+    <view class="_view data-v-a6a76458 title"> 秀实-东雀嘉熠1号收益权转让计划 </view>
+    <view class="_view data-v-a6a76458 box">
+      <view class="_view data-v-a6a76458 row">
+        <view class="_view data-v-a6a76458 left"> 客户姓名 </view>
+        <input type="text" value="" placeholder="请输入您的真实姓名" class="_input data-v-a6a76458" />
+      </view>
+      <view class="_view data-v-a6a76458 row">
+        <view class="_view data-v-a6a76458 left"> 预约金额 </view>
+        <input type="text" value="" placeholder class="_input data-v-a6a76458" /> 万元 </view>
+    </view>
+    <view class="_view data-v-a6a76458 questionBox">
+      <view class="_view data-v-a6a76458 question">
+        <label class="_label data-v-a6a76458 iconfont"></label>保存 </view>
+      <view class="_view data-v-a6a76458 question">
+        <label class="_label data-v-a6a76458 iconfont"></label>提交 </view>
+    </view>
+  </view>
+</template>

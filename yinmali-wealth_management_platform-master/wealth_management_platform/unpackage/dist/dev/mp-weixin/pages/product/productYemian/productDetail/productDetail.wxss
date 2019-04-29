@@ -1,0 +1,162 @@
+@import "../../../../common/vendor.wxss";
+
+page {
+  background: white;
+}
+.topBox {
+  width: 100%;
+  height: 450rpx;
+  background: url("http://ai.ylcaifu.com/appimg/images/2.0-%E4%BA%A7%E5%93%81/2.3-%E4%BA%A7%E5%93%81%E8%AF%A6%E6%83%85/android/drawable-xhdpi/peijing.png") center no-repeat;
+  background-size: 100% 450rpx;
+}
+.top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  padding: 67rpx 30rpx 0 37rpx;
+  color: rgb(255, 255, 255);
+}
+.middle {
+  font-size: 18px;
+}
+.go-back {
+  font-size: 17px;
+}
+.share {
+  font-size: 20px;
+}
+.second-box {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.second-title {
+  font-size: 12px;
+  margin: 50rpx 0 25rpx;
+}
+.persent {
+  height: 63rpx;
+  font-size: 32px;
+  margin-bottom: 39rpx;
+}
+.level {
+  font-size: 12px;
+}
+.class-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  text-align: center;
+  height: 120rpx;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 5px;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.05);
+  margin: 38rpx 20rpx 0;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.class-item {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+}
+.class-item-2 {
+  border-right: 1px solid rgba(242,241,240,1);
+  border-left: 1px solid rgba(242,241,240,1);
+}
+.class-item-top {
+  color: rgba(51, 51, 51, 1);
+  font-size: 15px;
+  line-height: 40rpx;
+}
+.class-item-bottom {
+  color: rgba(187,187,187,1);
+  font-size: 12px;
+  line-height: 30rpx;
+}
+.contentBox {
+  height: 500px;
+  margin-top: 60rpx;
+  padding: 32rpx 40rpx;
+}
+.content-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  margin: 30rpx 0;
+}
+.content-left {
+  width: 150rpx;
+  color: rgba(153,153,153,1);
+  font-size: 12px;
+}
+.content-right {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  color: rgba(68,68,68,1);
+}
+.file-box {
+  padding: 20rpx 0;
+  background: #f5f5f5;
+}
+.file-content {
+  background: rgb(255,255,255);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 90rpx;
+  font-size: 15px;
+}
+.icon,
+.icon-image {
+  width: 36rpx;
+  height: 32rpx;
+  margin-right: 10rpx;
+}
+.btn {
+  height: 90rpx;
+  line-height: 90rpx;
+  text-align: center;
+  background: rgba(196,156,90,1);
+  color: white;
+  font-size: 17px;
+}

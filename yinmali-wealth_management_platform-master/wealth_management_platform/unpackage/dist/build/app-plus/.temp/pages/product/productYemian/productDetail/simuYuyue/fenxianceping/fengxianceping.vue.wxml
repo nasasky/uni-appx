@@ -1,0 +1,61 @@
+<template name="2703efda">
+  <view class="_view data-v-7a35c97f fxcp-box">
+    <view class="_view data-v-7a35c97f tishi"> 以下一系列问题可在您选择合适的私募基金前，协助评估您的风险承受你能力， 理财方式和投资目标 </view>
+    <view class="_view data-v-7a35c97f ques-box">
+      <view class="_view data-v-7a35c97f ques-item">
+        <view class="_view data-v-7a35c97f ques-title"> 1.您的职业稳定性如何（） </view>
+        <view class="_view data-v-7a35c97f ques-answer-box">
+          <view class="_view data-v-7a35c97f ques-answer-item"> A.很稳定 </view>
+          <view class="_view data-v-7a35c97f ques-answer-item"> A.较稳定 </view>
+          <view class="_view data-v-7a35c97f ques-answer-item"> A.不稳定 </view>
+          <view class="_view data-v-7a35c97f ques-answer-item"> A.无业 </view>
+          <view class="_view data-v-7a35c97f ques-answer-item"> A.很稳定 </view>
+        </view>
+      </view>
+      <view class="_view data-v-7a35c97f ques-item">
+        <view class="_view data-v-7a35c97f ques-title"> 1.您的职业稳定性如何（） </view>
+        <view class="_view data-v-7a35c97f ques-answer-box">
+          <view class="_view data-v-7a35c97f ques-answer-item"> A.很稳定 </view>
+          <view class="_view data-v-7a35c97f ques-answer-item"> A.较稳定 </view>
+          <view class="_view data-v-7a35c97f ques-answer-item"> A.不稳定 </view>
+          <view class="_view data-v-7a35c97f ques-answer-item"> A.无业 </view>
+          <view class="_view data-v-7a35c97f ques-answer-item"> A.很稳定 </view>
+        </view>
+      </view>
+      <view class="_view data-v-7a35c97f ques-item">
+        <view class="_view data-v-7a35c97f ques-title"> 1.您的职业稳定性如何（） </view>
+        <view class="_view data-v-7a35c97f ques-answer-box">
+          <view class="_view data-v-7a35c97f ques-answer-item"> A.很稳定 </view>
+          <view class="_view data-v-7a35c97f ques-answer-item"> A.较稳定 </view>
+          <view class="_view data-v-7a35c97f ques-answer-item"> A.不稳定 </view>
+          <view class="_view data-v-7a35c97f ques-answer-item"> A.无业 </view>
+          <view class="_view data-v-7a35c97f ques-answer-item"> A.很稳定 </view>
+        </view>
+      </view>
+      <view class="_view data-v-7a35c97f ques-item">
+        <view class="_view data-v-7a35c97f ques-title"> 1.您的职业稳定性如何（） </view>
+        <view class="_view data-v-7a35c97f ques-answer-box">
+          <view class="_view data-v-7a35c97f ques-answer-item"> A.很稳定 </view>
+          <view class="_view data-v-7a35c97f ques-answer-item"> A.较稳定 </view>
+          <view class="_view data-v-7a35c97f ques-answer-item"> A.不稳定不稳定不稳定不稳定不稳定不稳定不稳定不稳定不稳定不稳定不稳定不稳定 </view>
+          <view class="_view data-v-7a35c97f ques-answer-item"> A.很稳定很稳定很稳定很稳定很稳定很稳定 </view>
+          <view class="_view data-v-7a35c97f ques-answer-item"> A.很稳定很稳定很稳定很稳定很稳定很稳定 </view>
+        </view>
+      </view>
+      <view class="_view data-v-7a35c97f ques-item">
+        <view class="_view data-v-7a35c97f ques-title"> 1.您的职业稳定性如何（） </view>
+        <view class="_view data-v-7a35c97f ques-answer-box">
+          <view class="_view data-v-7a35c97f ques-answer-item"> A.很稳定 </view>
+          <view class="_view data-v-7a35c97f ques-answer-item"> A.较稳定 </view>
+          <view class="_view data-v-7a35c97f ques-answer-item"> A.不稳定 </view>
+          <view class="_view data-v-7a35c97f ques-answer-item"> A.无业 </view>
+          <view class="_view data-v-7a35c97f ques-answer-item"> A.很稳定 </view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-7a35c97f questionBox">
+      <view class="_view data-v-7a35c97f question" bindtap="handleProxy" data-eventid="{{'ais-0'}}" data-comkey="{{$k}}">
+        <label class="_label data-v-7a35c97f iconfont"></label>提交 </view>
+    </view>
+  </view>
+</template>

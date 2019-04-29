@@ -1,0 +1,82 @@
+<import src="/components/search-temp.vue.wxml" />
+<template name="48346878">
+  <view class="_view data-v-7a9346ca">
+    <view class="_view data-v-7a9346ca page-body">
+      <view class="_view data-v-7a9346ca page-section">
+        <view class="_view data-v-7a9346ca top">
+          <template data="{{...$root['0'], ...$root[$kk+'vA7-0'],$root}}" is="0db035fb"></template>
+        </view>
+        <view class="_view data-v-7a9346ca product-box">
+          <view class="_view data-v-7a9346ca product-item">
+            <view class="_view data-v-7a9346ca product-title"> 秀实——东雀嘉熠一号收益权转让计划 </view>
+            <view class="_view data-v-7a9346ca product-detail">
+              <view class="_view data-v-7a9346ca item">
+                <view class="_view data-v-7a9346ca large-size color item-top"> 200000亿 </view>
+                <view class="_view data-v-7a9346ca item-bottom"> 可预约金额 </view>
+              </view>
+              <view class="_view data-v-7a9346ca item">
+                <view class="_view data-v-7a9346ca size item-top"> 预约人数 </view>
+                <view class="_view data-v-7a9346ca item-bottom"> 12 </view>
+              </view>
+              <view class="_view data-v-7a9346ca item">
+                <view class="_view data-v-7a9346ca size item-top"> 预约金额 </view>
+                <view class="_view data-v-7a9346ca item-bottom"> 50万元 </view>
+              </view>
+            </view>
+          </view>
+          <view class="_view data-v-7a9346ca product-item">
+            <view class="_view data-v-7a9346ca product-title"> 秀实——东雀嘉熠一号收益权转让计划 </view>
+            <view class="_view data-v-7a9346ca product-detail">
+              <view class="_view data-v-7a9346ca item">
+                <view class="_view data-v-7a9346ca large-size color item-top"> 4亿5000万 </view>
+                <view class="_view data-v-7a9346ca item-bottom"> 可预约金额 </view>
+              </view>
+              <view class="_view data-v-7a9346ca item">
+                <view class="_view data-v-7a9346ca size item-top"> 预约人数 </view>
+                <view class="_view data-v-7a9346ca item-bottom"> 12 </view>
+              </view>
+              <view class="_view data-v-7a9346ca item">
+                <view class="_view data-v-7a9346ca size item-top"> 预约金额 </view>
+                <view class="_view data-v-7a9346ca item-bottom"> 50万元 </view>
+              </view>
+            </view>
+          </view>
+          <view class="_view data-v-7a9346ca product-item">
+            <view class="_view data-v-7a9346ca product-title"> 秀实——东雀嘉熠一号收益权转让计划 </view>
+            <view class="_view data-v-7a9346ca product-detail">
+              <view class="_view data-v-7a9346ca item">
+                <view class="_view data-v-7a9346ca large-size color item-top"> 4亿5000万 </view>
+                <view class="_view data-v-7a9346ca item-bottom"> 可预约金额 </view>
+              </view>
+              <view class="_view data-v-7a9346ca item">
+                <view class="_view data-v-7a9346ca size item-top"> 预约人数 </view>
+                <view class="_view data-v-7a9346ca item-bottom"> 12 </view>
+              </view>
+              <view class="_view data-v-7a9346ca item">
+                <view class="_view data-v-7a9346ca size item-top"> 预约金额 </view>
+                <view class="_view data-v-7a9346ca item-bottom"> 50万元 </view>
+              </view>
+            </view>
+          </view>
+          <view class="_view data-v-7a9346ca product-item">
+            <view class="_view data-v-7a9346ca product-title"> 秀实——东雀嘉熠一号收益权转让计划 </view>
+            <view class="_view data-v-7a9346ca product-detail">
+              <view class="_view data-v-7a9346ca item">
+                <view class="_view data-v-7a9346ca large-size color item-top"> 4亿5000万 </view>
+                <view class="_view data-v-7a9346ca item-bottom"> 可预约金额 </view>
+              </view>
+              <view class="_view data-v-7a9346ca item">
+                <view class="_view data-v-7a9346ca size item-top"> 预约人数 </view>
+                <view class="_view data-v-7a9346ca item-bottom"> 12 </view>
+              </view>
+              <view class="_view data-v-7a9346ca item">
+                <view class="_view data-v-7a9346ca size item-top"> 预约金额 </view>
+                <view class="_view data-v-7a9346ca item-bottom"> 50万元 </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

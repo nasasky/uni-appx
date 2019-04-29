@@ -1,0 +1,1 @@
+<import src="/pages/my/lcs-gerenzhuye/lcs-gerenzhuye.vue.wxml" /><template is="098d2bcc" data="{{ ...$root['0'], $root }}"/>

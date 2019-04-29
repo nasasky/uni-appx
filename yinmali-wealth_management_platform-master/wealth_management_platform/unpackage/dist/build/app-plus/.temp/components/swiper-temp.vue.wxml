@@ -1,0 +1,13 @@
+<template name="08a51d2b">
+  <view class="_view data-v-52a0baf2">
+    <view class="_view data-v-52a0baf2 swiperBox">
+      <swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="{{2500}}" duration="{{1000}}" class="_swiper data-v-52a0baf2">
+        <swiper-item wx:for="{{imgUrl}}" wx:for-index="index" wx:for-item="item" class="_swiper-item data-v-52a0baf2">
+          <view class="_view data-v-52a0baf2 swiper-item">
+            <image src="{{item.url}}" mode class="_image data-v-52a0baf2"></image>
+          </view>
+        </swiper-item>
+      </swiper>
+    </view>
+  </view>
+</template>

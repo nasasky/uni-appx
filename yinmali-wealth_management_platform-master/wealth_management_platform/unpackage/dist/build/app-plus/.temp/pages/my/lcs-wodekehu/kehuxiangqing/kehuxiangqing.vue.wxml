@@ -1,0 +1,77 @@
+<template name="cfec12c2">
+  <view class="_view data-v-769e6442">
+    <view class="_view data-v-769e6442 kehu-item">
+      <view class="_view data-v-769e6442 kehu-left">
+        <view class="_view data-v-769e6442 touxiang-box">
+          <image src="http://ai.ylcaifu.com/appimg/images/5.0-%E6%88%91%E7%9A%84-%E7%90%86%E8%B4%A2%E5%B8%88/5.1-%E6%88%91%E7%9A%84%E5%AE%A2%E6%88%B7%EF%BC%88CRM%EF%BC%89/android/drawable-xhdpi/touxiang.png" mode="aspectFit" class="_image data-v-769e6442 touxiang-image"></image>
+          <image src="http://ai.ylcaifu.com/appimg/images/5.0-%E6%88%91%E7%9A%84-%E7%90%86%E8%B4%A2%E5%B8%88/5.1-%E6%88%91%E7%9A%84%E5%AE%A2%E6%88%B7%EF%BC%88CRM%EF%BC%89/android/drawable-xhdpi/nanxing.png" mode="aspectFit" class="_image data-v-769e6442 xingbie"></image>
+        </view>
+        <view class="_view data-v-769e6442 kehu-message">
+          <view class="_view data-v-769e6442 kehu-message-top">
+            <view class="_view data-v-769e6442 kehu-name"> 李逵之 </view>
+            <image src="http://ai.ylcaifu.com/appimg/images/5.0-%E6%88%91%E7%9A%84-%E7%90%86%E8%B4%A2%E5%B8%88/5.1-%E6%88%91%E7%9A%84%E5%AE%A2%E6%88%B7%EF%BC%88CRM%EF%BC%89/android/drawable-xhdpi/he.png" mode="aspectFit" class="_image data-v-769e6442 label-image"></image>
+          </view>
+          <view class="_view data-v-769e6442 kehu-message-bottom">
+            <image src="http://ai.ylcaifu.com/appimg/images/5.0-%E6%88%91%E7%9A%84-%E7%90%86%E8%B4%A2%E5%B8%88/5.1-%E6%88%91%E7%9A%84%E5%AE%A2%E6%88%B7%EF%BC%88CRM%EF%BC%89/android/drawable-xhdpi/xingjikehu.png" mode="aspectFit" class="_image data-v-769e6442"></image>
+            <view class="_view data-v-769e6442 star"> 一星客户 </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-769e6442 kehu-box">
+      <view class="_view data-v-769e6442 row">
+        <view class="_view data-v-769e6442 left">
+          <image class="_image data-v-769e6442 left-image" src="http://ai.ylcaifu.com/appimg/images/5.0-%E6%88%91%E7%9A%84-%E7%90%86%E8%B4%A2%E5%B8%88/5.1.4-%E5%AE%A2%E6%88%B7%E8%AF%A6%E6%83%85/android/drawable-xhdpi/dianhuan.png" mode></image> 手机号 </view>
+        <view class="_view data-v-769e6442 right">
+          <view class="_view data-v-769e6442"> 13109-90930221 </view>
+          <image src="http://ai.ylcaifu.com/appimg/images/5.0-%E6%88%91%E7%9A%84-%E7%90%86%E8%B4%A2%E5%B8%88/5.1-%E6%88%91%E7%9A%84%E5%AE%A2%E6%88%B7%EF%BC%88CRM%EF%BC%89/android/drawable-xhdpi/dianhuan.png" mode class="_image data-v-769e6442 kehu-right"></image>
+        </view>
+      </view>
+      <view class="_view data-v-769e6442 row">
+        <view class="_view data-v-769e6442 left">
+          <image class="_image data-v-769e6442 left-image" src="http://ai.ylcaifu.com/appimg/images/5.0-%E6%88%91%E7%9A%84-%E7%90%86%E8%B4%A2%E5%B8%88/5.1.4-%E5%AE%A2%E6%88%B7%E8%AF%A6%E6%83%85/android/drawable-xhdpi/xingbei.png" mode></image> 性别 </view>
+        <view class="_view data-v-769e6442 right"> 女 </view>
+      </view>
+      <view class="_view data-v-769e6442 row">
+        <view class="_view data-v-769e6442 left">
+          <image class="_image data-v-769e6442 left-image" src="http://ai.ylcaifu.com/appimg/images/5.0-%E6%88%91%E7%9A%84-%E7%90%86%E8%B4%A2%E5%B8%88/5.1.4-%E5%AE%A2%E6%88%B7%E8%AF%A6%E6%83%85/android/drawable-xhdpi/shengre.png" mode></image> 生日 </view>
+        <view class="_view data-v-769e6442 right"> 1999-10-10 </view>
+      </view>
+      <view class="_view data-v-769e6442 row">
+        <view class="_view data-v-769e6442 left">
+          <image class="_image data-v-769e6442 left-image" src="http://ai.ylcaifu.com/appimg/images/5.0-%E6%88%91%E7%9A%84-%E7%90%86%E8%B4%A2%E5%B8%88/5.1.4-%E5%AE%A2%E6%88%B7%E8%AF%A6%E6%83%85/android/drawable-xhdpi/dingwei.png" mode></image> 所在地区 </view>
+        <view class="_view data-v-769e6442 right"> 北京市海淀小区巴拉巴拉小魔仙balabalb </view>
+      </view>
+      <view class="_view data-v-769e6442 row">
+        <view class="_view data-v-769e6442 left">
+          <image class="_image data-v-769e6442 left-image" src="http://ai.ylcaifu.com/appimg/images/5.0-%E6%88%91%E7%9A%84-%E7%90%86%E8%B4%A2%E5%B8%88/5.1.4-%E5%AE%A2%E6%88%B7%E8%AF%A6%E6%83%85/android/drawable-xhdpi/biaoqian.png" mode></image> 标签
+          <image src="http://ai.ylcaifu.com/appimg/images/5.0-%E6%88%91%E7%9A%84-%E7%90%86%E8%B4%A2%E5%B8%88/5.1-%E6%88%91%E7%9A%84%E5%AE%A2%E6%88%B7%EF%BC%88CRM%EF%BC%89/android/drawable-xhdpi/he.png" mode="aspectFit" class="_image data-v-769e6442 label-image"></image>
+        </view>
+        <view class="_view data-v-769e6442 right">
+          <view class="_view data-v-769e6442 btn"> 添加 </view>
+        </view>
+      </view>
+      <view class="_view data-v-769e6442 row">
+        <view class="_view data-v-769e6442 left">
+          <image class="_image data-v-769e6442 left-image" src="http://ai.ylcaifu.com/appimg/images/5.0-%E6%88%91%E7%9A%84-%E7%90%86%E8%B4%A2%E5%B8%88/5.1.4-%E5%AE%A2%E6%88%B7%E8%AF%A6%E6%83%85/android/drawable-xhdpi/shimingrenzheng.png" mode></image> 实名认证 </view>
+        <view class="_view data-v-769e6442 right">
+          <view class="_view data-v-769e6442 btn yirenzheng"> 已认证 </view>
+        </view>
+      </view>
+      <view class="_view data-v-769e6442 row">
+        <view class="_view data-v-769e6442 left">
+          <image class="_image data-v-769e6442 left-image" src="http://ai.ylcaifu.com/appimg/images/5.0-%E6%88%91%E7%9A%84-%E7%90%86%E8%B4%A2%E5%B8%88/5.1.4-%E5%AE%A2%E6%88%B7%E8%AF%A6%E6%83%85/android/drawable-xhdpi/hege.png" mode></image> 合格投资者认证 </view>
+        <view class="_view data-v-769e6442 right">
+          <view class="_view data-v-769e6442 btn"> 去认证 </view>
+        </view>
+      </view>
+      <view class="_view data-v-769e6442 row">
+        <view class="_view data-v-769e6442 left">
+          <image class="_image data-v-769e6442 left-image" src="http://ai.ylcaifu.com/appimg/images/5.0-%E6%88%91%E7%9A%84-%E7%90%86%E8%B4%A2%E5%B8%88/5.1.4-%E5%AE%A2%E6%88%B7%E8%AF%A6%E6%83%85/android/drawable-xhdpi/chuangye.png" mode></image> 创业投资者认证 </view>
+        <view class="_view data-v-769e6442 right">
+          <view class="_view data-v-769e6442 btn"> 去认证 </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

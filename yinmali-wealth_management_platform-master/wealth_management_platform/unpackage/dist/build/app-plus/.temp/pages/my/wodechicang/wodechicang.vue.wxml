@@ -1,0 +1,92 @@
+<import src="/components/mpvue-echarts/src/echarts.vue.wxml" />
+<template name="12769410">
+  <view class="_view data-v-2565b7c2">
+    <view class="_view data-v-2565b7c2 topBox">
+      <view class="_view data-v-2565b7c2 top">
+        <view class="_view data-v-2565b7c2 go-back iconfont" bindtap="handleProxy" data-eventid="{{'cXn-0'}}" data-comkey="{{$k}}">  </view>
+        <view class="_view data-v-2565b7c2 middle"> 我的持仓 </view>
+        <view class="_view data-v-2565b7c2 share iconfont"></view>
+      </view>
+      <view class="_view data-v-2565b7c2 second-box">
+        <view class="_view data-v-2565b7c2 second-title"> 总资产（元） </view>
+        <view class="_view data-v-2565b7c2 persent">160620000</view>
+        <view class="_view data-v-2565b7c2 level">数据更新日期 2018-12-12</view>
+      </view>
+      <view class="_view data-v-2565b7c2 class-box">
+        <view class="_view data-v-2565b7c2 class-item">
+          <view class="_view data-v-2565b7c2 class-item-top">60620000</view>
+          <view class="_view data-v-2565b7c2 class-item-bottom">累计收益</view>
+        </view>
+        <view class="_view data-v-2565b7c2 class-item class-item-2">
+          <view class="_view data-v-2565b7c2 class-item-top">112160000</view>
+          <view class="_view data-v-2565b7c2 class-item-bottom">持仓总收益</view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-2565b7c2 container">
+      <view class="_view data-v-2565b7c2 canvasView">
+        <template canvasId="pie" ref="pieChart" data="{{...$root['0'], ...$root[$kk+'jYb-0'],$root}}" is="df90c710"></template>
+      </view>
+    </view>
+    <view class="_view data-v-2565b7c2 btn-box">
+      <view class="_view data-v-2565b7c2 btn-item {{[clickItem == 0 ? 'active' : '']}}" bindtap="handleProxy" data-eventid="{{'jtU-1'}}" data-comkey="{{$k}}"> 收益明细 </view>
+      <view class="_view data-v-2565b7c2 btn-item {{[clickItem == 1 ? 'active' : '']}}" bindtap="handleProxy" data-eventid="{{'xNn-2'}}" data-comkey="{{$k}}"> 交易记录 </view>
+    </view>
+    <view class="_view data-v-2565b7c2 content">
+      <view class="_view data-v-2565b7c2">
+        <view class="_view data-v-2565b7c2 block">
+          <view class="_view data-v-2565b7c2 block-content">
+            <view class="_view data-v-2565b7c2 intro">
+              <view class="_view data-v-2565b7c2 pro-title"> 青山赢收33号
+                <view class="_view data-v-2565b7c2 is-daoqi weidaoqi"> 未到期 </view>
+              </view>
+              <view class="_view data-v-2565b7c2 detail">
+                <view class="_view data-v-2565b7c2 item">
+                  <view class="_view data-v-2565b7c2 color">8%-9.5%</view>
+                  <view class="_view data-v-2565b7c2 color-gray">业绩比较基准</view>
+                </view>
+                <view class="_view data-v-2565b7c2 item">
+                  <view class="_view data-v-2565b7c2 size"> 产品期限 </view>
+                  <view class="_view data-v-2565b7c2 color-gray"> 12个月 </view>
+                </view>
+                <view class="_view data-v-2565b7c2 item">
+                  <view class="_view data-v-2565b7c2 size"> 产品期限 </view>
+                  <view class="_view data-v-2565b7c2 color-gray"> 12个月 </view>
+                </view>
+                <view class="_view data-v-2565b7c2 item">
+                  <view class="_view data-v-2565b7c2 size"> 认购起点 </view>
+                  <view class="_view data-v-2565b7c2 color-gray"> 50万元 </view>
+                </view>
+              </view>
+            </view>
+          </view>
+          <view class="_view data-v-2565b7c2 block-content">
+            <view class="_view data-v-2565b7c2 intro">
+              <view class="_view data-v-2565b7c2 pro-title"> 青山赢收33号
+                <view class="_view data-v-2565b7c2 is-daoqi yidaoqi"> 已到期 </view>
+              </view>
+              <view class="_view data-v-2565b7c2 detail">
+                <view class="_view data-v-2565b7c2 item">
+                  <view class="_view data-v-2565b7c2 color">8%/年</view>
+                  <view class="_view data-v-2565b7c2 color-gray">业绩比较基准</view>
+                </view>
+                <view class="_view data-v-2565b7c2 item">
+                  <view class="_view data-v-2565b7c2 size"> 产品期限 </view>
+                  <view class="_view data-v-2565b7c2 color-gray"> 12个月 </view>
+                </view>
+                <view class="_view data-v-2565b7c2 item">
+                  <view class="_view data-v-2565b7c2 size"> 产品期限 </view>
+                  <view class="_view data-v-2565b7c2 color-gray"> 12个月 </view>
+                </view>
+                <view class="_view data-v-2565b7c2 item">
+                  <view class="_view data-v-2565b7c2 size"> 认购起点 </view>
+                  <view class="_view data-v-2565b7c2 color-gray"> 50万元 </view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

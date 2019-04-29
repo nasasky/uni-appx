@@ -1,0 +1,48 @@
+<template name="2c18ff2c">
+  <view class="_view data-v-6ecf8e99 xinjiankehu-box">
+    <view class="_view data-v-6ecf8e99 box">
+      <view class="_view data-v-6ecf8e99 row">
+        <view class="_view data-v-6ecf8e99 left"> 头像 </view>
+        <view class="_view data-v-6ecf8e99 right">
+          <view class="_view data-v-6ecf8e99">
+            <image class="_image data-v-6ecf8e99 touxiang-image" src="http://ai.ylcaifu.com/appimg/images/5.0-%E6%88%91%E7%9A%84-%E7%90%86%E8%B4%A2%E5%B8%88/5.2-%E8%AE%BE%E7%BD%AE/android/drawable-xhdpi/touxiang.png" mode></image>
+          </view>
+          <view class="_view data-v-6ecf8e99">
+            <label class="_label data-v-6ecf8e99 iconfont"> </label>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-6ecf8e99 row">
+        <view class="_view data-v-6ecf8e99 left"> 昵称 </view>
+        <view class="_view data-v-6ecf8e99 right">
+          <view class="_view data-v-6ecf8e99"></view>
+          <view class="_view data-v-6ecf8e99">
+            <label class="_label data-v-6ecf8e99 iconfont"> </label>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-6ecf8e99 row">
+        <view class="_view data-v-6ecf8e99 left"> 简介 </view>
+        <view class="_view data-v-6ecf8e99 right">
+          <view class="_view data-v-6ecf8e99"></view>
+          <view class="_view data-v-6ecf8e99">
+            <label class="_label data-v-6ecf8e99 iconfont"> </label>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-6ecf8e99 row">
+        <view class="_view data-v-6ecf8e99 left"> 联系方式 </view>
+        <view class="_view data-v-6ecf8e99 right">
+          <view class="_view data-v-6ecf8e99"></view>
+          <view class="_view data-v-6ecf8e99">
+            <label class="_label data-v-6ecf8e99 iconfont"> </label>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-6ecf8e99 questionBox">
+        <view class="_view data-v-6ecf8e99 question">
+          <label class="_label data-v-6ecf8e99 iconfont label"></label>退出登录 </view>
+      </view>
+    </view>
+  </view>
+</template>

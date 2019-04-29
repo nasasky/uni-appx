@@ -1,0 +1,167 @@
+@import "../../common/vendor.wxss";
+
+page {
+  width: 100%;
+  height: 100%;
+  background: url("http://ai.ylcaifu.com/appimg/images/7.0-%E7%99%BB%E5%BD%95%E8%AE%A4%E8%AF%81%E7%AD%89%E9%A1%B5%E9%9D%A2/7.1.1-%E7%99%BB%E5%BD%95/android/drawable-xhdpi/beijing.png") no-repeat center;
+  background-size: 100% 100%;
+  text-align: center;
+}
+.login-box {
+  width: 100%;
+  height: 100%;
+}
+.container {
+  padding: 0 40px;
+  height: 100%;
+}
+.logo {
+  width: 100%;
+  height: 30%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.bottom {
+  height: 70%;
+}
+.logo image {
+  width: 100%;
+  height: 32px;
+}
+.login-class {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: bold;
+  height: 33px;
+  margin-bottom: 30px;
+}
+.active {
+  font-size: 15px;
+  font-weight: bold;
+  color: rgba(196, 156, 90, 1);
+  background: url("http://ai.ylcaifu.com/appimg/images/7.0-%E7%99%BB%E5%BD%95%E8%AE%A4%E8%AF%81%E7%AD%89%E9%A1%B5%E9%9D%A2/7.1.1-%E7%99%BB%E5%BD%95/android/drawable-xhdpi/xuangzhong.png") bottom no-repeat;
+  background-size: 100% 3px;
+}
+.inp-group {
+  margin-bottom: 18px;
+}
+.inp-box {
+  height: 47px;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  background: url("http://ai.ylcaifu.com/appimg/images/7.0-%E7%99%BB%E5%BD%95%E8%AE%A4%E8%AF%81%E7%AD%89%E9%A1%B5%E9%9D%A2/7.1.1-%E7%99%BB%E5%BD%95/android/drawable-xhdpi/shoujihaobeijing.png") no-repeat center;
+  background-size: 100% 100%;
+  margin-bottom: 5%;
+}
+.icon {
+  width: 15px;
+  height: 19px;
+  padding: 0 10px;
+}
+.inp-box-right {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  width: 100%;
+}
+.input {
+  text-align: left;
+  color: rgb(255, 255, 255);
+  -webkit-box-flex: 3;
+  -webkit-flex: 3;
+  flex: 3;
+}
+.get-number {
+  height: 20px;
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+  flex: 2;
+  margin-right: 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+}
+.get-number view {
+  font-size: 12px;
+  line-height: 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(196, 156, 90, 1);
+  color: rgba(196, 156, 90, 1);
+  padding: 0 20rpx;
+  height: 20px;
+}
+.button-box {
+  height: 47px;
+  width: 100%;
+  background: url("http://ai.ylcaifu.com/appimg/images/7.0-%E7%99%BB%E5%BD%95%E8%AE%A4%E8%AF%81%E7%AD%89%E9%A1%B5%E9%9D%A2/7.1.1-%E7%99%BB%E5%BD%95/android/drawable-xhdpi/denglubeijing.png") no-repeat center;
+  background-size: 100% 100%;
+  margin-bottom: 18px;
+}
+.btn {
+  text-align: center;
+  line-height: 47px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  font-size: 17px;
+}
+.forget {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  opacity: 0.6;
+}
+.bottom-top {
+  height: 80%;
+}
+.zhuce {
+  height: 18%;
+  line-height: 70px;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  opacity: 0.6;
+  border-top: 1px solid rgba(255,255,255,0.4);
+}

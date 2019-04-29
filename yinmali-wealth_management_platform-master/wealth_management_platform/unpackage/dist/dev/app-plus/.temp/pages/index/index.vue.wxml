@@ -1,0 +1,139 @@
+<template name="5ab219f8">
+  <view class="_view data-v-7b654518">
+    <view class="_view data-v-7b654518 status_bar">
+      <view class="_view data-v-7b654518 top_view"></view>
+    </view>
+    <view class="_view data-v-7b654518 swiperBox">
+      <swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="{{2500}}" duration="{{1000}}" class="_swiper data-v-7b654518">
+        <swiper-item class="_swiper-item data-v-7b654518">
+          <view class="_view data-v-7b654518 swiper-item">
+            <image src="../../static/image/indexImg/1.jpg" mode class="_image data-v-7b654518"></image>
+          </view>
+        </swiper-item>
+        <swiper-item class="_swiper-item data-v-7b654518">
+          <view class="_view data-v-7b654518 swiper-item">
+            <image src="../../static/image/indexImg/2.jpg" mode class="_image data-v-7b654518"></image>
+          </view>
+        </swiper-item>
+        <swiper-item class="_swiper-item data-v-7b654518">
+          <view class="_view data-v-7b654518 swiper-item">
+            <image src="../../static/image/indexImg/3.jpg" mode class="_image data-v-7b654518"></image>
+          </view>
+        </swiper-item>
+        <swiper-item class="_swiper-item data-v-7b654518">
+          <view class="_view data-v-7b654518 swiper-item">
+            <image src="../../static/image/indexImg/4.jpg" mode class="_image data-v-7b654518"></image>
+          </view>
+        </swiper-item>
+      </swiper>
+    </view>
+    <view class="_view data-v-7b654518 lists">
+      <view class="_view data-v-7b654518 list-item">
+        <image src="https://pic.36krcnd.com/avatar/201803/08005901/c41olcs56y2dq292.jpg!480" mode class="_image data-v-7b654518"></image>
+        <text class="_text data-v-7b654518">财经早报</text>
+      </view>
+      <view class="_view data-v-7b654518 list-item" bindtap="handleProxy" data-eventid="{{'Ipp-0'}}" data-comkey="{{$k}}">
+        <image src="https://pic.36krcnd.com/avatar/201611/03080626/idk0r5xfbpwoobcj.jpg!480" mode class="_image data-v-7b654518"></image>
+        <text class="_text data-v-7b654518">求知</text>
+      </view>
+      <view class="_view data-v-7b654518 list-item" bindtap="handleProxy" data-eventid="{{'zlg-1'}}" data-comkey="{{$k}}">
+        <image src="https://pic.36krcnd.com/avatar/201803/08005901/c41olcs56y2dq292.jpg!480" mode class="_image data-v-7b654518"></image>
+        <text class="_text data-v-7b654518">活动</text>
+      </view>
+      <view class="_view data-v-7b654518 list-item">
+        <image src="https://pic.36krcnd.com/avatar/201611/03080626/idk0r5xfbpwoobcj.jpg!480" mode class="_image data-v-7b654518"></image>
+        <text class="_text data-v-7b654518">财富讲堂</text>
+      </view>
+      <view class="_view data-v-7b654518 list-item">
+        <image src="../../static/image/invest/u761.png" mode class="_image data-v-7b654518"></image>
+        <text class="_text data-v-7b654518">积分商城</text>
+      </view>
+    </view>
+    <view class="_view data-v-7b654518 zixunBox">
+      <view class="_view data-v-7b654518 zixun">
+        <view class="_view data-v-7b654518 text"> 资讯 </view>
+        <view class="_view data-v-7b654518 uni-icon-more" bindtap="handleProxy" data-eventid="{{'LPf-2'}}" data-comkey="{{$k}}">
+          <view class="_view data-v-7b654518 more"> 更多 </view>
+          <image class="_image data-v-7b654518 arrow" src="../../static/image/indexImg/arrow-right.png" mode></image>
+        </view>
+      </view>
+      <view class="_view data-v-7b654518 uni-list">
+        <view class="_view data-v-7b654518 uni-list-cell" hover-class="uni-list-cell-hover" wx:key="index" key="{{index}}" data-newsid="{{item.post_id}}" bindtap="handleProxy" data-eventid="{{'K75-3-'+index}}" data-comkey="{{$k}}" wx:for="{{lists}}" wx:for-index="index"
+          wx:for-item="item">
+          <view class="_view data-v-7b654518 uni-media-list">
+            <image class="_image data-v-7b654518 uni-media-list-logo" src="{{item.author_avatar}}"></image>
+            <view class="_view data-v-7b654518 uni-media-list-body">
+              <view class="_view data-v-7b654518 uni-media-list-text-bottom">{{item.summary}}</view>
+              <view class="_view data-v-7b654518 item-bottom">
+                <view class="_view data-v-7b654518"> {{item.column_name}} </view>
+                <view class="_view data-v-7b654518"> {{item.views_count}}阅读 </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-7b654518 qiuzhiBox">
+      <view class="_view data-v-7b654518 zixun">
+        <view class="_view data-v-7b654518 text"> 求知 </view>
+        <view class="_view data-v-7b654518 uni-icon-more">
+          <view class="_view data-v-7b654518 more"> 更多 </view>
+          <image class="_image data-v-7b654518 arrow" src="../../static/image/indexImg/arrow-right.png" mode></image>
+        </view>
+      </view>
+      <view class="_view data-v-7b654518 qiuzhiItem" wx:key="index" key="{{index}}" wx:for="{{qiuzhilist}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-7b654518 qiuzhiCon"> {{item.value}} </view>
+      </view>
+    </view>
+    <view class="_view data-v-7b654518 zixunBox">
+      <view class="_view data-v-7b654518 zixun">
+        <view class="_view data-v-7b654518 text"> 投资 </view>
+        <view class="_view data-v-7b654518 uni-icon-more">
+          <view class="_view data-v-7b654518 more"> 更多 </view>
+          <image class="_image data-v-7b654518 arrow" src="../../static/image/indexImg/arrow-right.png" mode></image>
+        </view>
+      </view>
+      <view class="_view data-v-7b654518 uni-list">
+        <view class="_view data-v-7b654518 uni-list-cell" hover-class="uni-list-cell-hover" wx:key="index" key="{{index}}" wx:for="{{list}}" wx:for-index="index" wx:for-item="item">
+          <view class="_view data-v-7b654518 uni-media-list">
+            <image class="_image data-v-7b654518 uni-media-list-logo" src="{{item.author_avatar}}"></image>
+            <view class="_view data-v-7b654518 uni-media-list-body">
+              <view class="_view data-v-7b654518 uni-media-list-text-bottom">{{item.summary}}</view>
+              <view class="_view data-v-7b654518 item-bottom">
+                <view class="_view data-v-7b654518"> {{item.column_name}} </view>
+                <view class="_view data-v-7b654518"> {{item.views_count}}阅读 </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-7b654518 jiangtangBox">
+      <view class="_view data-v-7b654518 zixun">
+        <view class="_view data-v-7b654518 text"> 财富讲堂 </view>
+        <view class="_view data-v-7b654518 uni-icon-more" bindtap="handleProxy" data-eventid="{{'fg5-4'}}" data-comkey="{{$k}}">
+          <view class="_view data-v-7b654518 more"> 更多 </view>
+          <image class="_image data-v-7b654518 arrow" src="../../static/image/indexImg/arrow-right.png" mode></image>
+        </view>
+      </view>
+      <scroll-view class="_scroll-view data-v-7b654518 scroll-view_H" scroll-x="true">
+        <view class="_view data-v-7b654518 scroll-view-item_H">
+          <image src="../../static/image/indexImg/3.jpg" mode="widthFix" class="_image data-v-7b654518"></image>
+          <view class="_view data-v-7b654518 videoText uni-ellipsis"> 时代专题ttt </view>
+        </view>
+        <view class="_view data-v-7b654518 scroll-view-item_H">
+          <image src="../../static/image/indexImg/3.jpg" mode="widthFix" class="_image data-v-7b654518"></image>
+          <view class="_view data-v-7b654518 videoText uni-ellipsis"> 时代专题qqqqqq时代专题qqqqqq时代专题qqqqqq时代专题qqqqqq </view>
+        </view>
+        <view class="_view data-v-7b654518 scroll-view-item_H">
+          <image src="../../static/image/indexImg/3.jpg" mode="widthFix" class="_image data-v-7b654518"></image>
+          <view class="_view data-v-7b654518 videoText uni-ellipsis"> 时代专题 </view>
+        </view>
+        <view class="_view data-v-7b654518 scroll-view-item_H">
+          <image src="../../static/image/indexImg/3.jpg" mode="widthFix" class="_image data-v-7b654518"></image>
+          <view class="_view data-v-7b654518 videoText uni-ellipsis"> 时代专题 </view>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+</template>

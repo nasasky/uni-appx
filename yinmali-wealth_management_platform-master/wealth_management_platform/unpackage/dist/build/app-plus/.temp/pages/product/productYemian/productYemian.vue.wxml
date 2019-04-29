@@ -1,0 +1,151 @@
+<template name="bb9adda2">
+  <view class="_view data-v-7d53dc1c">
+    <view class="_view data-v-7d53dc1c topBox">
+      <view class="_view data-v-7d53dc1c top">
+        <view class="_view data-v-7d53dc1c go-back iconfont" bindtap="handleProxy" data-eventid="{{'fKs-0'}}" data-comkey="{{$k}}">  </view>
+        <view class="_view data-v-7d53dc1c middle"> 秀实—东雀嘉熠一号收益好转 </view>
+        <view class="_view data-v-7d53dc1c share iconfont">  </view>
+      </view>
+      <view class="_view data-v-7d53dc1c second-title"> 契约型私募基金 </view>
+      <view class="_view data-v-7d53dc1c videoBox">
+        <video src controls class="_video data-v-7d53dc1c video" poster="http://ai.ylcaifu.com/appimg/images/2.0-%E4%BA%A7%E5%93%81/2.2-%E4%BA%A7%E5%93%81%E9%A1%B5%E9%9D%A2/android/drawable-xhdpi/banner.png"></video>
+      </view>
+    </view>
+    <view class="_view data-v-7d53dc1c contentBox">
+      <view class="_view data-v-7d53dc1c product-item">
+        <view class="_view data-v-7d53dc1c product-title">
+          <view class="_view data-v-7d53dc1c title uni-font17"> 秀实——东雀嘉熠一号收益权转让计划 </view>
+        </view>
+        <view class="_view data-v-7d53dc1c product-detail">
+          <view class="_view data-v-7d53dc1c item">
+            <view class="_view data-v-7d53dc1c large-size color item-top"> 8%-9.5% </view>
+            <view class="_view data-v-7d53dc1c item-bottom"> 业绩比较基准 </view>
+          </view>
+          <view class="_view data-v-7d53dc1c item">
+            <view class="_view data-v-7d53dc1c size item-top"> 产品期限 </view>
+            <view class="_view data-v-7d53dc1c item-bottom"> 12个月 </view>
+          </view>
+          <view class="_view data-v-7d53dc1c item">
+            <view class="_view data-v-7d53dc1c size item-top"> 认购起点 </view>
+            <view class="_view data-v-7d53dc1c item-bottom"> 50万元 </view>
+          </view>
+        </view>
+        <view class="_view data-v-7d53dc1c button-group">
+          <view class="_view data-v-7d53dc1c"> 产品备案查询 </view>
+          <view class="_view data-v-7d53dc1c" bindtap="handleProxy" data-eventid="{{'7yo-1'}}" data-comkey="{{$k}}"> 产品详情 </view>
+        </view>
+      </view>
+      <view class="_view data-v-7d53dc1c contentMid">
+        <view class="_view data-v-7d53dc1c videoDetail uni-font17">
+          <view class="_view data-v-7d53dc1c"> 相关评论 </view>
+          <view class="_view data-v-7d53dc1c right">
+            <view class="_view data-v-7d53dc1c iconfont">  </view>
+            <view class="_view data-v-7d53dc1c"> 2345 </view>
+          </view>
+        </view>
+        <view class="_view data-v-7d53dc1c label">
+          <view class="_view data-v-7d53dc1c label-item">国企大机构背景</view>
+          <view class="_view data-v-7d53dc1c label-item">股东实力雄厚</view>
+          <view class="_view data-v-7d53dc1c label-item">国企大机构背景</view>
+          <view class="_view data-v-7d53dc1c label-item">股东实力雄厚</view>
+        </view>
+      </view>
+      <view class="_view data-v-7d53dc1c contentBot">
+        <view class="_view data-v-7d53dc1c mark">
+          <view class="_view data-v-7d53dc1c avator-left">
+            <image src="../../../static/image/invest/u762.png" class="_image data-v-7d53dc1c"></image>
+          </view>
+          <view class="_view data-v-7d53dc1c mark-right">
+            <view class="_view data-v-7d53dc1c mark-top">
+              <view class="_view data-v-7d53dc1c mark-top-left">
+                <view class="_view data-v-7d53dc1c position">理财师</view>
+                <view class="_view data-v-7d53dc1c name">李明</view>
+              </view>
+              <view class="_view data-v-7d53dc1c star">
+                <view class="_view data-v-7d53dc1c star-item">
+                  <image class="_image data-v-7d53dc1c star-image-select" src="http://ai.ylcaifu.com/appimg/images/2.0-%E4%BA%A7%E5%93%81/2.2-%E4%BA%A7%E5%93%81%E9%A1%B5%E9%9D%A2/android/drawable-xhdpi/xingxingxuanzhon.png"></image>
+                </view>
+                <view class="_view data-v-7d53dc1c star-item">
+                  <image class="_image data-v-7d53dc1c star-image-select" src="http://ai.ylcaifu.com/appimg/images/2.0-%E4%BA%A7%E5%93%81/2.2-%E4%BA%A7%E5%93%81%E9%A1%B5%E9%9D%A2/android/drawable-xhdpi/xingxingxuanzhon.png"></image>
+                </view>
+                <view class="_view data-v-7d53dc1c star-item">
+                  <image class="_image data-v-7d53dc1c star-image-select" src="http://ai.ylcaifu.com/appimg/images/2.0-%E4%BA%A7%E5%93%81/2.2-%E4%BA%A7%E5%93%81%E9%A1%B5%E9%9D%A2/android/drawable-xhdpi/xingxingxuanzhon.png"></image>
+                </view>
+                <view class="_view data-v-7d53dc1c star-item">
+                  <image class="_image data-v-7d53dc1c star-image-select" src="http://ai.ylcaifu.com/appimg/images/2.0-%E4%BA%A7%E5%93%81/2.2-%E4%BA%A7%E5%93%81%E9%A1%B5%E9%9D%A2/android/drawable-xhdpi/xingxingxuanzhon.png"></image>
+                </view>
+                <view class="_view data-v-7d53dc1c star-item">
+                  <image class="_image data-v-7d53dc1c star-image-select" src="http://ai.ylcaifu.com/appimg/images/2.0-%E4%BA%A7%E5%93%81/2.2-%E4%BA%A7%E5%93%81%E9%A1%B5%E9%9D%A2/android/drawable-xhdpi/xingxingxuanzhon.png"></image>
+                </view>
+              </view>
+            </view>
+            <view class="_view data-v-7d53dc1c time">9小时前</view>
+            <view class="_view data-v-7d53dc1c mark-bot twoLines"> 秀实东区寄秀实东区寄秀实东区寄秀实东区寄秀实东区寄秀实东区寄秀实东区寄 </view>
+            <view class="_view data-v-7d53dc1c mark-images">
+              <image class="_image data-v-7d53dc1c mark-image" src="../../../static/image/indexImg/shangcheng/fenlei/dianshi.png"></image>
+              <image class="_image data-v-7d53dc1c mark-image" src="../../../static/image/indexImg/shangcheng/fenlei/dianshi.png"></image>
+              <image class="_image data-v-7d53dc1c mark-image" src="../../../static/image/indexImg/shangcheng/fenlei/dianshi.png"></image>
+              <image class="_image data-v-7d53dc1c mark-image" src="../../../static/image/indexImg/shangcheng/fenlei/dianshi.png"></image>
+            </view>
+          </view>
+        </view>
+        <view class="_view data-v-7d53dc1c mark">
+          <view class="_view data-v-7d53dc1c avator-left">
+            <image src="../../../static/image/invest/u762.png" class="_image data-v-7d53dc1c"></image>
+          </view>
+          <view class="_view data-v-7d53dc1c mark-right">
+            <view class="_view data-v-7d53dc1c mark-top">
+              <view class="_view data-v-7d53dc1c mark-top-left">
+                <view class="_view data-v-7d53dc1c position">理财师</view>
+                <view class="_view data-v-7d53dc1c name">李明</view>
+              </view>
+              <view class="_view data-v-7d53dc1c star">
+                <view class="_view data-v-7d53dc1c star-item">
+                  <image class="_image data-v-7d53dc1c star-image-select" src="http://ai.ylcaifu.com/appimg/images/2.0-%E4%BA%A7%E5%93%81/2.2-%E4%BA%A7%E5%93%81%E9%A1%B5%E9%9D%A2/android/drawable-xhdpi/xingxingxuanzhon.png"></image>
+                </view>
+                <view class="_view data-v-7d53dc1c star-item">
+                  <image class="_image data-v-7d53dc1c star-image-select" src="http://ai.ylcaifu.com/appimg/images/2.0-%E4%BA%A7%E5%93%81/2.2-%E4%BA%A7%E5%93%81%E9%A1%B5%E9%9D%A2/android/drawable-xhdpi/xingxingxuanzhon.png"></image>
+                </view>
+                <view class="_view data-v-7d53dc1c star-item">
+                  <image class="_image data-v-7d53dc1c star-image-select" src="http://ai.ylcaifu.com/appimg/images/2.0-%E4%BA%A7%E5%93%81/2.2-%E4%BA%A7%E5%93%81%E9%A1%B5%E9%9D%A2/android/drawable-xhdpi/xingxingxuanzhon.png"></image>
+                </view>
+                <view class="_view data-v-7d53dc1c star-item">
+                  <image class="_image data-v-7d53dc1c star-image-select" src="http://ai.ylcaifu.com/appimg/images/2.0-%E4%BA%A7%E5%93%81/2.2-%E4%BA%A7%E5%93%81%E9%A1%B5%E9%9D%A2/android/drawable-xhdpi/xingxingxuanzhon.png"></image>
+                </view>
+                <view class="_view data-v-7d53dc1c star-item">
+                  <image class="_image data-v-7d53dc1c star-image-select" src="http://ai.ylcaifu.com/appimg/images/2.0-%E4%BA%A7%E5%93%81/2.2-%E4%BA%A7%E5%93%81%E9%A1%B5%E9%9D%A2/android/drawable-xhdpi/xingxingxuanzhon.png"></image>
+                </view>
+              </view>
+            </view>
+            <view class="_view data-v-7d53dc1c time">9小时前</view>
+            <view class="_view data-v-7d53dc1c mark-bot twoLines"> 秀实东区寄秀实东区寄秀实东区寄秀实东区寄秀实东区寄秀实东区寄秀实东区寄 </view>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-7d53dc1c more-mark">
+        <label class="_label data-v-7d53dc1c iconfont"></label>查看更多评论</view>
+    </view>
+    <view class="_view data-v-7d53dc1c bottom">
+      <view class="_view data-v-7d53dc1c bottom-tab">
+        <view class="_view data-v-7d53dc1c bottom-item" bindtap="handleProxy" data-eventid="{{'aiR-2'}}" data-comkey="{{$k}}">
+          <view class="_view data-v-7d53dc1c bottom-icon">
+            <image class="_image data-v-7d53dc1c bottom-icon-image" src="http://ai.ylcaifu.com/appimg/images/2.0-%E4%BA%A7%E5%93%81/2.2-%E4%BA%A7%E5%93%81%E9%A1%B5%E9%9D%A2/android/drawable-xhdpi/wodeyuyunweixuanzhon.png"></image>
+          </view>
+          <view class="_view data-v-7d53dc1c bottom-text">我的预约</view>
+        </view>
+        <view class="_view data-v-7d53dc1c bottom-item">
+          <view class="_view data-v-7d53dc1c bottom-icon">
+            <image class="_image data-v-7d53dc1c bottom-icon-image" src="http://ai.ylcaifu.com/appimg/images/2.0-%E4%BA%A7%E5%93%81/2.2-%E4%BA%A7%E5%93%81%E9%A1%B5%E9%9D%A2/android/drawable-xhdpi/shoucangweixuanzhong.png"></image>
+          </view>
+          <view class="_view data-v-7d53dc1c bottom-text">收藏</view>
+        </view>
+        <view class="_view data-v-7d53dc1c bottom-item" bindtap="handleProxy" data-eventid="{{'4La-3'}}" data-comkey="{{$k}}">
+          <view class="_view data-v-7d53dc1c bottom-icon">
+            <image class="_image data-v-7d53dc1c bottom-icon-image" src="http://ai.ylcaifu.com/appimg/images/2.0-%E4%BA%A7%E5%93%81/2.2-%E4%BA%A7%E5%93%81%E9%A1%B5%E9%9D%A2/android/drawable-xhdpi/xiepinglunweixuanzhong.png"></image>
+          </view>
+          <view class="_view data-v-7d53dc1c bottom-text">写评论</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

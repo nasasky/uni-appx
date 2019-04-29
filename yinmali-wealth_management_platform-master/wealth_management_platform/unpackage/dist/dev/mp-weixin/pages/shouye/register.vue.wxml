@@ -1,0 +1,40 @@
+<template name="9a27c770">
+  <view class="_view data-v-68c903ae">
+    <view class="_view data-v-68c903ae login-box" style=" {{('height:' + (height + 'px') + ';')}}">
+      <view class="_view data-v-68c903ae container">
+        <view class="_view data-v-68c903ae logo">
+          <image src="http://ai.ylcaifu.com/appimg/images/7.0-%E7%99%BB%E5%BD%95%E8%AE%A4%E8%AF%81%E7%AD%89%E9%A1%B5%E9%9D%A2/7.1.2-%E6%B3%A8%E5%86%8C/android/drawable-xhdpi/logo.png" mode="widthFix" class="_image data-v-68c903ae"></image>
+        </view>
+        <view class="_view data-v-68c903ae bottom">
+          <view class="_view data-v-68c903ae bottom-top">
+            <view class="_view data-v-68c903ae inp-group">
+              <view class="_view data-v-68c903ae inp-box">
+                <image src="http://ai.ylcaifu.com/appimg/images/7.0-%E7%99%BB%E5%BD%95%E8%AE%A4%E8%AF%81%E7%AD%89%E9%A1%B5%E9%9D%A2/7.1.2-%E6%B3%A8%E5%86%8C/android/drawable-xhdpi/shoujihao.png" mode="aspectFit" class="_image data-v-68c903ae icon"></image>
+                <input type="text" value="" placeholder="请输入手机号" class="_input data-v-68c903ae input" />
+              </view>
+              <view class="_view data-v-68c903ae inp-box">
+                <image src="http://ai.ylcaifu.com/appimg/images/7.0-%E7%99%BB%E5%BD%95%E8%AE%A4%E8%AF%81%E7%AD%89%E9%A1%B5%E9%9D%A2/7.1.2-%E6%B3%A8%E5%86%8C/android/drawable-xhdpi/yanzhengma.png" mode="aspectFit" class="_image data-v-68c903ae icon"></image>
+                <view class="_view data-v-68c903ae inp-box-right">
+                  <input type="text" value="" placeholder="请输入验证码" class="_input data-v-68c903ae input" />
+                  <view class="_view data-v-68c903ae get-number">
+                    <view class="_view data-v-68c903ae">获取验证码</view>
+                  </view>
+                </view>
+              </view>
+            </view>
+            <view class="_view data-v-68c903ae radio-box">
+              <label class="_label data-v-68c903ae radio">
+                <image bindtap="handleProxy" src="{{checked?'http://ai.ylcaifu.com/appimg/images/7.0-%E7%99%BB%E5%BD%95%E8%AE%A4%E8%AF%81%E7%AD%89%E9%A1%B5%E9%9D%A2/7.1.2-%E6%B3%A8%E5%86%8C/android/drawable-xhdpi/Checked.png':'http://ai.ylcaifu.com/appimg/images/7.0-%E7%99%BB%E5%BD%95%E8%AE%A4%E8%AF%81%E7%AD%89%E9%A1%B5%E9%9D%A2/7.1.2-%E6%B3%A8%E5%86%8C/android/drawable-xhdpi/Unchecked.png' }}"
+                  data-eventid="{{'7O3-0'}}" data-comkey="{{$k}}" class="_image data-v-68c903ae"></image>实名认证 </label>
+              <view class="_view data-v-68c903ae tishi"> 用户在进行实名认证后可以获得全部权限，若不认证，权限将局部开放 </view>
+            </view>
+            <view class="_view data-v-68c903ae button-box">
+              <view class="_view data-v-68c903ae  btn">注册</view>
+            </view>
+          </view>
+          <view class="_view data-v-68c903ae zhuce">投资有风险，决策需谨慎</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

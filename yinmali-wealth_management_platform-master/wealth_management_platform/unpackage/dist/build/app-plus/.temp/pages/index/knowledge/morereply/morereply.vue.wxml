@@ -1,0 +1,42 @@
+<template name="73738216">
+  <view class="_view data-v-0ddcbf10">
+    <view class="_view data-v-0ddcbf10  color-gray">
+      <view class="_view data-v-0ddcbf10 box">
+        <view class="_view data-v-0ddcbf10 quesBox">
+          <view class="_view data-v-0ddcbf10 mark">
+            <view class="_view data-v-0ddcbf10 avator-left">
+              <image src="../../../../static/image/invest/u762.png" class="_image data-v-0ddcbf10"></image>
+            </view>
+            <view class="_view data-v-0ddcbf10 mark-right">
+              <view class="_view data-v-0ddcbf10 mark-top"> 秀实东区寄秀实东区寄秀? </view>
+              <view class="_view data-v-0ddcbf10 mark-bot">
+                <view class="_view data-v-0ddcbf10 mark-top-left">
+                  <view class="_view data-v-0ddcbf10 position">理财师</view>
+                  <view class="_view data-v-0ddcbf10 name">李明</view>
+                  <view class="_view data-v-0ddcbf10 time">9小时前</view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+        <view class="_view data-v-0ddcbf10 repBox">
+          <view class="_view data-v-0ddcbf10 repLeft">
+            <view class="_view data-v-0ddcbf10 iconfont avator"></view>
+          </view>
+          <view class="_view data-v-0ddcbf10 repRignt">
+            <view class="_view data-v-0ddcbf10 repRTop">
+              <view class="_view data-v-0ddcbf10 position"> 理财师 </view>
+              <view class="_view data-v-0ddcbf10 name"> 黎明 </view>
+            </view>
+            <view class="_view data-v-0ddcbf10 repRMid time"> 2019-10-10 </view>
+            <view class="_view data-v-0ddcbf10 repRBot"> 年哈啊看看风景德拉费精力对年哈啊看看风景德拉费精力对付年哈啊看看风景德拉费精力对付付 </view>
+          </view>
+        </view>
+        <view class="_view data-v-0ddcbf10 questionBox">
+          <view class="_view data-v-0ddcbf10 question" bindtap="handleProxy" data-eventid="{{'yNH-0'}}" data-comkey="{{$k}}">
+            <label class="_label data-v-0ddcbf10 iconfont"></label>回答 </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

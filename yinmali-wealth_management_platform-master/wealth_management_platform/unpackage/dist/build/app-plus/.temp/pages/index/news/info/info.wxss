@@ -1,0 +1,2 @@
+@import "../../../../common/vendor.wxss";
+page{background:#fff}.content{padding:30rpx;-webkit-flex-wrap:wrap;flex-wrap:wrap}.title{margin:20rpx 0;font-size:17px;font-family:PingFang-SC-Bold;font-weight:700;color:#444;line-height:48rpx}rich-text{font-size:26rpx;line-height:36rpx;padding-bottom:110rpx}.banner,.bannerImg{width:100%;height:370rpx}.bottom{width:100%;position:fixed;bottom:0}

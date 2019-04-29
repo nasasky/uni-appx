@@ -1,0 +1,107 @@
+<template name="27cfc68c">
+  <view class="_view data-v-bfb4581c">
+    <view class="_view data-v-bfb4581c top-box">
+      <view class="_view data-v-bfb4581c status_bar">
+        <view class="_view data-v-bfb4581c top_view"></view>
+      </view>
+      <view class="_view data-v-bfb4581c top">
+        <view class="_view data-v-bfb4581c user">
+          <view class="_view data-v-bfb4581c user-detail">
+            <image src="../../static/image/invest/u761.png" mode class="_image data-v-bfb4581c"></image>
+            <view class="_view data-v-bfb4581c user-posi-name">
+              <view class="_view data-v-bfb4581c"> 投资人 黎明 </view>
+              <view class="_view data-v-bfb4581c"> 17600000000 </view>
+            </view>
+          </view>
+          <view class="_view data-v-bfb4581c home"> 个人主页 </view>
+        </view>
+        <view class="_view data-v-bfb4581c iconfont icon-message">  </view>
+        <view class="_view data-v-bfb4581c iconfont icon-set">  </view>
+      </view>
+      <view class="_view data-v-bfb4581c top2">
+        <view class="_view data-v-bfb4581c item attention">
+          <view class="_view data-v-bfb4581c count"> 80 </view>
+          <view class="_view data-v-bfb4581c li"> 关注 </view>
+        </view>
+        <view class="_view data-v-bfb4581c item fans">
+          <view class="_view data-v-bfb4581c count"> 80 </view>
+          <view class="_view data-v-bfb4581c li"> 粉丝 </view>
+        </view>
+        <view class="_view data-v-bfb4581c item posting">
+          <view class="_view data-v-bfb4581c count"> 80 </view>
+          <view class="_view data-v-bfb4581c li"> 发帖 </view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-bfb4581c lists">
+      <view class="_view data-v-bfb4581c list-item">
+        <image src="https://pic.36krcnd.com/avatar/201803/08005901/c41olcs56y2dq292.jpg!480" mode class="_image data-v-bfb4581c"></image>
+        <text class="_text data-v-bfb4581c">个人主页</text>
+      </view>
+      <view class="_view data-v-bfb4581c list-item">
+        <image src="https://pic.36krcnd.com/avatar/201611/03080626/idk0r5xfbpwoobcj.jpg!480" mode class="_image data-v-bfb4581c"></image>
+        <text class="_text data-v-bfb4581c">关注动态</text>
+      </view>
+      <view class="_view data-v-bfb4581c list-item">
+        <image src="https://pic.36krcnd.com/avatar/201803/08005901/c41olcs56y2dq292.jpg!480" mode class="_image data-v-bfb4581c"></image>
+        <text class="_text data-v-bfb4581c">资产配置</text>
+      </view>
+    </view>
+    <view class="_view data-v-bfb4581c shoucangBox">
+      <view class="_view data-v-bfb4581c shoucang">
+        <view class="_view data-v-bfb4581c uni-icon-more">
+          <image class="_image data-v-bfb4581c img" src="https://pic.36krcnd.com/avatar/201803/08005901/c41olcs56y2dq292.jpg!480" mode></image>
+          <view class="_view data-v-bfb4581c text"> 我的客户 </view>
+        </view>
+        <view class="_view data-v-bfb4581c uni-icon-more">
+          <image class="_image data-v-bfb4581c img" src="../../static/image/indexImg/arrow-right.png" mode></image>
+        </view>
+      </view>
+      <view class="_view data-v-bfb4581c shoucang">
+        <view class="_view data-v-bfb4581c uni-icon-more">
+          <image class="_image data-v-bfb4581c img" src="https://pic.36krcnd.com/avatar/201803/08005901/c41olcs56y2dq292.jpg!480" mode></image>
+          <view class="_view data-v-bfb4581c text"> 转发助手 </view>
+        </view>
+        <view class="_view data-v-bfb4581c uni-icon-more">
+          <image class="_image data-v-bfb4581c img" src="../../static/image/indexImg/arrow-right.png" mode></image>
+        </view>
+      </view>
+      <view class="_view data-v-bfb4581c shoucang">
+        <view class="_view data-v-bfb4581c uni-icon-more">
+          <image class="_image data-v-bfb4581c img" src="https://pic.36krcnd.com/avatar/201803/08005901/c41olcs56y2dq292.jpg!480" mode></image>
+          <view class="_view data-v-bfb4581c text"> 我的收藏 </view>
+        </view>
+        <view class="_view data-v-bfb4581c uni-icon-more">
+          <image class="_image data-v-bfb4581c img" src="../../static/image/indexImg/arrow-right.png" mode></image>
+        </view>
+      </view>
+      <view class="_view data-v-bfb4581c shoucang">
+        <view class="_view data-v-bfb4581c uni-icon-more">
+          <image class="_image data-v-bfb4581c img" src="https://pic.36krcnd.com/avatar/201803/08005901/c41olcs56y2dq292.jpg!480" mode></image>
+          <view class="_view data-v-bfb4581c text"> 我的订单 </view>
+        </view>
+        <view class="_view data-v-bfb4581c uni-icon-more">
+          <image class="_image data-v-bfb4581c img" src="../../static/image/indexImg/arrow-right.png" mode></image>
+        </view>
+      </view>
+      <view class="_view data-v-bfb4581c shoucang">
+        <view class="_view data-v-bfb4581c uni-icon-more">
+          <image class="_image data-v-bfb4581c img" src="https://pic.36krcnd.com/avatar/201803/08005901/c41olcs56y2dq292.jpg!480" mode></image>
+          <view class="_view data-v-bfb4581c text"> 增值服务 </view>
+        </view>
+        <view class="_view data-v-bfb4581c uni-icon-more">
+          <image class="_image data-v-bfb4581c img" src="../../static/image/indexImg/arrow-right.png" mode></image>
+        </view>
+      </view>
+      <view class="_view data-v-bfb4581c shoucang">
+        <view class="_view data-v-bfb4581c uni-icon-more">
+          <image class="_image data-v-bfb4581c img" src="https://pic.36krcnd.com/avatar/201803/08005901/c41olcs56y2dq292.jpg!480" mode></image>
+          <view class="_view data-v-bfb4581c text"> 推荐有礼 </view>
+        </view>
+        <view class="_view data-v-bfb4581c uni-icon-more">
+          <image class="_image data-v-bfb4581c img" src="../../static/image/indexImg/arrow-right.png" mode></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,64 @@
+@import './function.scss';
+@import './var.scss';
+
+@mixin flex($dir: row, $wrap: wrap, $align: center, $justify: flex-start){
+  display: flex;
+  flex-flow: $dir $wrap;
+  justify-content: $justify;
+  align-items: $align;
+  @content;
+}
+
+@mixin b($block) {
+  $B: $namespace + '-' + $block !global;
+  .#{$B} {
+    @content;
+  }
+}
+
+@mixin e($element) {
+  $E: $element !global;
+  $selector: &;
+
+  @if containModifier($selector) {
+    @at-root {
+      #{$selector} {
+        .#{$B + $el-separator + $E} {
+          @content;
+        }
+      }
+    }
+  }@else {
+    @at-root {
+      #{$selector + $el-separator + $element} {
+        @content;
+      }
+    }
+  } 
+}
+
+
+@mixin m($modifier) {
+  $selector: &;
+  @at-root {
+    #{$selector + $mo-separator + $modifier} {
+      @content ;
+    }
+  }
+}
+
+
+@mixin when($state) {
+  $selector: &;
+  @at-root {
+    #{$selector}.#{$state-prefix + $state} {
+      @content;
+    }
+  }
+}
+
+@mixin pseudo($pseudo) {
+  @at-root #{&}#{':#{$pseudo}'} {
+    @content;
+  }
+}

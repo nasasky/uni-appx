@@ -1,0 +1,27 @@
+<template name="05d41168">
+  <view class="_view data-v-112c3ad5">
+    <view class="_view data-v-112c3ad5 uni-common-mt">
+      <form class="_form data-v-112c3ad5">
+        <view class="_view data-v-112c3ad5 uni-list list-pd">
+          <view class="_view data-v-112c3ad5 uni-list-cell cell-pd">
+            <view class="_view data-v-112c3ad5 uni-uploader">
+              <view class="_view data-v-112c3ad5 uni-uploader-body">
+                <view class="_view data-v-112c3ad5 uni-uploader__files">
+                  <block wx:key="index" key="{{index}}" wx:for="{{imageList}}" wx:for-index="index" wx:for-item="image">
+                    <view class="_view data-v-112c3ad5 uni-uploader__file">
+                      <image class="_image data-v-112c3ad5 uni-uploader__img" src="{{image}}" data-src="{{image}}" bindtap="handleProxy" data-eventid="{{'Yks-0-'+index}}" data-comkey="{{$k}}"></image>
+                    </view>
+                  </block>
+                  <view class="_view data-v-112c3ad5 uni-uploader__input-box">
+                    <image class="_image data-v-112c3ad5 uni-uploader__input_image" src="http://ai.ylcaifu.com/appimg/images/2.0-%E4%BA%A7%E5%93%81/2.4-%E4%BA%A7%E5%93%81%E8%AF%84%E8%AE%BA/android/drawable-xhdpi/xiangji.png" mode></image>
+                    <view class="_view data-v-112c3ad5 uni-uploader__input" bindtap="handleProxy" data-eventid="{{'H3O-1'}}" data-comkey="{{$k}}"></view>
+                  </view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </form>
+    </view>
+  </view>
+</template>

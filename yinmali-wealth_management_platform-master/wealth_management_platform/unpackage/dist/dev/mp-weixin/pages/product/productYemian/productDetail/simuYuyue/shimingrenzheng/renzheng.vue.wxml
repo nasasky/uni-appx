@@ -1,0 +1,33 @@
+<template name="58c74f01">
+  <view class="_view data-v-419a2f2d box">
+    <view class="_view data-v-419a2f2d view-box">
+      <view class="_view data-v-419a2f2d content-box">
+        <view class="_view data-v-419a2f2d title"> 投资，选合格的！ </view>
+        <view class="_view data-v-419a2f2d content"> 为了更好地维护你的权益，我们将进行特定对象投资者身份认证！ </view>
+        <view class="_view data-v-419a2f2d content"> 根据2018年4月27日发布的《关于规范金融机构资产管理业务的指导意见》，您需要进行风险测评，才能浏览相关私募信息（如您之前已完成测评，根据新规需要重新测评）。 </view>
+      </view>
+      <view class="_view data-v-419a2f2d buzhou">
+        <view class="_view data-v-419a2f2d buzhou-item">
+          <view class="_view data-v-419a2f2d image-box">
+            <image src="http://ai.ylcaifu.com/appimg/images/2.0-%E4%BA%A7%E5%93%81/2.4.2-%E6%8A%95%E8%B5%84%E8%AE%A4%E8%AF%81%E8%AF%B4%E6%98%8E/android/drawable-xhdpi/shimingrenzheng.png" mode="widthFix" class="_image data-v-419a2f2d"></image>
+          </view>
+          <view class="_view data-v-419a2f2d text"> 实名认证 </view>
+          <view class="_view data-v-419a2f2d back"> 1 </view>
+        </view>
+        <view class="_view data-v-419a2f2d buzhou-item">
+          <image src="http://ai.ylcaifu.com/appimg/images/2.0-%E4%BA%A7%E5%93%81/2.4.2-%E6%8A%95%E8%B5%84%E8%AE%A4%E8%AF%81%E8%AF%B4%E6%98%8E/android/drawable-xhdpi/jiantou.png" mode="widthFix" class="_image data-v-419a2f2d"></image>
+        </view>
+        <view class="_view data-v-419a2f2d buzhou-item">
+          <view class="_view data-v-419a2f2d image-box">
+            <image src="http://ai.ylcaifu.com/appimg/images/2.0-%E4%BA%A7%E5%93%81/2.4.2-%E6%8A%95%E8%B5%84%E8%AE%A4%E8%AF%81%E8%AF%B4%E6%98%8E/android/drawable-xhdpi/fengxiangceping.png" mode="widthFix" class="_image data-v-419a2f2d"></image>
+          </view>
+          <view class="_view data-v-419a2f2d text"> 实名认证 </view>
+          <view class="_view data-v-419a2f2d back"> 2 </view>
+        </view>
+      </view>
+      <view class="_view data-v-419a2f2d questionBox" bindtap="handleProxy" data-eventid="{{'86y-0'}}" data-comkey="{{$k}}">
+        <view class="_view data-v-419a2f2d question"> 好的，去认证 </view>
+      </view>
+    </view>
+  </view>
+</template>

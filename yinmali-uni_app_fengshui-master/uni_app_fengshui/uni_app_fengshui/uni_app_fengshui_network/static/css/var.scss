@@ -1,0 +1,10 @@
+$el-separator: '__';
+$mo-separator: '--';
+$namespace: 'my';
+$state-prefix: 'is-';
+
+
+// border
+$border-default: 1upx solid $uni-border-color;
+$border-primary: 1upx solid $uni-color-primary;
+$border-error: 1upx solid $uni-color-error;

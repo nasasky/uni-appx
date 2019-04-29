@@ -1,0 +1,38 @@
+<import src="/components/picker/picker.vue.wxml" />
+<template name="ec8f3560">
+  <view class="_view data-v-60f62554 box">
+    <view class="_view data-v-60f62554 form-group">
+      <view class="_view data-v-60f62554 row1">
+        <view class="_view data-v-60f62554 title"> 为您推荐以下理财顾问 </view>
+      </view>
+      <view class="_view data-v-60f62554 column">
+        <label class="_label data-v-60f62554 radio">
+          <image src="{{checked?'http://ai.ylcaifu.com/appimg/images/7.0-%E7%99%BB%E5%BD%95%E8%AE%A4%E8%AF%81%E7%AD%89%E9%A1%B5%E9%9D%A2/7.1.2-%E6%B3%A8%E5%86%8C/android/drawable-xhdpi/Checked.png':'http://ai.ylcaifu.com/appimg/images/7.0-%E7%99%BB%E5%BD%95%E8%AE%A4%E8%AF%81%E7%AD%89%E9%A1%B5%E9%9D%A2/7.1.2-%E6%B3%A8%E5%86%8C/android/drawable-xhdpi/Unchecked.png' }}"
+            class="_image data-v-60f62554"></image> 网名 三年工作经验 ，擅长固定收益 </label>
+        <label class="_label data-v-60f62554 radio">
+          <image src="{{checked?'http://ai.ylcaifu.com/appimg/images/7.0-%E7%99%BB%E5%BD%95%E8%AE%A4%E8%AF%81%E7%AD%89%E9%A1%B5%E9%9D%A2/7.1.2-%E6%B3%A8%E5%86%8C/android/drawable-xhdpi/Unchecked.png':'http://ai.ylcaifu.com/appimg/images/7.0-%E7%99%BB%E5%BD%95%E8%AE%A4%E8%AF%81%E7%AD%89%E9%A1%B5%E9%9D%A2/7.1.2-%E6%B3%A8%E5%86%8C/android/drawable-xhdpi/Checked.png' }}"
+            class="_image data-v-60f62554"></image> 黎明 五年工作经验，擅长私募股权类 </label>
+        <label class="_label data-v-60f62554 radio">
+          <image src="{{checked?'http://ai.ylcaifu.com/appimg/images/7.0-%E7%99%BB%E5%BD%95%E8%AE%A4%E8%AF%81%E7%AD%89%E9%A1%B5%E9%9D%A2/7.1.2-%E6%B3%A8%E5%86%8C/android/drawable-xhdpi/Unchecked.png':'http://ai.ylcaifu.com/appimg/images/7.0-%E7%99%BB%E5%BD%95%E8%AE%A4%E8%AF%81%E7%AD%89%E9%A1%B5%E9%9D%A2/7.1.2-%E6%B3%A8%E5%86%8C/android/drawable-xhdpi/Checked.png' }}"
+            class="_image data-v-60f62554"></image> 张明 三年工作经验，擅长固定收益 </label>
+        <label class="_label data-v-60f62554 radio">
+          <image src="{{checked?'http://ai.ylcaifu.com/appimg/images/7.0-%E7%99%BB%E5%BD%95%E8%AE%A4%E8%AF%81%E7%AD%89%E9%A1%B5%E9%9D%A2/7.1.2-%E6%B3%A8%E5%86%8C/android/drawable-xhdpi/Unchecked.png':'http://ai.ylcaifu.com/appimg/images/7.0-%E7%99%BB%E5%BD%95%E8%AE%A4%E8%AF%81%E7%AD%89%E9%A1%B5%E9%9D%A2/7.1.2-%E6%B3%A8%E5%86%8C/android/drawable-xhdpi/Checked.png' }}"
+            class="_image data-v-60f62554"></image> 自选 </label>
+      </view>
+      <view class="_view data-v-60f62554 row">
+        <input class="_input data-v-60f62554 name-inp" value="" placeholder="请输入理财师姓名" />
+      </view>
+      <view class="_view data-v-60f62554 row between">
+        <view class="_view data-v-60f62554 left"> 期望回访时间 </view>
+        <view class="_view data-v-60f62554 right">
+          <template data="{{...$root['0'], ...$root[$kk+'Xe2-0'],$root}}" is="78fd2e84"></template>
+        </view>
+      </view>
+      <view class="_view data-v-60f62554 questionBox">
+        <view class="_view data-v-60f62554 question" bindtap="handleProxy" data-eventid="{{'I5s-0'}}" data-comkey="{{$k}}"> 下一步
+          <label class="_label data-v-60f62554 iconfont label"></label>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

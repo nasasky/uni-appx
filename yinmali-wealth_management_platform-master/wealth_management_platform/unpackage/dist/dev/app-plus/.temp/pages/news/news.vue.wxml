@@ -1,0 +1,16 @@
+<template name="06319eec">
+  <view class="_view data-v-3c827212 content">
+    <view class="_view data-v-3c827212 uni-list">
+      <view class="_view data-v-3c827212 uni-list-cell" hover-class="uni-list-cell-hover" wx:key="index" key="{{index}}" bindtap="handleProxy" data-newsid="{{item.post_id}}" data-eventid="{{'RcD-0-'+index}}" data-comkey="{{$k}}" wx:for="{{news}}" wx:for-index="index"
+        wx:for-item="item">
+        <view class="_view data-v-3c827212 uni-media-list">
+          <image class="_image data-v-3c827212 uni-media-list-logo" src="{{item.author_avatar}}"></image>
+          <view class="_view data-v-3c827212 uni-media-list-body">
+            <view class="_view data-v-3c827212 uni-media-list-text-top">{{item.title}}</view>
+            <view class="_view data-v-3c827212 uni-media-list-text-bottom uni-ellipsis">{{item.created_at}}</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

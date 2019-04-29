@@ -1,0 +1,55 @@
+<template name="233ad61a">
+  <view class="_view data-v-e5dfe00e box">
+    <view class="_view data-v-e5dfe00e form-group">
+      <view class="_view data-v-e5dfe00e row1">
+        <view class="_view data-v-e5dfe00e"> 告诉我们的理财师您的尊称是 </view>
+        <label class="_label data-v-e5dfe00e radio">
+          <image src="{{checked?'http://ai.ylcaifu.com/appimg/images/7.0-%E7%99%BB%E5%BD%95%E8%AE%A4%E8%AF%81%E7%AD%89%E9%A1%B5%E9%9D%A2/7.1.2-%E6%B3%A8%E5%86%8C/android/drawable-xhdpi/Checked.png':'http://ai.ylcaifu.com/appimg/images/7.0-%E7%99%BB%E5%BD%95%E8%AE%A4%E8%AF%81%E7%AD%89%E9%A1%B5%E9%9D%A2/7.1.2-%E6%B3%A8%E5%86%8C/android/drawable-xhdpi/Unchecked.png' }}"
+            class="_image data-v-e5dfe00e"></image> 先生 </label>
+        <label class="_label data-v-e5dfe00e radio">
+          <image src="{{checked?'http://ai.ylcaifu.com/appimg/images/7.0-%E7%99%BB%E5%BD%95%E8%AE%A4%E8%AF%81%E7%AD%89%E9%A1%B5%E9%9D%A2/7.1.2-%E6%B3%A8%E5%86%8C/android/drawable-xhdpi/Unchecked.png':'http://ai.ylcaifu.com/appimg/images/7.0-%E7%99%BB%E5%BD%95%E8%AE%A4%E8%AF%81%E7%AD%89%E9%A1%B5%E9%9D%A2/7.1.2-%E6%B3%A8%E5%86%8C/android/drawable-xhdpi/Checked.png' }}"
+            class="_image data-v-e5dfe00e"></image> 女士 </label>
+      </view>
+      <view class="_view data-v-e5dfe00e row">
+        <input class="_input data-v-e5dfe00e name-inp" value="" placeholder="请输入您的真实姓名" />
+      </view>
+      <view class="_view data-v-e5dfe00e row">
+        <view class="_view data-v-e5dfe00e title"> 年龄 </view>
+        <picker class="_select data-v-e5dfe00e">
+          <view class="_option data-v-e5dfe00e">25岁以下</view>
+          <view class="_option data-v-e5dfe00e">111</view>
+          <view class="_option data-v-e5dfe00e">111</view>
+        </picker>
+      </view>
+      <view class="_view data-v-e5dfe00e row">
+        <view class="_view data-v-e5dfe00e title"> 常住省 </view>
+        <picker class="_select data-v-e5dfe00e">
+          <view class="_option data-v-e5dfe00e">111</view>
+          <view class="_option data-v-e5dfe00e">111</view>
+          <view class="_option data-v-e5dfe00e">111</view>
+          <view class="_option data-v-e5dfe00e">111</view>
+        </picker>
+      </view>
+      <view class="_view data-v-e5dfe00e row">
+        <view class="_view data-v-e5dfe00e title"> 常住城市 </view>
+        <picker class="_select data-v-e5dfe00e">
+          <view class="_option data-v-e5dfe00e">北京</view>
+          <view class="_option data-v-e5dfe00e">111</view>
+          <view class="_option data-v-e5dfe00e">111</view>
+        </picker>
+      </view>
+      <view class="_view data-v-e5dfe00e row">
+        <view class="_view data-v-e5dfe00e title"> 期望回访时间 </view>
+        <picker class="_select data-v-e5dfe00e">
+          <view class="_option data-v-e5dfe00e">北京</view>
+          <view class="_option data-v-e5dfe00e">111</view>
+          <view class="_option data-v-e5dfe00e">111</view>
+        </picker>
+      </view>
+      <view class="_view data-v-e5dfe00e questionBox">
+        <view class="_view data-v-e5dfe00e question">
+          <label class="_label data-v-e5dfe00e iconfont label"></label>提交 </view>
+      </view>
+    </view>
+  </view>
+</template>

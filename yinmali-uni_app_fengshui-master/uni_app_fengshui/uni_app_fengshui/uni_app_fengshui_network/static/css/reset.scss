@@ -1,0 +1,92 @@
+$white:#fff !default;
+$blue:#4977E7 !default;
+$red:red !default !default;
+$yellow:#FF9C06 !default;
+$green:#11AE11 !default;
+$gray:#EDEEF6 !default;
+$c999:#999 !default;
+$c666:#666 !default;
+$c333:#333 !default;
+$c000:#000 !default;
+
+/* 颜色生成 */
+$color-list:(
+  white:($white),
+  blue:($blue),
+  red:($red),
+  yellow:($yellow),
+  green:($green),
+  gray:($gray),
+  666:($c666),
+  999:($c999),
+  333:($c333),
+  000:($c000),
+);
+@each $label,$value in $color-list {
+  .color-#{$label}{
+    color:#{$value};
+  };
+  .bc-#{$label}{
+    background-color: #{$value};
+    border: 1px $value solid;
+  }
+};
+
+*{
+	font-family: 微软雅黑;
+}
+.fr{
+	float: right;
+}
+.fl{
+	float: left;
+}
+.pr{
+	position: relative
+}
+.pa{
+	position: absolute;
+}
+
+.no-data{
+	display: block;
+	font-size: 28upx;
+	color: $c999;
+	text-align: center;
+	line-height: 80upx;
+}
+
+.white-space{overflow: hidden;text-overflow:ellipsis;white-space: nowrap;}
+
+.imitate_ellipsis{
+  overflow: hidden;
+  text-overflow:ellipsis;//文本溢出显示省略号
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.uni-tabbar .uni-tabbar__icon{
+	width: 40upx;
+	height: 40upx;
+}
+
+.active:active{
+	opacity: .8;
+}
+
+.title{
+	border: none;
+	padding-left: 0;
+}
+
+.my-numbox .num-value,.my-numbox .num-value input{
+	height: 70upx!important;
+	line-height: 70upx!important;
+	
+}
+.my-numbox .num-value{
+	border-top: 1upx solid #ddd;
+	border-bottom: 1upx solid #ddd;
+	overflow: hidden;
+}

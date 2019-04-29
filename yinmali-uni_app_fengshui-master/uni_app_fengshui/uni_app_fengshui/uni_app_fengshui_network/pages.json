@@ -1,0 +1,276 @@
+{
+	"pages": [
+		{
+			"path": "pages/login/phone",
+			"style": {
+				"navigationBarTitleText": "手机号登录"
+			}
+		},
+		{
+			"path": "pages/login/signup",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/homepage/index",
+			"style": {
+				"navigationBarTitleText": "风水网"
+			}
+		},
+		{
+			"path": "pages/shops/index",
+			"style": {
+				"navigationBarTitleText": "商城",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/shops/searchShop",
+			"style": {
+				"navigationBarTitleText": "搜索结果",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/shops/detail",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		},
+		{
+			"path":"pages/shops/allCommonts",
+			"style": {
+				"navigationBarTitleText": "商品评价",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/shops/sureOrder",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "确认订单",
+				"navigationBarBackgroundColor": "white"
+			}
+		},
+		{
+			"path": "pages/shops/shops",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "店铺",
+				"navigationBarBackgroundColor": "white",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/center/index",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		}, {
+			"path": "pages/center/baseInfo",
+			"style": {
+				"navigationBarTitleText": "基本资料"
+			}
+		}, {
+			"path": "pages/center/issueBaseInfo",
+			"style": {
+				"navigationBarTitleText": "认证信息"
+			}
+		}, {
+			"path": "pages/center/news",
+			"style": {
+				"navigationBarTitleText": "消息中心",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/center/integral",
+			"style": {
+				"navigationBarTitleText": "积分"
+			}
+		}, {
+			"path": "pages/center/identify",
+			"style": {
+				"navigationBarTitleText": "企业认证"
+			}
+		}, {
+			"path": "pages/center/indentifyImg",
+			"style": {
+				"navigationBarTitleText": "企业认证"
+			}
+		}, {
+			"path": "pages/shops/manage",
+			"style": {
+				"navigationBarTitleText": "店铺管理"
+			}
+		}, {
+			"path": "pages/center/addressM",
+			"style": {
+				"navigationBarTitleText": "地址管理"
+			}
+		}, {
+			"path": "pages/center/addNewAddress",
+			"style": {
+				"navigationBarTitleText": "新增收货地址"
+			}
+		}, {
+			"path": "pages/purchase/list",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "实单求购",
+				"navigationBarBackgroundColor": "white",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/purchase/detail",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "求购详情",
+				"navigationBarBackgroundColor": "white"
+			}
+		}, {
+			"path": "pages/purchase/askList",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "指定商家求购",
+				"navigationBarBackgroundColor": "white",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/purchase/askDetail",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "指定商家求购详情",
+				"navigationBarBackgroundColor": "white"
+			}
+		}, {
+			"path": "pages/orders/selfList",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "自营订单",
+				"navigationBarBackgroundColor": "white",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/orders/selfDetail",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "自营订单详情",
+				"navigationBarBackgroundColor": "white"
+			}
+		}, {
+			"path": "pages/orders/thirdList",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "第三方订单",
+				"navigationBarBackgroundColor": "white",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/orders/thirdSure",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "确认订单",
+				"navigationBarBackgroundColor": "white"
+			}
+		}, {
+			"path": "pages/orders/thirdDetail",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "第三方订单详情",
+				"navigationBarBackgroundColor": "white"
+			}
+		}, {
+			"path": "pages/orders/issue",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "发布评价",
+				"navigationBarBackgroundColor": "white"
+			}
+		}, {
+			"path": "pages/orders/quate",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "我的报价",
+				"navigationBarBackgroundColor": "white",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/orders/quateCancel",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "报价详情",
+				"navigationBarBackgroundColor": "white"
+			}
+		}, {
+			"path": "pages/orders/quatePrice",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "报价",
+				"navigationBarBackgroundColor": "white"
+			}
+		}, {
+			"path": "pages/orders/manage",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "订单管理",
+				"navigationBarBackgroundColor": "white",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/orders/manageDetail",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "订单管理详情",
+				"navigationBarBackgroundColor": "white"
+			}
+		}, {
+			"path": "pages/product/manage",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "商品管理",
+				"navigationBarBackgroundColor": "white",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/product/productDetail",
+			"style": {
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "商品详情",
+				"navigationBarBackgroundColor": "white"
+			}
+		}
+	],
+
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "风水网商城首页",
+		"navigationBarBackgroundColor": "#3682FF",
+		"backgroundColor": "#3682FF"
+	},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#3682FF",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/homepage/index",
+				"text": "首页",
+				"iconPath": "/static/imgs/icon_7.png",
+				"selectedIconPath": "/static/imgs/icon_7_1.png"
+			},
+			{
+				"pagePath": "pages/shops/index",
+				"text": "商城",
+				"iconPath": "/static/imgs/icon_8.png",
+				"selectedIconPath": "/static/imgs/icon_8_1.png"
+			},
+			{
+				"pagePath": "pages/center/index",
+				"text": "我的",
+				"iconPath": "/static/imgs/icon_10.png",
+				"selectedIconPath": "/static/imgs/icon_10_1.png"
+			}
+		]
+	}
+}

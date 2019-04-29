@@ -1,0 +1,25 @@
+<import src="/pages/API/image/image.vue.wxml" />
+<template name="ede95984">
+  <view class="_view data-v-2caafbd8 shuanglu-box">
+    <view class="_view data-v-2caafbd8 shuanglu">
+      <view class="_view data-v-2caafbd8 title"> 双录-客户 </view>
+      <view class="_view data-v-2caafbd8 row">
+        <view class="_view data-v-2caafbd8 left"> 客户姓名 </view>
+        <input type="text" value="" placeholder="黎鸣先生" class="_input data-v-2caafbd8" />
+      </view>
+      <view class="_view data-v-2caafbd8 row">
+        <view class="_view data-v-2caafbd8 left"> 双录时间 </view>
+        <input type="text" value="" placeholder="2010-101" class="_input data-v-2caafbd8" />
+      </view>
+      <view class="_view data-v-2caafbd8">
+        <view class="_view data-v-2caafbd8 left" style="padding: 40rpx 0 0;"> 双录说明 </view>
+        <textarea class="_textarea data-v-2caafbd8 shuoming" placeholder="双录说明双录说明双录说明双录说明双录说明双录说明双录说明双录说明双录说明" />
+        <template data="{{...$root['0'], ...$root[$kk+'2kI-0'],$root}}" is="05d41168"></template>
+      </view>
+      <view class="_view data-v-2caafbd8 questionBox">
+        <view class="_view data-v-2caafbd8 question">
+          <label class="_label data-v-2caafbd8 iconfont"></label>提交 </view>
+      </view>
+    </view>
+  </view>
+</template>

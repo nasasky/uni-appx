@@ -1,0 +1,60 @@
+<import src="/components/search-temp.vue.wxml" />
+<template name="026f129c">
+  <view class="_view data-v-47737112">
+    <view class="_view data-v-47737112 page-body">
+      <view class="_view data-v-47737112 page-section">
+        <view class="_view data-v-47737112 top">
+          <template data="{{...$root['0'], ...$root[$kk+'F4M-0'],$root}}" is="0db035fb"></template>
+        </view>
+        <view class="_view data-v-47737112 tiaojian">
+          <view wx:key="item.id" key="{{item.id}}" bindtap="handleProxy" data-eventid="{{'ozq-0-'+index}}" data-comkey="{{$k}}" wx:for="{{xuanze}}" wx:for-index="index" wx:for-item="item" class="_view data-v-47737112 {{id == item.id ? 'active' : ''}}">
+          {{item.item}} </view>
+        </view>
+        <view class="_view data-v-47737112 product-box">
+          <view class="_view data-v-47737112 product-item" bindtap="handleProxy" data-eventid="{{'ooi-1'}}" data-comkey="{{$k}}">
+            <view class="_view data-v-47737112 product-title"> 秀实——东雀嘉熠一号收益权转让计划 </view>
+            <view class="_view data-v-47737112 product-detail">
+              <view class="_view data-v-47737112 item">
+                <view class="_view data-v-47737112 large-size color item-top"> 8%-9.5% </view>
+                <view class="_view data-v-47737112 item-bottom"> 业绩比较基准 </view>
+              </view>
+              <view class="_view data-v-47737112 item">
+                <view class="_view data-v-47737112 size item-top"> 产品期限 </view>
+                <view class="_view data-v-47737112 item-bottom"> 12个月 </view>
+              </view>
+              <view class="_view data-v-47737112 item">
+                <view class="_view data-v-47737112 size item-top"> 认购起点 </view>
+                <view class="_view data-v-47737112 item-bottom"> 50万元 </view>
+              </view>
+              <view class="_view data-v-47737112 item">
+                <view class="_view data-v-47737112 size item-top"> 剩余金额 </view>
+                <view class="_view data-v-47737112 item-bottom"> 50万元 </view>
+              </view>
+            </view>
+          </view>
+          <view class="_view data-v-47737112 product-item" bindtap="handleProxy" data-eventid="{{'d11-2'}}" data-comkey="{{$k}}">
+            <view class="_view data-v-47737112 product-title"> 秀实——东雀嘉熠一号收益权转让计划 </view>
+            <view class="_view data-v-47737112 product-detail">
+              <view class="_view data-v-47737112 item">
+                <view class="_view data-v-47737112 large-size color item-top"> 8%-9.5% </view>
+                <view class="_view data-v-47737112 item-bottom"> 业绩比较基准 </view>
+              </view>
+              <view class="_view data-v-47737112 item">
+                <view class="_view data-v-47737112 size item-top"> 产品期限 </view>
+                <view class="_view data-v-47737112 item-bottom"> 12个月 </view>
+              </view>
+              <view class="_view data-v-47737112 item">
+                <view class="_view data-v-47737112 size item-top"> 认购起点 </view>
+                <view class="_view data-v-47737112 item-bottom"> 50万元 </view>
+              </view>
+              <view class="_view data-v-47737112 item">
+                <view class="_view data-v-47737112 size item-top"> 剩余金额 </view>
+                <view class="_view data-v-47737112 item-bottom"> 50万元 </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,11 @@
+<import src="/components/swiper-temp.vue.wxml" />
+<import src="/components/newsList-temp.vue.wxml" />
+<template name="2dbcf362">
+  <view class="_view data-v-0c9e0b55 content">
+    <template data="{{...$root['0'], ...$root[$kk+'Bdz-0'],$root}}" is="08a51d2b"></template>
+    <view class="_view data-v-0c9e0b55 tiaojian">
+      <view wx:key="item.id" key="{{item.id}}" bindtap="handleProxy" data-eventid="{{'9JM-0-'+index}}" data-comkey="{{$k}}" wx:for="{{xuanze}}" wx:for-index="index" wx:for-item="item" class="_view data-v-0c9e0b55 {{id == item.id ? 'active' : ''}}"> {{item.item}} </view>
+    </view>
+    <template data="{{...$root['0'], ...$root[$kk+'xUK-1'],$root}}" is="47af5932"></template>
+  </view>
+</template>

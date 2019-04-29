@@ -1,0 +1,155 @@
+@import "../../../../../../common/vendor.wxss";
+
+page {
+  background: rgb(255, 255, 255);
+}
+.smcp-box {
+  padding: 40rpx;
+}
+.content1 {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(196, 156, 90, 1);
+}
+.sign-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  padding: 22rpx 0 41rpx;
+  height: 90rpx;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.sign {
+  font-size: 26px;
+}
+.title {
+  line-height: 106rpx;
+  font-size: 17px;
+  font-weight: bold;
+}
+.ques-item {
+  font-weight: 500;
+  color: rgba(153,153,153,1);
+}
+.row1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  padding: 28rpx 0 38rpx;
+}
+.radio {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  font-weight: 500;
+  margin-right: 70rpx;
+}
+.radio image {
+  height: 16px;
+  width: 16px;
+  margin-right: 10rpx;
+}
+.xunwen {
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  height: 66rpx;
+}
+.name-key,
+.phone-key,
+.id-key,
+.number-key {
+  font-weight: 500;
+  color: rgba(153,153,153,1);
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+}
+.name-value,
+.phone-value,
+.id-value,
+.number-value {
+  -webkit-box-flex: 3;
+  -webkit-flex: 3;
+  flex: 3;
+}
+.id-message {
+  padding: 10rpx 0 20rpx;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.shengming {
+  padding-top: 34rpx;
+}
+.questionBox {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  width: 100%;
+  padding: 40rpx 0 0;
+  text-align: center;
+}
+.question {
+  width: 240rpx;
+  height: 70rpx;
+  background: -webkit-linear-gradient(right, rgba(196, 156, 90, 1) 0%, rgba(226, 196, 138, 1) 100%);
+  background: linear-gradient(-90deg, rgba(196, 156, 90, 1) 0%, rgba(226, 196, 138, 1) 100%);
+  border-radius: 35px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+}
+._label {
+  margin-right: 10rpx;
+}

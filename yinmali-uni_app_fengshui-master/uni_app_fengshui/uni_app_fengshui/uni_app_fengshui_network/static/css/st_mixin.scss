@@ -1,0 +1,58 @@
+$bacColor:#f5f5f5;
+$fontSize:28upx;
+$color-white:white;
+
+/**
+ * @name 自定义第一级容器
+ */
+@mixin my-box($p:20upx 0,$h:100%,$bc:$bacColor) {
+	height: $h;
+	background-color: $bc;
+	box-sizing: border-box;
+	font-size: $fontSize;
+	padding: $p;
+}
+
+/**
+ * @name height+overflow
+ */
+@mixin my-height($h:100%,$ov:auto) {
+	height:$h;
+	overflow: $ov
+}
+
+/**
+ * @name button
+ */
+@mixin my-btn($bc:red,$h:60upx) {
+	border-radius: 0;
+	height: $h;
+	line-height: $h;
+	background:{
+		color: $bc;
+	};
+	font-size: $fontSize;
+}
+
+@mixin my-border($where:top,$color:$bacColor) {
+	border-#{$where}:{
+		width: 1upx;
+		style:solid;
+		color:$color;
+	};
+	box-sizing: border-box;
+}
+
+
+@mixin my-flex($f:flex,$w:wrap,$d:inherit,$j:flex-start){
+	display: $f;
+	flex-wrap: $w;
+	flex-direction: $d;
+	justify-content: $j;
+}
+
+@mixin apply-to($ele){
+	#{$ele}{
+		@content
+	}
+}

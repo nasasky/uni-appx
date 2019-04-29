@@ -1,0 +1,105 @@
+<template name="27cfc68c">
+  <view class="_view data-v-bfb4581c">
+    <view class="_view data-v-bfb4581c topBox">
+      <view class="_view data-v-bfb4581c nav">
+        <view class="_view data-v-bfb4581c go-back iconfont" bindtap="handleProxy" data-eventid="{{'JNB-0'}}" data-comkey="{{$k}}">  </view>
+        <view class="_view data-v-bfb4581c middle"> 我的 </view>
+        <view class="_view data-v-bfb4581c set-btn"> 设置 </view>
+      </view>
+      <view class="_view data-v-bfb4581c lcs-message">
+        <view class="_view data-v-bfb4581c touxiang-left">
+          <image src="http://ai.ylcaifu.com/appimg/images/6.0-%E6%88%91%E7%9A%84%E6%8A%95%E8%B5%84%E4%BA%BA/6.0-%E6%88%91%E7%9A%84%E6%8A%95%E8%B5%84%E4%BA%BA/android/drawable-xhdpi/touxiang.png" mode class="_image data-v-bfb4581c"></image>
+        </view>
+        <view class="_view data-v-bfb4581c message-right">
+          <view class="_view data-v-bfb4581c message-right-top"> 客户 李明 </view>
+          <view class="_view data-v-bfb4581c message-right-bottom"> 14313131313 </view>
+        </view>
+      </view>
+      <view class="_view data-v-bfb4581c biaoqian">
+        <view class="_view data-v-bfb4581c biaoqian-item">
+          <image src="http://ai.ylcaifu.com/appimg/images/6.0-%E6%88%91%E7%9A%84%E6%8A%95%E8%B5%84%E4%BA%BA/6.0-%E6%88%91%E7%9A%84%E6%8A%95%E8%B5%84%E4%BA%BA/android/drawable-xhdpi/weirenzhenghege.png" mode class="_image data-v-bfb4581c"></image>
+          <view class="_view data-v-bfb4581c"> 未认证合格投资者 </view>
+        </view>
+        <view class="_view data-v-bfb4581c biaoqian-item">
+          <image src="http://ai.ylcaifu.com/appimg/images/6.0-%E6%88%91%E7%9A%84%E6%8A%95%E8%B5%84%E4%BA%BA/6.0-%E6%88%91%E7%9A%84%E6%8A%95%E8%B5%84%E4%BA%BA/android/drawable-xhdpi/shimingrenzheng.png" mode class="_image data-v-bfb4581c"></image>
+          <view class="_view data-v-bfb4581c"> 实名认证 </view>
+        </view>
+        <view class="_view data-v-bfb4581c biaoqian-item">
+          <image src="http://ai.ylcaifu.com/appimg/images/6.0-%E6%88%91%E7%9A%84%E6%8A%95%E8%B5%84%E4%BA%BA/6.0-%E6%88%91%E7%9A%84%E6%8A%95%E8%B5%84%E4%BA%BA/android/drawable-xhdpi/licai.png" mode class="_image data-v-bfb4581c"></image>
+          <view class="_view data-v-bfb4581c"> 理财师 </view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-bfb4581c lists">
+      <view class="_view data-v-bfb4581c list-item">
+        <image src="http://ai.ylcaifu.com/appimg/images/6.0-%E6%88%91%E7%9A%84%E6%8A%95%E8%B5%84%E4%BA%BA/6.0-%E6%88%91%E7%9A%84%E6%8A%95%E8%B5%84%E4%BA%BA/android/drawable-xhdpi/gerenzhuye.png" mode="aspectFit" class="_image data-v-bfb4581c"></image>
+        <view class="_view data-v-bfb4581c">个人主页</view>
+      </view>
+      <view class="_view data-v-bfb4581c list-item">
+        <image src="http://ai.ylcaifu.com/appimg/images/6.0-%E6%88%91%E7%9A%84%E6%8A%95%E8%B5%84%E4%BA%BA/6.0-%E6%88%91%E7%9A%84%E6%8A%95%E8%B5%84%E4%BA%BA/android/drawable-xhdpi/guanzhudongtai.png" mode="aspectFit" class="_image data-v-bfb4581c"></image>
+        <view class="_view data-v-bfb4581c">关注动态</view>
+      </view>
+      <view class="_view data-v-bfb4581c list-item">
+        <image src="http://ai.ylcaifu.com/appimg/images/6.0-%E6%88%91%E7%9A%84%E6%8A%95%E8%B5%84%E4%BA%BA/6.0-%E6%88%91%E7%9A%84%E6%8A%95%E8%B5%84%E4%BA%BA/android/drawable-xhdpi/wodezichan.png" mode="aspectFit" class="_image data-v-bfb4581c"></image>
+        <view class="_view data-v-bfb4581c">我的资产</view>
+      </view>
+    </view>
+    <view class="_view data-v-bfb4581c block-box">
+      <view class="_view data-v-bfb4581c block">
+        <view class="_view data-v-bfb4581c block-title-box">
+          <view class="_view data-v-bfb4581c block-title">
+            <view class="_view data-v-bfb4581c text"> 我的持仓 </view>
+            <view class="_view data-v-bfb4581c uni-icon-more" bindtap="handleProxy" data-eventid="{{'cOg-1'}}" data-comkey="{{$k}}">
+              <view class="_view data-v-bfb4581c more"> 更多 </view>
+              <view class="_view data-v-bfb4581c iconfont arrow"></view>
+            </view>
+          </view>
+        </view>
+        <view class="_view data-v-bfb4581c chicang">
+          <view class="_view data-v-bfb4581c chicang-item">
+            <view class="_view data-v-bfb4581c chicang-top"> 200 </view>
+            <view class="_view data-v-bfb4581c chicang-bottom"> 总资产 </view>
+          </view>
+          <view class="_view data-v-bfb4581c chicang-item">
+            <view class="_view data-v-bfb4581c chicang-top"> 2000 </view>
+            <view class="_view data-v-bfb4581c chicang-bottom"> 总成本 </view>
+          </view>
+          <view class="_view data-v-bfb4581c chicang-item">
+            <view class="_view data-v-bfb4581c chicang-top"> 1200 </view>
+            <view class="_view data-v-bfb4581c chicang-bottom"> 总收益 </view>
+          </view>
+        </view>
+        <view class="_view data-v-bfb4581c my-lists">
+          <view class="_view data-v-bfb4581c my-list-item">
+            <image src="http://ai.ylcaifu.com/appimg/images/6.0-%E6%88%91%E7%9A%84%E6%8A%95%E8%B5%84%E4%BA%BA/6.0-%E6%88%91%E7%9A%84%E6%8A%95%E8%B5%84%E4%BA%BA/android/drawable-xhdpi/wodeshoucang.png" mode="aspectFit" class="_image data-v-bfb4581c"></image>
+            <view class="_view data-v-bfb4581c my-list-item-right">
+              <view class="_view data-v-bfb4581c"> 我的收藏 </view>
+              <view class="_view data-v-bfb4581c iconfont arrow"></view>
+            </view>
+          </view>
+          <view class="_view data-v-bfb4581c my-list-item">
+            <image src="http://ai.ylcaifu.com/appimg/images/6.0-%E6%88%91%E7%9A%84%E6%8A%95%E8%B5%84%E4%BA%BA/6.0-%E6%88%91%E7%9A%84%E6%8A%95%E8%B5%84%E4%BA%BA/android/drawable-xhdpi/wodedingdang.png" mode="aspectFit" class="_image data-v-bfb4581c"></image>
+            <view class="_view data-v-bfb4581c my-list-item-right" bindtap="handleProxy" data-eventid="{{'k6j-2'}}" data-comkey="{{$k}}">
+              <view class="_view data-v-bfb4581c"> 我的订单 </view>
+              <view class="_view data-v-bfb4581c iconfont arrow"></view>
+            </view>
+          </view>
+          <view class="_view data-v-bfb4581c my-list-item">
+            <image src="http://ai.ylcaifu.com/appimg/images/6.0-%E6%88%91%E7%9A%84%E6%8A%95%E8%B5%84%E4%BA%BA/6.0-%E6%88%91%E7%9A%84%E6%8A%95%E8%B5%84%E4%BA%BA/android/drawable-xhdpi/zhengzhifuwu.png" mode="aspectFit" class="_image data-v-bfb4581c"></image>
+            <view class="_view data-v-bfb4581c my-list-item-right" bindtap="handleProxy" data-eventid="{{'h7i-3'}}" data-comkey="{{$k}}">
+              <view class="_view data-v-bfb4581c"> 增值服务 </view>
+              <view class="_view data-v-bfb4581c iconfont arrow"></view>
+            </view>
+          </view>
+          <view class="_view data-v-bfb4581c my-list-item">
+            <image src="http://ai.ylcaifu.com/appimg/images/6.0-%E6%88%91%E7%9A%84%E6%8A%95%E8%B5%84%E4%BA%BA/6.0-%E6%88%91%E7%9A%84%E6%8A%95%E8%B5%84%E4%BA%BA/android/drawable-xhdpi/tuijianyouli.png" mode="aspectFit" class="_image data-v-bfb4581c"></image>
+            <view class="_view data-v-bfb4581c my-list-item-right">
+              <view class="_view data-v-bfb4581c"> 推荐有礼 </view>
+              <view class="_view data-v-bfb4581c iconfont arrow"></view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

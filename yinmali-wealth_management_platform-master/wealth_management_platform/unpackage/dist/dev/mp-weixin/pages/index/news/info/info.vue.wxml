@@ -1,0 +1,15 @@
+<import src="/components/writemark-temp.vue.wxml" />
+<template name="3470ae9d">
+  <view class="_view data-v-4848135d">
+    <view class="_view data-v-4848135d content">
+      <view class="_view data-v-4848135d banner">
+        <image class="_image data-v-4848135d bannerImg" src="{{imgUrl}}" mode></image>
+      </view>
+      <view class="_view data-v-4848135d title"> {{title}} </view>
+      <rich-text class="_rich-text data-v-4848135d richtext" nodes="{{string}}"> {{string}} </rich-text>
+      <view class="_view data-v-4848135d bottom">
+        <template data="{{...$root['0'], ...$root[$kk+'W2n-1'],$root}}" is="407d46a3"></template>
+      </view>
+    </view>
+  </view>
+</template>

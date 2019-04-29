@@ -1,0 +1,70 @@
+<import src="/components/search-temp.vue.wxml" />
+<template name="2e041d68">
+  <view class="_view data-v-8227aa0e">
+    <view class="_view data-v-8227aa0e top">
+      <template data="{{...$root['0'], ...$root[$kk+'8xp-0'],$root}}" is="0db035fb"></template>
+    </view>
+    <view class="_view data-v-8227aa0e kehu-lists">
+      <view class="_view data-v-8227aa0e kehu-item">
+        <view class="_view data-v-8227aa0e kehu-left" bindtap="handleProxy" data-eventid="{{'WHw-0'}}" data-comkey="{{$k}}">
+          <view class="_view data-v-8227aa0e touxiang-box">
+            <image src="http://ai.ylcaifu.com/appimg/images/5.0-%E6%88%91%E7%9A%84-%E7%90%86%E8%B4%A2%E5%B8%88/5.1-%E6%88%91%E7%9A%84%E5%AE%A2%E6%88%B7%EF%BC%88CRM%EF%BC%89/android/drawable-xhdpi/touxiang.png" mode="aspectFit" class="_image data-v-8227aa0e touxiang-image"></image>
+            <image src="http://ai.ylcaifu.com/appimg/images/5.0-%E6%88%91%E7%9A%84-%E7%90%86%E8%B4%A2%E5%B8%88/5.1-%E6%88%91%E7%9A%84%E5%AE%A2%E6%88%B7%EF%BC%88CRM%EF%BC%89/android/drawable-xhdpi/nanxing.png" mode="aspectFit" class="_image data-v-8227aa0e xingbie"></image>
+          </view>
+          <view class="_view data-v-8227aa0e kehu-message">
+            <view class="_view data-v-8227aa0e kehu-message-top">
+              <view class="_view data-v-8227aa0e kehu-name"> 李逵之 </view>
+              <image src="http://ai.ylcaifu.com/appimg/images/5.0-%E6%88%91%E7%9A%84-%E7%90%86%E8%B4%A2%E5%B8%88/5.1-%E6%88%91%E7%9A%84%E5%AE%A2%E6%88%B7%EF%BC%88CRM%EF%BC%89/android/drawable-xhdpi/he.png" mode="aspectFit" class="_image data-v-8227aa0e label-image"></image>
+            </view>
+            <view class="_view data-v-8227aa0e kehu-message-bottom">
+              <image src="http://ai.ylcaifu.com/appimg/images/5.0-%E6%88%91%E7%9A%84-%E7%90%86%E8%B4%A2%E5%B8%88/5.1-%E6%88%91%E7%9A%84%E5%AE%A2%E6%88%B7%EF%BC%88CRM%EF%BC%89/android/drawable-xhdpi/xingjikehu.png" mode="aspectFit" class="_image data-v-8227aa0e"></image>
+              <view class="_view data-v-8227aa0e star"> 一星客户 </view>
+              <view class="_view data-v-8227aa0e telephone"> 1233211234567 </view>
+            </view>
+          </view>
+        </view>
+        <image src="http://ai.ylcaifu.com/appimg/images/5.0-%E6%88%91%E7%9A%84-%E7%90%86%E8%B4%A2%E5%B8%88/5.1-%E6%88%91%E7%9A%84%E5%AE%A2%E6%88%B7%EF%BC%88CRM%EF%BC%89/android/drawable-xhdpi/dianhuan.png" mode class="_image data-v-8227aa0e kehu-right"></image>
+      </view>
+      <view class="_view data-v-8227aa0e kehu-item">
+        <view class="_view data-v-8227aa0e kehu-left">
+          <view class="_view data-v-8227aa0e touxiang-box">
+            <image src="http://ai.ylcaifu.com/appimg/images/5.0-%E6%88%91%E7%9A%84-%E7%90%86%E8%B4%A2%E5%B8%88/5.1-%E6%88%91%E7%9A%84%E5%AE%A2%E6%88%B7%EF%BC%88CRM%EF%BC%89/android/drawable-xhdpi/touxiang.png" mode="aspectFit" class="_image data-v-8227aa0e touxiang-image"></image>
+            <image src="http://ai.ylcaifu.com/appimg/images/5.0-%E6%88%91%E7%9A%84-%E7%90%86%E8%B4%A2%E5%B8%88/5.1-%E6%88%91%E7%9A%84%E5%AE%A2%E6%88%B7%EF%BC%88CRM%EF%BC%89/android/drawable-xhdpi/nanxing.png" mode="aspectFit" class="_image data-v-8227aa0e xingbie"></image>
+          </view>
+          <view class="_view data-v-8227aa0e kehu-message">
+            <view class="_view data-v-8227aa0e kehu-message-top">
+              <view class="_view data-v-8227aa0e kehu-name"> 李逵之 </view>
+              <image src="http://ai.ylcaifu.com/appimg/images/5.0-%E6%88%91%E7%9A%84-%E7%90%86%E8%B4%A2%E5%B8%88/5.1-%E6%88%91%E7%9A%84%E5%AE%A2%E6%88%B7%EF%BC%88CRM%EF%BC%89/android/drawable-xhdpi/he.png" mode="aspectFit" class="_image data-v-8227aa0e label-image"></image>
+            </view>
+            <view class="_view data-v-8227aa0e kehu-message-bottom">
+              <image src="http://ai.ylcaifu.com/appimg/images/5.0-%E6%88%91%E7%9A%84-%E7%90%86%E8%B4%A2%E5%B8%88/5.1-%E6%88%91%E7%9A%84%E5%AE%A2%E6%88%B7%EF%BC%88CRM%EF%BC%89/android/drawable-xhdpi/xingjikehu.png" mode="aspectFit" class="_image data-v-8227aa0e"></image>
+              <view class="_view data-v-8227aa0e star"> 一星客户 </view>
+              <view class="_view data-v-8227aa0e telephone"> 1233211234567 </view>
+            </view>
+          </view>
+        </view>
+        <image src="http://ai.ylcaifu.com/appimg/images/5.0-%E6%88%91%E7%9A%84-%E7%90%86%E8%B4%A2%E5%B8%88/5.1-%E6%88%91%E7%9A%84%E5%AE%A2%E6%88%B7%EF%BC%88CRM%EF%BC%89/android/drawable-xhdpi/dianhuan.png" mode class="_image data-v-8227aa0e kehu-right"></image>
+      </view>
+      <view class="_view data-v-8227aa0e kehu-item">
+        <view class="_view data-v-8227aa0e kehu-left">
+          <view class="_view data-v-8227aa0e touxiang-box">
+            <image src="http://ai.ylcaifu.com/appimg/images/5.0-%E6%88%91%E7%9A%84-%E7%90%86%E8%B4%A2%E5%B8%88/5.1-%E6%88%91%E7%9A%84%E5%AE%A2%E6%88%B7%EF%BC%88CRM%EF%BC%89/android/drawable-xhdpi/touxiang.png" mode="aspectFit" class="_image data-v-8227aa0e touxiang-image"></image>
+            <image src="http://ai.ylcaifu.com/appimg/images/5.0-%E6%88%91%E7%9A%84-%E7%90%86%E8%B4%A2%E5%B8%88/5.1-%E6%88%91%E7%9A%84%E5%AE%A2%E6%88%B7%EF%BC%88CRM%EF%BC%89/android/drawable-xhdpi/nanxing.png" mode="aspectFit" class="_image data-v-8227aa0e xingbie"></image>
+          </view>
+          <view class="_view data-v-8227aa0e kehu-message">
+            <view class="_view data-v-8227aa0e kehu-message-top">
+              <view class="_view data-v-8227aa0e kehu-name"> 李逵之 </view>
+              <image src="http://ai.ylcaifu.com/appimg/images/5.0-%E6%88%91%E7%9A%84-%E7%90%86%E8%B4%A2%E5%B8%88/5.1-%E6%88%91%E7%9A%84%E5%AE%A2%E6%88%B7%EF%BC%88CRM%EF%BC%89/android/drawable-xhdpi/he.png" mode="aspectFit" class="_image data-v-8227aa0e label-image"></image>
+            </view>
+            <view class="_view data-v-8227aa0e kehu-message-bottom">
+              <image src="http://ai.ylcaifu.com/appimg/images/5.0-%E6%88%91%E7%9A%84-%E7%90%86%E8%B4%A2%E5%B8%88/5.1-%E6%88%91%E7%9A%84%E5%AE%A2%E6%88%B7%EF%BC%88CRM%EF%BC%89/android/drawable-xhdpi/xingjikehu.png" mode="aspectFit" class="_image data-v-8227aa0e"></image>
+              <view class="_view data-v-8227aa0e star"> 一星客户 </view>
+              <view class="_view data-v-8227aa0e telephone"> 1233211234567 </view>
+            </view>
+          </view>
+        </view>
+        <image src="http://ai.ylcaifu.com/appimg/images/5.0-%E6%88%91%E7%9A%84-%E7%90%86%E8%B4%A2%E5%B8%88/5.1-%E6%88%91%E7%9A%84%E5%AE%A2%E6%88%B7%EF%BC%88CRM%EF%BC%89/android/drawable-xhdpi/dianhuan.png" mode class="_image data-v-8227aa0e kehu-right"></image>
+      </view>
+    </view>
+  </view>
+</template>

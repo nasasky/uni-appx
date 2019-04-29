@@ -1,0 +1,68 @@
+<import src="/components/swiper-temp.vue.wxml" />
+<import src="/components/product-list/product-list.vue.wxml" />
+<import src="/components/search-temp.vue.wxml" />
+<import src="/components/left-category/left-category.vue.wxml" />
+<template name="73b0ba68">
+  <view class="_view data-v-a725d90e">
+    <view class="_view data-v-a725d90e box" hidden="{{!(flag==0)}}">
+      <view class="_view data-v-a725d90e top">
+        <template data="{{...$root['0'], ...$root[$kk+'bLp-0'],$root}}" is="08a51d2b"></template>
+      </view>
+      <view class="_view data-v-a725d90e lists">
+        <view class="_view data-v-a725d90e list-item">
+          <image src="https://pic.36krcnd.com/avatar/201803/08005901/c41olcs56y2dq292.jpg!480" mode class="_image data-v-a725d90e"></image>
+          <text class="_text data-v-a725d90e">数码</text>
+        </view>
+        <view class="_view data-v-a725d90e list-item">
+          <image src="https://pic.36krcnd.com/avatar/201611/03080626/idk0r5xfbpwoobcj.jpg!480" mode class="_image data-v-a725d90e"></image>
+          <text class="_text data-v-a725d90e">家居</text>
+        </view>
+        <view class="_view data-v-a725d90e list-item">
+          <image src="https://pic.36krcnd.com/avatar/201803/08005901/c41olcs56y2dq292.jpg!480" mode class="_image data-v-a725d90e"></image>
+          <text class="_text data-v-a725d90e">厨房</text>
+        </view>
+        <view class="_view data-v-a725d90e list-item">
+          <image src="https://pic.36krcnd.com/avatar/201611/03080626/idk0r5xfbpwoobcj.jpg!480" mode class="_image data-v-a725d90e"></image>
+          <text class="_text data-v-a725d90e">箱包</text>
+        </view>
+        <view class="_view data-v-a725d90e list-item">
+          <image src="https://pic.36krcnd.com/avatar/201611/03080626/idk0r5xfbpwoobcj.jpg!480" mode class="_image data-v-a725d90e"></image>
+          <text class="_text data-v-a725d90e">家电</text>
+        </view>
+        <view class="_view data-v-a725d90e list-item">
+          <image src="https://pic.36krcnd.com/avatar/201803/08005901/c41olcs56y2dq292.jpg!480" mode class="_image data-v-a725d90e"></image>
+          <text class="_text data-v-a725d90e">户外</text>
+        </view>
+        <view class="_view data-v-a725d90e list-item">
+          <image src="https://pic.36krcnd.com/avatar/201611/03080626/idk0r5xfbpwoobcj.jpg!480" mode class="_image data-v-a725d90e"></image>
+          <text class="_text data-v-a725d90e">家纺</text>
+        </view>
+        <view class="_view data-v-a725d90e list-item">
+          <image src="https://pic.36krcnd.com/avatar/201611/03080626/idk0r5xfbpwoobcj.jpg!480" mode class="_image data-v-a725d90e"></image>
+          <text class="_text data-v-a725d90e">配饰</text>
+        </view>
+      </view>
+      <view class="_view data-v-a725d90e goods-list">
+        <view class="_view data-v-a725d90e list-title">
+          <label class="_label data-v-a725d90e iconfont jingxuan"></label>精选产品 </view>
+        <view class="_view data-v-a725d90e goods-items">
+          <template data="{{...$root['0'], ...$root[$kk+'EIM-1'],$root}}" is="6a1541fe"></template>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-a725d90e box2" hidden="{{!(flag==1)}}">
+      <template data="{{...$root['0'], ...$root[$kk+'0LB-2'],$root}}" is="0db035fb"></template>
+      <template data="{{...$root['0'], ...$root[$kk+'LUl-3'],$root}}" is="a0077464"></template>
+    </view>
+    <view class="_view data-v-a725d90e box3" hidden="{{!(flag==2)}}"> 2 </view>
+    <view class="_view data-v-a725d90e box4" hidden="{{!(flag==3)}}"> 3 </view>
+    <view class="_view data-v-a725d90e bottomTab">
+      <view class="_view data-v-a725d90e index item  {{[index == clickindex ? 'active' : '']}}" bindtap="handleProxy" data-eventid="{{'k9X-0-'+index}}" data-comkey="{{$k}}" wx:for="{{bottomTab}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-a725d90e imgBox">
+          <image src="{{index==clickindex?item.selectImg:item.imgUrl}}" mode="aspectFit" class="_image data-v-a725d90e"></image>
+        </view>
+        <view class="_view data-v-a725d90e title {{[index == clickindex ? 'active' : '']}}"> {{item.name}} </view>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,13 @@
+
+      !(function(){
+        var uniAppViewReadyCallback = function(){
+          setCssToHead([[2,1],".",[1],"tiaojian{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;flex-direction:row;background:#fff;height:",[0,70],";-webkit-box-align:center;-webkit-align-items:center;align-items:center;text-align:center;-webkit-justify-content:space-around;justify-content:space-around}\n.",[1],"tiaojian wx-view{line-height:",[0,70],";color:#999}\n.",[1],"tiaojian .",[1],"active{border-bottom:3px solid #c49c5a;color:#c49c5a}\n.",[1],"questions{background:#fff;padding:",[0,20]," ",[0,30],"}\n.",[1],"question-item{border-bottom:1px solid #eee;-webkit-box-orient:vertical;-webkit-flex-direction:column;flex-direction:column;padding:",[0,20]," 0}\n.",[1],"question-item,.",[1],"question-item-bot,.",[1],"question-item-top{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-direction:normal}\n.",[1],"question-item-bot,.",[1],"question-item-top{-webkit-box-orient:horizontal;-webkit-flex-direction:row;flex-direction:row;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between}\n.",[1],"question-item-top{margin-bottom:",[0,20],"}\n.",[1],"question-item-bot{color:#cdcdcd}\n.",[1],"more-req,.",[1],"time{line-height:",[0,40],";color:#999}\n.",[1],"ques{-webkit-box-flex:1;-webkit-flex:1;flex:1;line-height:",[0,36],";color:#333}\n.",[1],"req{border-radius:",[0,10],";width:",[0,120],";height:",[0,48],";text-align:center;line-height:",[0,48],";margin-left:",[0,60],";border-radius:25px;color:#cb9359;font-size:11px;border:1px solid #c49c5a}\n.",[1],"questionBox{width:100%;padding:",[0,30]," 0;text-align:center;position:fixed;bottom:",[0,34],"}\n.",[1],"question,.",[1],"questionBox{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;flex-direction:row;-webkit-box-pack:center;-webkit-justify-content:center;justify-content:center}\n.",[1],"question{width:",[0,240],";height:",[0,70],";background:-webkit-linear-gradient(right,#c49c5a,#e2c48a);background:linear-gradient(-90deg,#c49c5a,#e2c48a);border-radius:35px;-webkit-box-align:center;-webkit-align-items:center;align-items:center;color:#fff}\n.",[1],"_label{margin-right:",[0,10],"}\n",])();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/index/knowledge/knowledge.wxml') } }));
+        }
+        if(window.__uniAppViewReady__){
+          uniAppViewReadyCallback()
+        }else{
+          document.addEventListener('uniAppViewReady',uniAppViewReadyCallback)
+        }
+      })();
+      

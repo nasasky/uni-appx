@@ -1,0 +1,102 @@
+@import "../../../common/vendor.wxss";
+
+page {
+  background: #2c2a29;
+}
+.activity {
+  padding: 30rpx 30rpx 0;
+}
+.activity-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  background: #fff;
+  margin-bottom: 30rpx;
+  border-radius: 10px;
+  position: relative;
+}
+.activity-description {
+  width: 70%;
+  padding: 0 20rpx;
+}
+.imgBox,
+.imgBox image {
+  width: 100%;
+  height: 320rpx;
+  border-radius: 10px 10px 0 0;
+}
+.content {
+  padding: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.top {
+  width: 100%;
+  height: 40rpx;
+  line-height: 40rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.title {
+  color: #cb9359;
+  border: 1px solid #cb9359;
+  padding: 0 18rpx;
+  border-radius: 10px;
+}
+.time {
+  color: #999999;
+}
+.mid {
+  margin: 10rpx 0;
+  line-height: 36rpx;
+  color: #666666;
+}
+.bot {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  line-height: 50rpx;
+  color: #999999;
+}
+.bot view {
+  margin-right: 10rpx;
+}
+.dingwei {
+  position: absolute;
+  right: 20rpx;
+  top: 20rpx;
+  padding: 4rpx 24rpx;
+  border-radius: 25px;
+  background: #cb9359;
+  font-size: 11px;
+  color: white;
+  line-height: 50rpx;
+}

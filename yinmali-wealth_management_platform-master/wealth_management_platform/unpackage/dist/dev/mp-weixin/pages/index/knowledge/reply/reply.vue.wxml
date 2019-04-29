@@ -1,0 +1,39 @@
+<template name="20153b80">
+  <view class="_view data-v-50a16aba">
+    <view class="_view data-v-50a16aba  color-gray">
+      <view class="_view data-v-50a16aba box">
+        <view class="_view data-v-50a16aba quesBox">
+          <view class="_view data-v-50a16aba mark">
+            <view class="_view data-v-50a16aba avator-left">
+              <image src="../../../../static/image/invest/u762.png" class="_image data-v-50a16aba"></image>
+            </view>
+            <view class="_view data-v-50a16aba mark-right">
+              <view class="_view data-v-50a16aba mark-top"> 秀实东区寄秀实东区寄秀? </view>
+              <view class="_view data-v-50a16aba mark-bot">
+                <view class="_view data-v-50a16aba mark-top-left">
+                  <view class="_view data-v-50a16aba position">理财师</view>
+                  <view class="_view data-v-50a16aba name">李明</view>
+                  <view class="_view data-v-50a16aba time">9小时前</view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+        <view class="_view data-v-50a16aba repBox">
+          <view class="_view data-v-50a16aba repTop">
+            <view class="_view data-v-50a16aba iconfont avator"></view>
+            <view class="_view data-v-50a16aba position1">理财师</view>
+            <view class="_view data-v-50a16aba name1">赵丽颖</view>
+          </view>
+          <view class="_view data-v-50a16aba section">
+            <textarea class="_textarea data-v-50a16aba textare" value="" placeholder="123" maxlength="200" />
+          </view>
+        </view>
+        <view class="_view data-v-50a16aba questionBox">
+          <view class="_view data-v-50a16aba question">
+            <label class="_label data-v-50a16aba iconfont"></label>提交 </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

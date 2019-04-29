@@ -1,0 +1,20 @@
+<template name="47af5932">
+  <view class="_view data-v-013aa139">
+    <view class="_view data-v-013aa139 uni-list">
+      <view class="_view data-v-013aa139 uni-list-cell" hover-class="uni-list-cell-hover" wx:key="index" key="{{index}}" data-newsid="{{item.post_id}}" bindtap="handleProxy" data-eventid="{{'FDH-0-'+index}}" data-comkey="{{$k}}" wx:for="{{newsList}}" wx:for-index="index"
+        wx:for-item="item">
+        <view class="_view data-v-013aa139 uni-media-list">
+          <view class="_view data-v-013aa139 uni-media-list-body">
+            <view class="_view data-v-013aa139 uni-media-list-text-bottom twoLines">{{item.summary}}</view>
+            <view class="_view data-v-013aa139 item-bottom">
+              <view class="_view data-v-013aa139 item-bottom-item zhiding"> 置顶 </view>
+              <view class="_view data-v-013aa139 item-bottom-item"> {{item.column_name}} </view>
+              <view class="_view data-v-013aa139 item-bottom-item"> {{item.views_count}}评论 </view>
+            </view>
+          </view>
+          <image class="_image data-v-013aa139 uni-media-list-logo" src="{{item.cover}}"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

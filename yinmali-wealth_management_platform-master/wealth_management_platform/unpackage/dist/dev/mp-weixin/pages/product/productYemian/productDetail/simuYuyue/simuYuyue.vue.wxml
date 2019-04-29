@@ -1,0 +1,105 @@
+<template name="028f3051">
+  <view class="_view data-v-38ff96d0 simu-box page">
+    <view class="_view data-v-38ff96d0 uni-timeline" style="padding: 30rpx 20rpx;background-color: #fff;">
+      <view class="_view data-v-38ff96d0 uni-timeline-item uni-timeline-first-item">
+        <view class="_view data-v-38ff96d0 uni-timeline-item-divider">
+          <image class="_image data-v-38ff96d0 divider-image" src="http://ai.ylcaifu.com/appimg/images/2.0-%E4%BA%A7%E5%93%81/2.4.2.2.3-%E7%A7%81%E5%8B%9F%E8%B4%AD%E4%B9%B0%E6%B5%81%E7%A8%8B/android/drawable-xhdpi/yuyunchenggongjihuo.png"></image>
+        </view>
+        <view class="_view data-v-38ff96d0 uni-timeline-item-content">
+          <view class="_view data-v-38ff96d0 uni-timeline-item-content-title" bindtap="handleProxy" data-eventid="{{'kky-0'}}" data-comkey="{{$k}}"> 预约成功 </view>
+          <view class="_view data-v-38ff96d0 datetime"> 你准备购买秀实东阙。。。 </view>
+        </view>
+      </view>
+      <view class="_view data-v-38ff96d0 uni-timeline-item">
+        <view class="_view data-v-38ff96d0 uni-timeline-item-divider">
+          <image class="_image data-v-38ff96d0 divider-image" src="http://ai.ylcaifu.com/appimg/images/2.0-%E4%BA%A7%E5%93%81/2.4.2.2.3-%E7%A7%81%E5%8B%9F%E8%B4%AD%E4%B9%B0%E6%B5%81%E7%A8%8B/android/drawable-xhdpi/shimingrenzhengjihuo.png"></image>
+        </view>
+        <view class="_view data-v-38ff96d0 uni-timeline-item-content">
+          <view class="_view data-v-38ff96d0 uni-timeline-item-content-title" bindtap="handleProxy" data-eventid="{{'LM3-1'}}" data-comkey="{{$k}}">实名认证</view>
+          <view class="_view data-v-38ff96d0 datetime">黎明12224324234323</view>
+        </view>
+      </view>
+      <view class="_view data-v-38ff96d0 uni-timeline-item">
+        <view class="_view data-v-38ff96d0 uni-timeline-item-divider"></view>
+        <view class="_view data-v-38ff96d0 uni-timeline-item-content">
+          <view class="_view data-v-38ff96d0 uni-timeline-item-content-title">风险测评
+            <view class="_view data-v-38ff96d0 ques-image-box">
+              <image class="_image data-v-38ff96d0 ques-image" src="http://ai.ylcaifu.com/appimg/images/2.0-%E4%BA%A7%E5%93%81/2.4.2.2.3-%E7%A7%81%E5%8B%9F%E8%B4%AD%E4%B9%B0%E6%B5%81%E7%A8%8B/android/drawable-xhdpi/wenhao.png" mode></image>
+            </view>
+          </view>
+          <view class="_view data-v-38ff96d0 datetime">稳健性（你的风险评级不合格，请
+            <view class="_view data-v-38ff96d0 orange" bindtap="handleProxy" data-eventid="{{'vEa-2'}}" data-comkey="{{$k}}"> 重新测评 </view>）</view>
+        </view>
+      </view>
+      <view class="_view data-v-38ff96d0 uni-timeline-item">
+        <view class="_view data-v-38ff96d0 uni-timeline-item-divider"></view>
+        <view class="_view data-v-38ff96d0 uni-timeline-item-content">
+          <view class="_view data-v-38ff96d0 uni-timeline-item-content-title">签风险不匹配告知书</view>
+        </view>
+      </view>
+      <view class="_view data-v-38ff96d0 uni-timeline-item ">
+        <view class="_view data-v-38ff96d0 uni-timeline-item-divider"></view>
+        <view class="_view data-v-38ff96d0 uni-timeline-item-content">
+          <view class="_view data-v-38ff96d0 uni-timeline-item-content-title">购买
+            <view class="_view data-v-38ff96d0 ques-image-box">
+              <image class="_image data-v-38ff96d0 ques-image" src="http://ai.ylcaifu.com/appimg/images/2.0-%E4%BA%A7%E5%93%81/2.4.2.2.3-%E7%A7%81%E5%8B%9F%E8%B4%AD%E4%B9%B0%E6%B5%81%E7%A8%8B/android/drawable-xhdpi/wenhao.png" mode></image>
+            </view>
+          </view>
+          <view class="_view data-v-38ff96d0 datetime">您购买的额度为100万
+            <view class="_view data-v-38ff96d0 orange"> 修改 </view>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-38ff96d0 uni-timeline-item">
+        <view class="_view data-v-38ff96d0 uni-timeline-item-divider"></view>
+        <view class="_view data-v-38ff96d0 uni-timeline-item-content">
+          <view class="_view data-v-38ff96d0 uni-timeline-item-content-title" bindtap="handleProxy" data-eventid="{{'ljb-3'}}" data-comkey="{{$k}}">合格投资者/专业投资者认证</view>
+        </view>
+      </view>
+      <view class="_view data-v-38ff96d0 uni-timeline-item">
+        <view class="_view data-v-38ff96d0 uni-timeline-item-divider"></view>
+        <view class="_view data-v-38ff96d0 uni-timeline-item-content">
+          <view class="_view data-v-38ff96d0 uni-timeline-item-content-title">双录
+            <view class="_view data-v-38ff96d0 ques-image-box">
+              <image class="_image data-v-38ff96d0 ques-image" src="http://ai.ylcaifu.com/appimg/images/2.0-%E4%BA%A7%E5%93%81/2.4.2.2.3-%E7%A7%81%E5%8B%9F%E8%B4%AD%E4%B9%B0%E6%B5%81%E7%A8%8B/android/drawable-xhdpi/wenhao.png" mode></image>
+            </view>
+            <view class="_view data-v-38ff96d0 datetime orange" bindtap="handleProxy" data-eventid="{{'tB6-4'}}" data-comkey="{{$k}}">请点击此处进行双录</view>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-38ff96d0 uni-timeline-item">
+        <view class="_view data-v-38ff96d0 uni-timeline-item-divider"></view>
+        <view class="_view data-v-38ff96d0 uni-timeline-item-content">
+          <view class="_view data-v-38ff96d0 uni-timeline-item-content-title" bindtap="handleProxy" data-eventid="{{'cNF-5'}}" data-comkey="{{$k}}">签合同
+            <view class="_view data-v-38ff96d0 datetime"> （该产品不支持线上双录）</view>
+          </view>
+          <view class="_view data-v-38ff96d0 datetime">税收声名
+            <view class="_view data-v-38ff96d0 ques-image-box">
+              <image class="_image data-v-38ff96d0 ques-image" src="http://ai.ylcaifu.com/appimg/images/2.0-%E4%BA%A7%E5%93%81/2.4.2.2.3-%E7%A7%81%E5%8B%9F%E8%B4%AD%E4%B9%B0%E6%B5%81%E7%A8%8B/android/drawable-xhdpi/wenhao.png" mode></image>
+            </view>
+          </view>
+          <view class="_view data-v-38ff96d0 datetime">风险揭示书</view>
+          <view class="_view data-v-38ff96d0 datetime">基金合同</view>
+        </view>
+      </view>
+      <view class="_view data-v-38ff96d0 uni-timeline-item">
+        <view class="_view data-v-38ff96d0 uni-timeline-item-divider"></view>
+        <view class="_view data-v-38ff96d0 uni-timeline-item-content">
+          <view class="_view data-v-38ff96d0 uni-timeline-item-content-title" bindtap="handleProxy" data-eventid="{{'UFc-6'}}" data-comkey="{{$k}}">打款，上传打款凭证</view>
+        </view>
+      </view>
+      <view class="_view data-v-38ff96d0 uni-timeline-item">
+        <view class="_view data-v-38ff96d0 uni-timeline-item-divider"></view>
+        <view class="_view data-v-38ff96d0 uni-timeline-item-content">
+          <view class="_view data-v-38ff96d0 uni-timeline-item-content-title">客服回访</view>
+        </view>
+      </view>
+      <view class="_view data-v-38ff96d0 uni-timeline-item uni-timeline-last-item">
+        <view class="_view data-v-38ff96d0 uni-timeline-item-divider"></view>
+        <view class="_view data-v-38ff96d0 uni-timeline-item-content">
+          <view class="_view data-v-38ff96d0 uni-timeline-item-content-title">流程结束，请在*******查看收益</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

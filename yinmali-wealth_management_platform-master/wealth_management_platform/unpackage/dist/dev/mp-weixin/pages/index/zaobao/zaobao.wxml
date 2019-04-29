@@ -1,0 +1,1 @@
+<import src="/pages/index/zaobao/zaobao.vue.wxml" /><template is="6d01b6fc" data="{{ ...$root['0'], $root }}"/>

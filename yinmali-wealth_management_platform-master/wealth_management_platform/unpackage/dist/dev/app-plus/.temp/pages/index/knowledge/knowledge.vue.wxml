@@ -1,0 +1,9 @@
+<import src="/components/search-temp.vue.wxml" />
+<template name="630f7c46">
+  <view class="_view data-v-30cc3e73">
+    <template data="{{...$root['0'], ...$root[$kk+'dyK-0'],$root}}" is="0db035fb"></template>
+    <view class="_view data-v-30cc3e73 tiaojian">
+      <view wx:key="item.id" key="{{item.id}}" bindtap="handleProxy" data-eventid="{{'Os6-0-'+index}}" data-comkey="{{$k}}" wx:for="{{xuanze}}" wx:for-index="index" wx:for-item="item" class="_view data-v-30cc3e73 {{id == item.id ? 'active' : ''}}"> {{item.item}} </view>
+    </view>
+  </view>
+</template>

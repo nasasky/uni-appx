@@ -1,0 +1,18 @@
+<import src="/components/writemark-temp.vue.wxml" />
+<template name="6d01b6fc">
+  <view class="_view data-v-6231c3b5">
+    <view class="_view data-v-6231c3b5 top">
+      <view class="_view data-v-6231c3b5 title"> 耀莱财富财经快报 </view>
+      <view class="_view data-v-6231c3b5 videoBox">
+        <audio class="_audio data-v-6231c3b5 audio" src poster name="智能财富管理机构，秀实投资集团" author="今天" action controls="true"></audio>
+      </view>
+    </view>
+    <view class="_view data-v-6231c3b5 content">
+      <view class="_view data-v-6231c3b5 article-title"> {{title}} </view>
+      <rich-text class="_rich-text data-v-6231c3b5 richtext" nodes="{{string}}"> {{string}} </rich-text>
+    </view>
+    <view class="_view data-v-6231c3b5 bottom">
+      <template data="{{...$root['0'], ...$root[$kk+'GIY-1'],$root}}" is="407d46a3"></template>
+    </view>
+  </view>
+</template>

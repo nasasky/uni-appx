@@ -1,0 +1,99 @@
+@import "../../common/vendor.wxss";
+
+.top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  width: 100%;
+}
+.page-section {
+  text-align: center;
+}
+.icon-message {
+  height: 28rpx;
+  width: 28rpx;
+  margin: 0 20rpx;
+}
+.tiaojian {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  background: #FFFFFF;
+  height: 70rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  text-align: center;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+.tiaojian view {
+  line-height: 70rpx;
+  color: rgba(153, 153, 153, 1);
+}
+.tiaojian .active {
+  border-bottom: 3px solid #c49c5a;
+  color: rgba(196, 156, 90, 1);
+}
+.product-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  background: #FFFFFF;
+  margin-top: 20rpx;
+  text-align: left;
+}
+.product-title {
+  line-height: 80rpx;
+  text-align: left;
+  font-size: 15px;
+  margin-left: 30rpx;
+}
+.product-detail {
+  padding: 20rpx 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  border-top: 1px solid rgba(238,238,238,1);
+  border-bottom: 1px solid rgba(238,238,238,1);
+}
+.product-detail .item-top {
+  line-height: 66rpx;
+}
+.product-detail .item-bottom {
+  line-height: 50rpx;
+  color: rgba(153,153,153,1);
+  font-size: 12px;
+}
+.color {
+  color: rgba(196,156,90,1);
+}
+.size {
+  font-size: 16px;
+}
+.large-size {
+  font-size: 24px;
+}

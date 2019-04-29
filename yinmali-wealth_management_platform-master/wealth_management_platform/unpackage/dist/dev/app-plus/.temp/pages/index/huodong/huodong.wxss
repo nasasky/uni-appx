@@ -1,0 +1,14 @@
+@import "../../../common/vendor.wxss";
+
+.uni-media-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+.uni-media-list-logo {
+  width: 700rpx;
+}

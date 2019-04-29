@@ -1,0 +1,123 @@
+<import src="/components/swiper-temp.vue.wxml" />
+<import src="/components/newsList-temp.vue.wxml" />
+<template name="5ab219f8">
+  <view class="_view data-v-7b654518">
+    <template data="{{...$root['0'], ...$root[$kk+'v9p-0'],$root}}" is="08a51d2b"></template>
+    <view class="_view data-v-7b654518 lists">
+      <view class="_view data-v-7b654518 list-item" bindtap="handleProxy" data-eventid="{{'eZ0-0'}}" data-comkey="{{$k}}">
+        <image src="http://ai.ylcaifu.com/appimg/images/1.0-%E5%8F%91%E7%8E%B0/1.0-%E5%8F%91%E7%8E%B0%EF%BC%88%E6%96%B0%E5%AE%A2%E6%88%B7%EF%BC%89/android/drawable-xhdpi/zixun.png" mode class="_image data-v-7b654518"></image>
+        <view class="_view data-v-7b654518">资讯</view>
+      </view>
+      <view class="_view data-v-7b654518 list-item" bindtap="handleProxy" data-eventid="{{'3MD-1'}}" data-comkey="{{$k}}">
+        <image src="http://ai.ylcaifu.com/appimg/images/1.0-%E5%8F%91%E7%8E%B0/1.0-%E5%8F%91%E7%8E%B0%EF%BC%88%E6%96%B0%E5%AE%A2%E6%88%B7%EF%BC%89/android/drawable-xhdpi/qiuzhi.png" mode class="_image data-v-7b654518"></image>
+        <view class="_view data-v-7b654518">求知</view>
+      </view>
+      <view class="_view data-v-7b654518 list-item" bindtap="handleProxy" data-eventid="{{'0fb-2'}}" data-comkey="{{$k}}">
+        <image src="http://ai.ylcaifu.com/appimg/images/1.0-%E5%8F%91%E7%8E%B0/1.0-%E5%8F%91%E7%8E%B0%EF%BC%88%E6%96%B0%E5%AE%A2%E6%88%B7%EF%BC%89/android/drawable-xhdpi/huodong.png" mode class="_image data-v-7b654518"></image>
+        <view class="_view data-v-7b654518">活动</view>
+      </view>
+      <view class="_view data-v-7b654518 list-item" bindtap="handleProxy" data-eventid="{{'yYR-3'}}" data-comkey="{{$k}}">
+        <image src="http://ai.ylcaifu.com/appimg/images/1.0-%E5%8F%91%E7%8E%B0/1.0-%E5%8F%91%E7%8E%B0%EF%BC%88%E6%96%B0%E5%AE%A2%E6%88%B7%EF%BC%89/android/drawable-xhdpi/caifujiangtang.png" mode class="_image data-v-7b654518"></image>
+        <view class="_view data-v-7b654518">财富讲堂</view>
+      </view>
+      <view class="_view data-v-7b654518 list-item" bindtap="handleProxy" data-eventid="{{'zQJ-4'}}" data-comkey="{{$k}}">
+        <image src="http://ai.ylcaifu.com/appimg/images/1.0-%E5%8F%91%E7%8E%B0/1.0-%E5%8F%91%E7%8E%B0%EF%BC%88%E6%96%B0%E5%AE%A2%E6%88%B7%EF%BC%89/android/drawable-xhdpi/jifenshamhcheng.png" mode class="_image data-v-7b654518"></image>
+        <view class="_view data-v-7b654518">积分商城</view>
+      </view>
+    </view>
+    <view class="_view data-v-7b654518 block-box">
+      <view class="_view data-v-7b654518 block">
+        <view class="_view data-v-7b654518 block-title-box">
+          <view class="_view data-v-7b654518 block-title">
+            <view class="_view data-v-7b654518 text"> 金融资讯 </view>
+            <view class="_view data-v-7b654518 uni-icon-more" bindtap="handleProxy" data-eventid="{{'Xav-5'}}" data-comkey="{{$k}}">
+              <view class="_view data-v-7b654518 more"> 更多 </view>
+              <label class="_label data-v-7b654518 iconfont arrow"></label>
+            </view>
+          </view>
+        </view>
+      </view>
+      <template data="{{...$root['0'], ...$root[$kk+'Y33-1'],$root}}" is="47af5932"></template>
+    </view>
+    <view class="_view data-v-7b654518 block-box">
+      <view class="_view data-v-7b654518 block">
+        <view class="_view data-v-7b654518 block-title-box">
+          <view class="_view data-v-7b654518 block-title">
+            <view class="_view data-v-7b654518 text"> 热点问答 </view>
+            <view class="_view data-v-7b654518 uni-icon-more" bindtap="handleProxy" data-eventid="{{'ixL-6'}}" data-comkey="{{$k}}">
+              <view class="_view data-v-7b654518 more"> 更多 </view>
+              <label class="_label data-v-7b654518 iconfont arrow"></label>
+            </view>
+          </view>
+        </view>
+        <view class="_view data-v-7b654518 block-content">
+          <view wx:key="index" key="{{index}}" wx:for="{{qiuzhilist}}" wx:for-index="index" wx:for-item="item" class="_view data-v-7b654518 {{[true ? 'qiuzhiItem' : '', index == 0 ? 'first' : '']}}">
+            <view class="_view data-v-7b654518 qiuzhi-top size uni-ellipsis"> {{item.value}} </view>
+            <view class="_view data-v-7b654518 qiuzhi-bottom  uni-ellipsis"> {{item.value}} </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-7b654518 block-box">
+      <view class="_view data-v-7b654518 block">
+        <view class="_view data-v-7b654518 block-title-box">
+          <view class="_view data-v-7b654518 block-title">
+            <view class="_view data-v-7b654518 text"> 热销产品 </view>
+            <view class="_view data-v-7b654518 uni-icon-more" bindtap="handleProxy" data-eventid="{{'TBd-7'}}" data-comkey="{{$k}}">
+              <view class="_view data-v-7b654518 more"> 更多 </view>
+              <label class="_label data-v-7b654518 iconfont arrow"></label>
+            </view>
+          </view>
+        </view>
+        <view class="_view data-v-7b654518 block-content">
+          <view class="_view data-v-7b654518 intro">
+            <view class="_view data-v-7b654518 pro-title"> 秀实——东雀嘉熠一号收益权转让计划 </view>
+            <view class="_view data-v-7b654518 detail">
+              <view class="_view data-v-7b654518 item">
+                <view class="_view data-v-7b654518 size color">8%-9.5%</view>
+                <view class="_view data-v-7b654518 color-gray">业绩比较基准</view>
+              </view>
+              <view class="_view data-v-7b654518 item">
+                <view class="_view data-v-7b654518 size"> 产品期限 </view>
+                <view class="_view data-v-7b654518 color-gray"> 12个月 </view>
+              </view>
+              <view class="_view data-v-7b654518 item">
+                <view class="_view data-v-7b654518 size"> 认购起点 </view>
+                <view class="_view data-v-7b654518 color-gray"> 50万元 </view>
+              </view>
+            </view>
+            <view class="_view data-v-7b654518 button-group">
+              <view class="_view data-v-7b654518"> 产品备案查询 </view>
+              <view class="_view data-v-7b654518"> 产品详情 </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-7b654518 block-box">
+      <view class="_view data-v-7b654518 block">
+        <view class="_view data-v-7b654518 block-title-box">
+          <view class="_view data-v-7b654518 block-title">
+            <view class="_view data-v-7b654518 text"> 财富讲堂 </view>
+            <view class="_view data-v-7b654518 uni-icon-more" bindtap="handleProxy" data-eventid="{{'UQm-8'}}" data-comkey="{{$k}}">
+              <view class="_view data-v-7b654518 more"> 更多 </view>
+              <label class="_label data-v-7b654518 iconfont arrow"></label>
+            </view>
+          </view>
+        </view>
+        <view class="_view data-v-7b654518 block-content">
+          <view class="_view data-v-7b654518 jiangtang">
+            <view class="_view data-v-7b654518 jt-box">
+              <view class="_view data-v-7b654518 jt-title"> 投资策略 </view>
+              <view class="_view data-v-7b654518 jt-content"> 投资顾问 专家解读 </view>
+            </view>
+            <view class="_view data-v-7b654518 jt-box">
+              <view class="_view data-v-7b654518 jt-title"> 投资策略 </view>
+              <view class="_view data-v-7b654518 jt-content"> 投资顾问 专家解读 </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,27 @@
+<template name="a0077464">
+  <view class="_view data-v-10f693bc container">
+    <view class="_view data-v-10f693bc page-body">
+      <scroll-view class="_scroll-view data-v-10f693bc nav-left" scroll-y style=" {{'height:' + height + 'px'}}">
+        <view class="_view data-v-10f693bc nav-left-item {{index == categoryActive ? 'active' : ''}}" bindtap="handleProxy" wx:key="index" key="{{index}}" data-eventid="{{'12c-0-'+index}}" data-comkey="{{$k}}" wx:for="{{categoryList}}" wx:for-index="index"
+          wx:for-item="item">
+          <view class="_view data-v-10f693bc nav-left-name {{index == categoryActive ? 'active-border' : ''}}">
+            <image src="{{index==categoryActive?item.selectLogo:item.logo}}" mode="aspectFit" class="_image data-v-10f693bc logoImg"></image> {{item.NAME}} </view>
+        </view>
+      </scroll-view>
+      <scroll-view class="_scroll-view data-v-10f693bc nav-right" scroll-y scroll-top="{{scrollTop}}" bindscroll="handleProxy" scroll-with-animation data-eventid="{{'W8b-1'}}" data-comkey="{{$k}}" style=" {{'height:' + height + 'px'}}">
+        <view class="_view data-v-10f693bc">
+          <image class="_image data-v-10f693bc banner" src="{{bannerUrl}}" mode="aspectFit"></image>
+        </view>
+        <view class="_view data-v-10f693bc class-box" wx:for="{{categoryList}}" wx:for-index="index" wx:for-item="item">
+          <view class="_view data-v-10f693bc class-name">{{item.NAME}}</view>
+          <view class="_view data-v-10f693bc nav-item-box">
+            <view id="{{index1===0?'first':''}}" class="_view data-v-10f693bc nav-right-item" wx:key="index" key="{{index}}" wx:for="{{item.subCategoryList.list}}" wx:for-index="index1" wx:for-item="item">
+              <image src="{{item.LOGO}}" class="_image data-v-10f693bc item-img"></image>
+              <view class="_view data-v-10f693bc item-name">{{item.NAME}}</view>
+            </view>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+</template>

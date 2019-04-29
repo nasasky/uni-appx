@@ -1,0 +1,45 @@
+<template name="53dbd291">
+  <view class="_view data-v-58860406 smcp-box">
+    <view class="_view data-v-58860406 content1">风险提示：私募基金投资需要承担各类风险，本金可能遭受损失。同时，私募基金投资还要考虑市场风险、信用风险、流动性风险、操作风险等各类投资风险。您在基金认购过程中应当注意核对自己的风险识别和风险承受能力，选择与自己风险识别能力相匹配的私募基金。 </view>
+    <view class="_view data-v-58860406 sign-box">
+      <view class="_view data-v-58860406">请签字承诺您是为自己购买私募基金产品</view>
+      <view class="_view data-v-58860406 sign">黎明</view>
+    </view>
+    <view class="_view data-v-58860406 xunwen">
+      <view class="_view data-v-58860406 title"> 请确认您是否同时符合下列合格投资者条件 </view>
+      <view class="_view data-v-58860406 ques-item">1、金融资产不低于300万元；</view>
+      <view class="_view data-v-58860406 ques-item"> 2、近三年本人年均收入不低于50万元的个人 （金融资产包括银行存款、股票、债券、基金份额、资产</view>
+      <view class="_view data-v-58860406 row1">
+        <label class="_label data-v-58860406 radio">
+          <image src="{{checked?'http://ai.ylcaifu.com/appimg/images/7.0-%E7%99%BB%E5%BD%95%E8%AE%A4%E8%AF%81%E7%AD%89%E9%A1%B5%E9%9D%A2/7.1.2-%E6%B3%A8%E5%86%8C/android/drawable-xhdpi/Checked.png':'http://ai.ylcaifu.com/appimg/images/7.0-%E7%99%BB%E5%BD%95%E8%AE%A4%E8%AF%81%E7%AD%89%E9%A1%B5%E9%9D%A2/7.1.2-%E6%B3%A8%E5%86%8C/android/drawable-xhdpi/Unchecked.png' }}"
+            class="_image data-v-58860406"></image> 是 </label>
+        <label class="_label data-v-58860406 radio">
+          <image src="{{checked?'http://ai.ylcaifu.com/appimg/images/7.0-%E7%99%BB%E5%BD%95%E8%AE%A4%E8%AF%81%E7%AD%89%E9%A1%B5%E9%9D%A2/7.1.2-%E6%B3%A8%E5%86%8C/android/drawable-xhdpi/Unchecked.png':'http://ai.ylcaifu.com/appimg/images/7.0-%E7%99%BB%E5%BD%95%E8%AE%A4%E8%AF%81%E7%AD%89%E9%A1%B5%E9%9D%A2/7.1.2-%E6%B3%A8%E5%86%8C/android/drawable-xhdpi/Checked.png' }}"
+            class="_image data-v-58860406"></image> 否 </label>
+      </view>
+    </view>
+    <view class="_view data-v-58860406 id-message">
+      <view class="_view data-v-58860406 row">
+        <view class="_view data-v-58860406 name-key"> 姓名 </view>
+        <view class="_view data-v-58860406 name-value"> lily </view>
+      </view>
+      <view class="_view data-v-58860406 row">
+        <view class="_view data-v-58860406 phone-key"> 联系方式 </view>
+        <view class="_view data-v-58860406 phone-value"> 13190359692 </view>
+      </view>
+      <view class="_view data-v-58860406 row">
+        <view class="_view data-v-58860406 id-key"> 证件类型 </view>
+        <view class="_view data-v-58860406 id-value"> 身份证 </view>
+      </view>
+      <view class="_view data-v-58860406 row">
+        <view class="_view data-v-58860406 number-key"> 证件号码 </view>
+        <view class="_view data-v-58860406 number-value"> 210411111111111111 </view>
+      </view>
+    </view>
+    <view class="_view data-v-58860406 shengming"> 声明：本人已如实填写《投资者风险问卷调查（个人版）》，并了解了自己的风险承受类型和合适购买的产品类型 </view>
+    <view class="_view data-v-58860406 questionBox">
+      <view class="_view data-v-58860406 question">
+        <label class="_label data-v-58860406 iconfont"></label>提交 </view>
+    </view>
+  </view>
+</template>

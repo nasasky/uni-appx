@@ -1,0 +1,1 @@
+<import src="/pages/index/huodong/huodong.vue.wxml" /><template is="672201d6" data="{{ ...$root['0'], $root }}"/>

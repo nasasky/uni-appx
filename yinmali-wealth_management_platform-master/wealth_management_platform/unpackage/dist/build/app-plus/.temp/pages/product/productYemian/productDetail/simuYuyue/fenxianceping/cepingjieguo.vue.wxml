@@ -1,0 +1,64 @@
+<template name="86f78b90">
+  <view class="_view data-v-59d566a4">
+    <view class="_view data-v-59d566a4 topBox">
+      <view class="_view data-v-59d566a4 top">
+        <view class="_view data-v-59d566a4 go-back iconfont" bindtap="handleProxy" data-eventid="{{'TwK-0'}}" data-comkey="{{$k}}">  </view>
+        <view class="_view data-v-59d566a4 middle"> 风险测评 </view>
+        <view class="_view data-v-59d566a4 share iconfont"></view>
+      </view>
+      <view class="_view data-v-59d566a4 section">
+        <view class="_view data-v-59d566a4 content">
+          <view class="_view data-v-59d566a4 image-box">
+            <image class="_image data-v-59d566a4 user-image" src="http://ai.ylcaifu.com/appimg/images/2.0-%E4%BA%A7%E5%93%81/2.4.2.2.2-%E9%A3%8E%E9%99%A9%E6%B5%8B%E8%AF%84%E7%BB%93%E6%9E%9C/android/drawable-xhdpi/touxiang.png" mode></image>
+          </view>
+          <view class="_view data-v-59d566a4 sum"> 您的总得分 </view>
+          <view class="_view data-v-59d566a4 score-role">
+            <view class="_view data-v-59d566a4 socre"> 20 </view>
+            <view class="_view data-v-59d566a4 leixing"> 保守型投资人 </view>
+            <view class="_view data-v-59d566a4 leixing-bottom"> 您的类型为 </view>
+          </view>
+          <view class="_view data-v-59d566a4 chanpinleixing"> 合适您的基金产品类型 </view>
+          <view class="_view data-v-59d566a4 fengxianjibie"> 低风险级别产品 </view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-59d566a4 tableBox">
+      <view class="_view data-v-59d566a4 table">
+        <view class="_view data-v-59d566a4 row title">
+          <view class="_view data-v-59d566a4 column1"> 分值范围 </view>
+          <view class="_view data-v-59d566a4 column"> 客户类型 </view>
+          <view class="_view data-v-59d566a4 column"> 适合的产品类型 </view>
+        </view>
+        <view class="_view data-v-59d566a4 row">
+          <view class="_view data-v-59d566a4 column1"> 20 </view>
+          <view class="_view data-v-59d566a4 column"> 保守型投资人 </view>
+          <view class="_view data-v-59d566a4 column"> 低风险级别产品 </view>
+        </view>
+        <view class="_view data-v-59d566a4 row">
+          <view class="_view data-v-59d566a4  column1"> 20~40 </view>
+          <view class="_view data-v-59d566a4 column"> 稳健和保守型投资人 </view>
+          <view class="_view data-v-59d566a4 column"> 低、中低风险级别产品 </view>
+        </view>
+        <view class="_view data-v-59d566a4 row">
+          <view class="_view data-v-59d566a4  column1"> 41~60 </view>
+          <view class="_view data-v-59d566a4 column"> 稳健性投资人 </view>
+          <view class="_view data-v-59d566a4 column"> 低、中低风险级别产品 </view>
+        </view>
+        <view class="_view data-v-59d566a4 row">
+          <view class="_view data-v-59d566a4  column1"> 41~60 </view>
+          <view class="_view data-v-59d566a4 column"> 稳健性投资人 </view>
+          <view class="_view data-v-59d566a4 column"> 低、中低、中等风险级别产品 </view>
+        </view>
+        <view class="_view data-v-59d566a4 row">
+          <view class="_view data-v-59d566a4  column1"> 80~100 </view>
+          <view class="_view data-v-59d566a4 column"> 稳健性投资人 </view>
+          <view class="_view data-v-59d566a4 column"> 低、中低、中等风险级别产品 </view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-59d566a4 questionBox">
+      <view class="_view data-v-59d566a4 question"> 开启财富之旅 </view>
+    </view>
+    <view class="_view data-v-59d566a4 chongce" bindtap="handleProxy" data-eventid="{{'qW3-1'}}" data-comkey="{{$k}}"> 重新测评 </view>
+  </view>
+</template>

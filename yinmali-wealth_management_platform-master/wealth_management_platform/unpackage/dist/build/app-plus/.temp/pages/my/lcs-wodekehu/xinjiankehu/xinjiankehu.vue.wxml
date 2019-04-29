@@ -1,0 +1,40 @@
+<template name="6f0074ce">
+  <view class="_view data-v-a7e6a4ce xinjiankehu-box">
+    <view class="_view data-v-a7e6a4ce box">
+      <view class="_view data-v-a7e6a4ce row">
+        <view class="_view data-v-a7e6a4ce left"> 姓名 </view>
+        <input type="text" value="" placeholder="黎鸣先生" class="_input data-v-a7e6a4ce" />
+      </view>
+      <view class="_view data-v-a7e6a4ce row">
+        <view class="_view data-v-a7e6a4ce left"> 性别 </view>
+        <view class="_view data-v-a7e6a4ce right">
+          <view class="_view data-v-a7e6a4ce"></view>
+          <view class="_view data-v-a7e6a4ce"> 请选择
+            <label class="_label data-v-a7e6a4ce iconfont"> </label>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-a7e6a4ce row">
+        <view class="_view data-v-a7e6a4ce left"> 手机号 </view>
+        <input type="text" value="" placeholder="2010-101" class="_input data-v-a7e6a4ce" />
+      </view>
+      <view class="_view data-v-a7e6a4ce row">
+        <view class="_view data-v-a7e6a4ce left"> 生日 </view>
+        <view class="_view data-v-a7e6a4ce right">
+          <view class="_view data-v-a7e6a4ce"></view>
+          <view class="_view data-v-a7e6a4ce"> 请选择
+            <label class="_label data-v-a7e6a4ce iconfont"> </label>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-a7e6a4ce row">
+        <view class="_view data-v-a7e6a4ce left"> 所在地区 </view>
+        <input type="text" value="" placeholder="请填写地址信息" class="_input data-v-a7e6a4ce" />
+      </view>
+      <view class="_view data-v-a7e6a4ce questionBox">
+        <view class="_view data-v-a7e6a4ce question">
+          <label class="_label data-v-a7e6a4ce iconfont label"></label>保存 </view>
+      </view>
+    </view>
+  </view>
+</template>

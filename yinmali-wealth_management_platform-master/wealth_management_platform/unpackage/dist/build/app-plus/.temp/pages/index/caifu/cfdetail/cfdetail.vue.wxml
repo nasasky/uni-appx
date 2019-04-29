@@ -1,0 +1,87 @@
+<import src="/components/writemark-temp.vue.wxml" />
+<template name="4f30d300">
+  <view class="_view data-v-eb5cf900">
+    <view class="_view data-v-eb5cf900 topBox">
+      <view class="_view data-v-eb5cf900 top">
+        <view class="_view data-v-eb5cf900 go-back iconfont" bindtap="handleProxy" data-eventid="{{'Z39-0'}}" data-comkey="{{$k}}">  </view>
+        <view class="_view data-v-eb5cf900 middle"> 资产配置 </view>
+        <view class="_view data-v-eb5cf900 share iconfont">  </view>
+      </view>
+      <view class="_view data-v-eb5cf900 videoBox">
+        <video src controls class="_video data-v-eb5cf900 video" poster="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1545037607&di=2f29f11ea32db8271262cd40536174c7&src=http://imgsrc.baidu.com/imgad/pic/item/32fa828ba61ea8d3d8d6c33f9c0a304e251f5810.jpg"></video>
+      </view>
+    </view>
+    <view class="_view data-v-eb5cf900 contentBox">
+      <view class="_view data-v-eb5cf900 contentTop">
+        <view class="_view data-v-eb5cf900 title"> 如何选择固定收益类的理财产品？ </view>
+        <view class="_view data-v-eb5cf900 bot">
+          <view class="_view data-v-eb5cf900 left">
+            <view class="_view data-v-eb5cf900 from"> 微课堂 </view>
+            <view class="_view data-v-eb5cf900 time"> 2018-28-28 </view>
+          </view>
+          <view class="_view data-v-eb5cf900 right">
+            <view class="_view data-v-eb5cf900 iconfont">  </view>
+            <view class="_view data-v-eb5cf900"> 2345 </view>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-eb5cf900 contentMid">
+        <view class="_view data-v-eb5cf900 videoDetail uni-font17">视频详情</view>
+        <view class="_view data-v-eb5cf900 detail threeLines">视频详情 使皮下昂区视频详情 使皮下昂区视频详情 使皮下昂区视频详情 使皮下昂区视频详情 使皮下昂区</view>
+      </view>
+      <view class="_view data-v-eb5cf900 contentBot">
+        <view class="_view data-v-eb5cf900 videoDetail uni-font17">热门评论</view>
+        <view class="_view data-v-eb5cf900 mark">
+          <view class="_view data-v-eb5cf900 avator-left">
+            <image src="../../../../static/image/invest/u762.png" class="_image data-v-eb5cf900"></image>
+          </view>
+          <view class="_view data-v-eb5cf900 mark-right">
+            <view class="_view data-v-eb5cf900 mark-top">
+              <view class="_view data-v-eb5cf900 mark-top-left">
+                <view class="_view data-v-eb5cf900 position">理财师</view>
+                <view class="_view data-v-eb5cf900 name">李明</view>
+              </view>
+              <view class="_view data-v-eb5cf900 time">9小时前</view>
+            </view>
+            <view class="_view data-v-eb5cf900 mark-bot twoLines"> 秀实东区寄秀实东区寄秀实东区寄秀实东区寄秀实东区寄秀实东区寄秀实东区寄 </view>
+          </view>
+        </view>
+        <view class="_view data-v-eb5cf900 mark">
+          <view class="_view data-v-eb5cf900 avator-left">
+            <image src="../../../../static/image/invest/u762.png" class="_image data-v-eb5cf900"></image>
+          </view>
+          <view class="_view data-v-eb5cf900 mark-right">
+            <view class="_view data-v-eb5cf900 mark-top">
+              <view class="_view data-v-eb5cf900 mark-top-left">
+                <view class="_view data-v-eb5cf900 position">理财师</view>
+                <view class="_view data-v-eb5cf900 name">李明</view>
+              </view>
+              <view class="_view data-v-eb5cf900 time">9小时前</view>
+            </view>
+            <view class="_view data-v-eb5cf900 mark-bot twoLines"> 秀实东区寄秀实东区寄秀实东区寄秀实东区寄秀实东区寄秀实东区寄秀实东区寄 </view>
+          </view>
+        </view>
+        <view class="_view data-v-eb5cf900 mark">
+          <view class="_view data-v-eb5cf900 avator-left">
+            <image src="../../../../static/image/invest/u762.png" class="_image data-v-eb5cf900"></image>
+          </view>
+          <view class="_view data-v-eb5cf900 mark-right">
+            <view class="_view data-v-eb5cf900 mark-top">
+              <view class="_view data-v-eb5cf900 mark-top-left">
+                <view class="_view data-v-eb5cf900 position">理财师</view>
+                <view class="_view data-v-eb5cf900 name">李明</view>
+              </view>
+              <view class="_view data-v-eb5cf900 time">9小时前</view>
+            </view>
+            <view class="_view data-v-eb5cf900 mark-bot twoLines"> 秀实东区寄秀实东区寄秀实东区寄秀实东区寄秀实东区寄秀实东区寄秀实东区寄 </view>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-eb5cf900 more-mark">
+        <label class="_label data-v-eb5cf900 iconfont"></label>查看更多评论</view>
+    </view>
+    <view class="_view data-v-eb5cf900 bottom">
+      <template data="{{...$root['0'], ...$root[$kk+'tUu-0'],$root}}" is="407d46a3"></template>
+    </view>
+  </view>
+</template>

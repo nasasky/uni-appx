@@ -1,0 +1,49 @@
+<import src="/components/picker/picker.vue.wxml" />
+<template name="102ecf44">
+  <view class="_view data-v-c8ef7e10 jiaokuan-box">
+    <view class="_view data-v-c8ef7e10 jiaokuan">
+      <view class="_view data-v-c8ef7e10 title"> 缴款申请 </view>
+      <view class="_view data-v-c8ef7e10 row">
+        <view class="_view data-v-c8ef7e10 left"> 客户姓名 </view>
+        <input type="text" value="" placeholder="先生" class="_input data-v-c8ef7e10" />
+      </view>
+      <view class="_view data-v-c8ef7e10 row">
+        <view class="_view data-v-c8ef7e10 left"> 银行卡号 </view>
+        <input type="text" value="" placeholder="请输入银行卡号" class="_input data-v-c8ef7e10" />
+      </view>
+      <view class="_view data-v-c8ef7e10 row">
+        <view class="_view data-v-c8ef7e10 left"> 开户行 </view>
+        <input type="text" value="" placeholder="请选择银行" class="_input data-v-c8ef7e10" />
+      </view>
+      <view class="_view data-v-c8ef7e10 row">
+        <view class="_view data-v-c8ef7e10 left"></view>
+        <input type="text" value="" placeholder="请填写支行" class="_input data-v-c8ef7e10" />
+      </view>
+      <view class="_view data-v-c8ef7e10 row">
+        <view class="_view data-v-c8ef7e10 left"> 缴费金额 </view>
+        <input type="text" value="" placeholder="请填写金额" class="_input data-v-c8ef7e10" />
+        <view class="_view data-v-c8ef7e10"> 万元 </view>
+      </view>
+      <view class="_view data-v-c8ef7e10 row">
+        <view class="_view data-v-c8ef7e10 left"> 缴款日期 </view>
+        <view class="_view data-v-c8ef7e10 right">
+          <template data="{{...$root['0'], ...$root[$kk+'P9S-0'],$root}}" is="78fd2e84"></template>
+        </view>
+      </view>
+      <view class="_view data-v-c8ef7e10">
+        <view class="_view data-v-c8ef7e10 left" style="padding: 40rpx 0 0;"> 缴款凭证 </view>
+        <view class="_view data-v-c8ef7e10 photo-box">
+          <view class="_view data-v-c8ef7e10 photo-item">上传身份证正面</view>
+          <view class="_view data-v-c8ef7e10 photo-item">上传身份证反面</view>
+          <view class="_view data-v-c8ef7e10 photo-item">上传银行卡正面</view>
+          <view class="_view data-v-c8ef7e10 photo-item">上传银行卡反面</view>
+          <view class="_view data-v-c8ef7e10 photo-item">上传银行卡交易凭条</view>
+        </view>
+      </view>
+      <view class="_view data-v-c8ef7e10 questionBox">
+        <view class="_view data-v-c8ef7e10 question">
+          <label class="_label data-v-c8ef7e10 iconfont"></label>提交 </view>
+      </view>
+    </view>
+  </view>
+</template>

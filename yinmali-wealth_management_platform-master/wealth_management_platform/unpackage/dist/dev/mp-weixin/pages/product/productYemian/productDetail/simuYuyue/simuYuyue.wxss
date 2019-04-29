@@ -1,0 +1,100 @@
+@import "../../../../../common/vendor.wxss";
+
+page {
+  background: rgb(255, 255, 255);
+}
+.divider-image {
+  height: 50rpx;
+  width: 50rpx;
+}
+.simu-box {
+  padding: 50rpx 0 50rpx 50rpx;
+}
+.uni-timeline-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+  padding-bottom: 10rpx;
+  box-sizing: border-box;
+  overflow: hidden;
+  min-height: 100rpx;
+}
+.uni-timeline-item .uni-timeline-item-content {
+  padding-left: 40rpx;
+  color: #000000;
+  font-weight: bold;
+  font-size: 17px;
+}
+.uni-timeline-item .uni-timeline-item-divider {
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+  position: relative;
+  width: 50rpx;
+  height: 50rpx;
+  top: 0;
+  border-radius: 50%;
+  background-color: rgba(221, 221, 221, 1);
+}
+.uni-timeline-item-divider::before,
+.uni-timeline-item-divider::after {
+  position: absolute;
+  left: 25rpx;
+  width: 0.5px;
+  top: 25px;
+  height: 100vh;
+  content: '';
+  background: inherit;
+}
+.uni-timeline-last-item .uni-timeline-item-divider::before,
+.uni-timeline-last-item .uni-timeline-item-divider::after {
+  width: 0px;
+}
+.datetime {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  font-weight: 500;
+  color: rgba(153, 153, 153, 1);
+  font-size: 14px;
+}
+.uni-timeline-item-content-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.ques-image-box,
+.ques-image {
+  width: 34rpx;
+  height: 34rpx;
+}
+.datetime .ques-image-box,
+.datetime .ques-image {
+  width: 28rpx;
+  height: 28rpx;
+}
+.ques-image-box {
+  margin: 0 10rpx;
+}
+.orange {
+  text-decoration: underline;
+  color: rgba(255, 128, 27, 1);
+}

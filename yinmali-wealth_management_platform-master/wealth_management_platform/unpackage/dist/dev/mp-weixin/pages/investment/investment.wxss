@@ -1,0 +1,31 @@
+@import "../../common/vendor.wxss";
+
+.touziBox {
+  background: #FFFFFF;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+}
+.touziItem {
+  width: 210rpx;
+  text-align: center;
+  padding: 20rpx;
+}
+.touziItem image {
+  height: 160rpx;
+  width: 160rpx;
+}
+.title {
+  font-size: 26rpx;
+  line-height: 40rpx;
+}

@@ -1,0 +1,48 @@
+<import src="/pages/API/image/image.vue.wxml" />
+<template name="7bb80f95">
+  <view class="_view data-v-8d0f7ce2">
+    <view class="_view data-v-8d0f7ce2 pinglun-box">
+      <view class="_view data-v-8d0f7ce2 pinglun-top">
+        <view class="_view data-v-8d0f7ce2 pinglun"> 评论 </view>
+        <view class="_view data-v-8d0f7ce2 star">
+          <view class="_view data-v-8d0f7ce2 star-item">
+            <image class="_image data-v-8d0f7ce2 star-image-select" src="http://ai.ylcaifu.com/appimg/images/2.0-%E4%BA%A7%E5%93%81/2.2-%E4%BA%A7%E5%93%81%E9%A1%B5%E9%9D%A2/android/drawable-xhdpi/xingxingxuanzhon.png"></image>
+          </view>
+          <view class="_view data-v-8d0f7ce2 star-item">
+            <image class="_image data-v-8d0f7ce2 star-image-select" src="http://ai.ylcaifu.com/appimg/images/2.0-%E4%BA%A7%E5%93%81/2.2-%E4%BA%A7%E5%93%81%E9%A1%B5%E9%9D%A2/android/drawable-xhdpi/xingxingxuanzhon.png"></image>
+          </view>
+          <view class="_view data-v-8d0f7ce2 star-item">
+            <image class="_image data-v-8d0f7ce2 star-image-select" src="http://ai.ylcaifu.com/appimg/images/2.0-%E4%BA%A7%E5%93%81/2.2-%E4%BA%A7%E5%93%81%E9%A1%B5%E9%9D%A2/android/drawable-xhdpi/xingxingxuanzhon.png"></image>
+          </view>
+          <view class="_view data-v-8d0f7ce2 star-item">
+            <image class="_image data-v-8d0f7ce2 star-image-select" src="http://ai.ylcaifu.com/appimg/images/2.0-%E4%BA%A7%E5%93%81/2.2-%E4%BA%A7%E5%93%81%E9%A1%B5%E9%9D%A2/android/drawable-xhdpi/xingxingxuanzhon.png"></image>
+          </view>
+          <view class="_view data-v-8d0f7ce2 star-item">
+            <image class="_image data-v-8d0f7ce2 star-image-select" src="http://ai.ylcaifu.com/appimg/images/2.0-%E4%BA%A7%E5%93%81/2.2-%E4%BA%A7%E5%93%81%E9%A1%B5%E9%9D%A2/android/drawable-xhdpi/xingxingxuanzhon.png"></image>
+          </view>
+        </view>
+      </view>
+      <textarea class="_textarea data-v-8d0f7ce2 textare" value="" placeholder="来评价吧" />
+      <template data="{{...$root['0'], ...$root[$kk+'uLO-0'],$root}}" is="05d41168"></template>
+      <view class="_view data-v-8d0f7ce2 contentMid">
+        <view class="_view data-v-8d0f7ce2 videoDetail uni-font17">
+          <view class="_view data-v-8d0f7ce2"> 产品印象 </view>
+        </view>
+        <view class="_view data-v-8d0f7ce2 label">
+          <view class="_view data-v-8d0f7ce2 label-item">国企大机构背景</view>
+          <view class="_view data-v-8d0f7ce2 label-item">股力雄厚</view>
+          <view class="_view data-v-8d0f7ce2 label-item">历史对付100%</view>
+          <view class="_view data-v-8d0f7ce2 label-item">股东实力雄厚</view>
+        </view>
+      </view>
+      <view class="_view data-v-8d0f7ce2 uni-switch-box">
+        <view class="_view data-v-8d0f7ce2 uni-list">
+          <view class="_view data-v-8d0f7ce2 uni-list-cell uni-list-cell-pd">
+            <view class="_view data-v-8d0f7ce2 uni-list-cell-db">匿名</view>
+            <switch bindchange="handleProxy" data-eventid="{{'piE-0'}}" data-comkey="{{$k}}" class="_switch data-v-8d0f7ce2" />
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

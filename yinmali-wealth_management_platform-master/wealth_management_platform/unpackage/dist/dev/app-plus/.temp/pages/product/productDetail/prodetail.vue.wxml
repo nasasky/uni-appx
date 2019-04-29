@@ -1,0 +1,22 @@
+<template name="8b1a2e76">
+  <view class="_view data-v-44be9b9c">
+    <view class="_view data-v-44be9b9c page-body">
+      <view class="_view data-v-44be9b9c page-section">
+        <video id="myVideo" src="https://www.dcloud.io/uniapp/wap2appvsnative.mp4" controls class="_video data-v-44be9b9c"></video>
+        <view class="_view data-v-44be9b9c intro">
+          <view class="_view data-v-44be9b9c pro-title"> 秀实——东雀嘉熠一号收益权转让计划 </view>
+          <view class="_view data-v-44be9b9c detail">
+            <view class="_view data-v-44be9b9c item color size"> 8%-9.5% </view>
+            <view class="_view data-v-44be9b9c item"> 产品期限
+              <text class="_text data-v-44be9b9c color">12个月</text>
+            </view>
+            <view class="_view data-v-44be9b9c item"> 业绩比较基准 </view>
+            <view class="_view data-v-44be9b9c item"> 认购起点
+              <text class="_text data-v-44be9b9c color">50万元</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

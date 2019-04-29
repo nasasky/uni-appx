@@ -1,0 +1,20 @@
+<template name="74e4f4fe">
+  <view class="_view data-v-5b2a65ab box">
+    <view class="_view data-v-5b2a65ab cfjiangtang" bindtap="handleProxy" data-eventid="{{'elU-0-'+index}}" data-comkey="{{$k}}" wx:for="{{lists}}" wx:for-index="index" wx:for-item="item" style=" {{('background-image:' + ('url(' + item.author_avatar + ')') + ';')}}">
+      <view class="_view data-v-5b2a65ab content">
+        <view class="_view data-v-5b2a65ab iconfont play">  </view>
+        <view class="_view data-v-5b2a65ab title"> 如何选择固定收益类的理财产品？ </view>
+        <view class="_view data-v-5b2a65ab bot">
+          <view class="_view data-v-5b2a65ab left">
+            <view class="_view data-v-5b2a65ab from"> 微课堂 </view>
+            <view class="_view data-v-5b2a65ab time"> 微课堂 </view>
+          </view>
+          <view class="_view data-v-5b2a65ab right">
+            <view class="_view data-v-5b2a65ab iconfont">  </view>
+            <view class="_view data-v-5b2a65ab"> 2345 </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

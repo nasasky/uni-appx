@@ -1,0 +1,50 @@
+<import src="/components/search-temp.vue.wxml" />
+<template name="43a979b0">
+  <view class="_view data-v-56989d62">
+    <view class="_view data-v-56989d62 top">
+      <template data="{{...$root['0'], ...$root[$kk+'VJJ-0'],$root}}" is="0db035fb"></template>
+    </view>
+    <view class="_view data-v-56989d62 dingdan-box">
+      <view class="_view data-v-56989d62 dingdan-item">
+        <view class="_view data-v-56989d62 dingdan-item-left">
+          <view class="_view data-v-56989d62 product-name">青山盈收33号</view>
+          <view class="_view data-v-56989d62 jiaqian"> 260,000.00 </view>
+        </view>
+        <view class="_view data-v-56989d62 dingdan-item-right">
+          <view class="_view data-v-56989d62 is-daoqi daoqi">已到期</view>
+          <view class="_view data-v-56989d62 time">2108-10-10</view>
+        </view>
+      </view>
+      <view class="_view data-v-56989d62 dingdan-item">
+        <view class="_view data-v-56989d62 dingdan-item-left">
+          <view class="_view data-v-56989d62 product-name">青山盈收33号</view>
+          <view class="_view data-v-56989d62 jiaqian"> 260,000.00 </view>
+        </view>
+        <view class="_view data-v-56989d62 dingdan-item-right">
+          <view class="_view data-v-56989d62 is-daoqi daoqi">已到期</view>
+          <view class="_view data-v-56989d62 time">2108-10-10</view>
+        </view>
+      </view>
+      <view class="_view data-v-56989d62 dingdan-item">
+        <view class="_view data-v-56989d62 dingdan-item-left">
+          <view class="_view data-v-56989d62 product-name">青山盈收33号</view>
+          <view class="_view data-v-56989d62 jiaqian"> 260,000.00 </view>
+        </view>
+        <view class="_view data-v-56989d62 dingdan-item-right">
+          <view class="_view data-v-56989d62 is-daoqi daoqi">已到期</view>
+          <view class="_view data-v-56989d62 time">2108-10-10</view>
+        </view>
+      </view>
+      <view class="_view data-v-56989d62 dingdan-item">
+        <view class="_view data-v-56989d62 dingdan-item-left">
+          <view class="_view data-v-56989d62 product-name">青山盈收33号</view>
+          <view class="_view data-v-56989d62 jiaqian"> 260,000.00 </view>
+        </view>
+        <view class="_view data-v-56989d62 dingdan-item-right">
+          <view class="_view data-v-56989d62 is-daoqi daoqi">已到期</view>
+          <view class="_view data-v-56989d62 time">2108-10-10</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

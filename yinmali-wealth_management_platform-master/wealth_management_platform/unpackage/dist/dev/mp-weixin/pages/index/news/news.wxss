@@ -1,0 +1,29 @@
+@import "../../../common/vendor.wxss";
+
+.tiaojian {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  background: #FFFFFF;
+  height: 70rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  text-align: center;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  margin-top: 20rpx;
+  padding-bottom: 3px;
+}
+.tiaojian view {
+  line-height: 70rpx;
+  color: #999999;
+}
+.tiaojian .active {
+  border-bottom: 3px solid #c49c5a;
+  color: #c49c5a;
+}

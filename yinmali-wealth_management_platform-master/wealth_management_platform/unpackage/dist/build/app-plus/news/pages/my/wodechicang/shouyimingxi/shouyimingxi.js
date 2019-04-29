@@ -1,0 +1,13 @@
+
+      !(function(){
+        var uniAppViewReadyCallback = function(){
+          setCssToHead([[2,1],".",[1],"topBox{width:100%;height:200px;background:url(\x22http://ai.ylcaifu.com/appimg/images/6.0-%E6%88%91%E7%9A%84%E6%8A%95%E8%B5%84%E4%BA%BA/6.1.2-%E6%94%B6%E7%9B%8A%E6%98%8E%E7%BB%86/android/drawable-xhdpi/beijing.png\x22) 50% no-repeat;background-size:100% 200px}\n.",[1],"top{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;flex-direction:row;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;-webkit-box-align:center;-webkit-align-items:center;align-items:center;padding:33px ",[0,30]," 0 18px;color:#fff}\n.",[1],"middle{font-size:18px}\n.",[1],"go-back{font-size:17px}\n.",[1],"share{font-size:20px}\n.",[1],"second-box{width:100%;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;flex-direction:column;color:#fff;text-align:center}\n.",[1],"second-title{font-size:12px;margin:30px 0 13px}\n.",[1],"persent{height:38px;line-height:38px;font-size:32px;margin-bottom:13px}\n.",[1],"level{font-size:12px}\n.",[1],"shouyi-box{margin-top:10px;background:#fff;padding:0 ",[0,30],"}\n.",[1],"shouyi-item{-webkit-box-orient:vertical;-webkit-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;justify-content:center;border-bottom:1px solid #eee;height:65px}\n.",[1],"shouyi-item,.",[1],"shouyi-top{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-direction:normal}\n.",[1],"shouyi-top{-webkit-box-orient:horizontal;-webkit-flex-direction:row;flex-direction:row;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;-webkit-box-align:center;-webkit-align-items:center;align-items:center}\n.",[1],"product-name{font-size:16px}\n.",[1],"shouyijine{font-size:18px}\n.",[1],"shouyi-bottom{line-height:24px;color:#999;font-size:12px}\n",])();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/my/wodechicang/shouyimingxi/shouyimingxi.wxml') } }));
+        }
+        if(window.__uniAppViewReady__){
+          uniAppViewReadyCallback()
+        }else{
+          document.addEventListener('uniAppViewReady',uniAppViewReadyCallback)
+        }
+      })();
+      

@@ -1,0 +1,1 @@
+<import src="/pages/product/productYemian/pinglun/pinglun.vue.wxml" /><template is="7bb80f95" data="{{ ...$root['0'], $root }}"/>

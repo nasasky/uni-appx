@@ -1,0 +1,25 @@
+<import src="/components/search-temp.vue.wxml" />
+<template name="6263f360">
+  <view class="_view data-v-6a8a8ad6">
+    <template data="{{...$root['0'], ...$root[$kk+'aGB-0'],$root}}" is="0db035fb"></template>
+    <view class="_view data-v-6a8a8ad6 page">
+      <scroll-view class="_scroll-view data-v-6a8a8ad6 scrollList" scroll-y scroll-into-view="{{scrollViewId}}" style=" {{('height:' + (winHeight + 'upx') + ';')}}">
+        <view class="_view data-v-6a8a8ad6 uni-list">
+          <block wx:key="key" key="{{key}}" wx:if="{{list.data[0]}}" wx:for="{{lists}}" wx:for-index="key" wx:for-item="list">
+            <view class="_view data-v-6a8a8ad6 uni-list-cell-divider" id="{{list.letter}}"> {{list.letter}} </view>
+            <view class="_view data-v-6a8a8ad6 uni-list-cell {{list.data.length - 1 == index ? 'uni-list-cell-last' : ''}}" hover-class="uni-list-cell-hover" wx:key="index" key="{{index}}" wx:for="{{list.data}}" wx:for-index="index"
+              wx:for-item="item">
+              <image class="_image data-v-6a8a8ad6 uni-list-cell-image" src="{{item.imageUrl}}"></image>
+              <view class="_view data-v-6a8a8ad6 uni-list-cell-navigate"> {{item.name}} </view>
+            </view>
+          </block>
+        </view>
+      </scroll-view>
+      <view class="_view data-v-6a8a8ad6 uni-indexed-list-bar {{touchmove ? 'active' : ''}}" bindtouchstart="handleProxy" bindtouchmove="handleProxy" bindtouchend="handleProxy" bindtouchcancel="handleProxy" data-eventid="{{'jJn-0'}}" data-comkey="{{$k}}"
+        style=" {{('top:' + (top + 'px') + ';')}}">
+        <text wx:key="key" key="{{key}}" class="_text data-v-6a8a8ad6 uni-indexed-list-text {{touchmoveIndex == key ? 'active' : ''}}" wx:for="{{lists}}" wx:for-index="key" wx:for-item="list" style=" {{(  'height:' +  (itemHeight + 'px') +  ';' +  'line-height:' +  (itemHeight + 'px') +  ';')}}">{{list.letter}}</text>
+      </view>
+      <view class="_view data-v-6a8a8ad6 uni-indexed-list-alert" wx:if="{{touchmove}}"> {{lists[touchmoveIndex].letter}} </view>
+    </view>
+  </view>
+</template>
